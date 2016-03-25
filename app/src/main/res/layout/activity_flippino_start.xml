@@ -13,7 +13,11 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:id="@+id/imageView3"
+=======
+        android:id="@+id/start_clouds"
+>>>>>>> master
         android:src="@drawable/start_clouds"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -21,7 +25,11 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:id="@+id/imageView4"
+=======
+        android:id="@+id/start_bird"
+>>>>>>> master
         android:src="@drawable/start_bird"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -37,7 +45,11 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:id="@+id/imageView2"
+=======
+        android:id="@+id/start_logo"
+>>>>>>> master
         android:src="@drawable/start_logo"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -45,20 +57,37 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:id="@+id/imageButton"
         android:src="@drawable/start_magpatuloy"
         android:layout_below="@+id/imageView3"
         android:layout_centerHorizontal="true"
         android:background="@null"
         android:layout_marginTop="100dp" />
+=======
+        android:id="@+id/btn_magpatuloy"
+        android:src="@drawable/start_magpatuloy"
+        android:background="@null"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="128dp" />
+>>>>>>> master
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:id="@+id/imageButton2"
         android:src="@drawable/start_magsimula"
         android:background="@null"
         android:layout_below="@+id/imageButton"
         android:layout_centerHorizontal="true" />
+=======
+        android:id="@+id/btn_magsimula"
+        android:src="@drawable/start_magsimula"
+        android:background="@null"
+        android:layout_above="@+id/btn_magpatuloy"
+        android:layout_alignStart="@+id/btn_magpatuloy" />
+>>>>>>> master
 
 </RelativeLayout>
