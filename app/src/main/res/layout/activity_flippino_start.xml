@@ -13,14 +13,52 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/start_clouds"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/start_bird"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/imageView"
+        android:src="@drawable/start_world"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView2"
-        android:layout_alignBottom="@+id/imageView"
-        android:layout_alignParentEnd="true" />
+        android:src="@drawable/start_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/start_magpatuloy"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:layout_marginTop="100dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/start_magsimula"
+        android:background="@null"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
