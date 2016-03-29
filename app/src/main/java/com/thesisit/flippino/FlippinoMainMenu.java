@@ -5,16 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class FlippinoStart extends AppCompatActivity {
+public class FlippinoMainMenu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_flippino_start);
-    }
-
-    public void startApp(View view) {
-        Intent intent = new Intent(this, FlippinoMainMenu.class);
-        startActivity(intent);
+        setContentView(R.layout.activity_flippino_mainmenu);
     }
 }

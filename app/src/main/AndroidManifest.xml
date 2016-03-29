@@ -17,6 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TitleA" />
+        <activity android:name=".FlippinoMainMenu"></activity>
     </application>
 
 </manifest>
