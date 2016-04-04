@@ -1,0 +1,136 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#c3e5f5"
+    tools:context="lolz.flippino.njcf_intro_c">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView37"
+                android:layout_marginLeft="145dp"
+                android:layout_marginStart="145dp"
+                android:src="@drawable/njcf_intro_house"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView38"
+                android:src="@drawable/njcf_cc"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/imageView37"
+                android:layout_toEndOf="@+id/imageView37" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView39"
+                android:src="@drawable/njcf_intro_casa"
+                android:layout_marginRight="69dp"
+                android:layout_marginEnd="69dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/imageView38"
+                android:layout_alignEnd="@+id/imageView38"
+                android:layout_marginTop="93dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton119"
+                android:src="@drawable/global_leftarrow"
+                android:layout_below="@+id/imageView37"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@null"
+                android:layout_marginLeft="62dp"
+                android:layout_marginStart="62dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton120"
+                android:layout_below="@+id/imageView37"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:background="@null"
+                android:src="@drawable/global_rightarrow" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton121"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@null"
+                android:src="@drawable/global_exit" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton122"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageButton119"
+                android:layout_toEndOf="@+id/imageButton119"
+                android:background="@null"
+                android:src="@drawable/global_lessonlabel" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton123"
+                android:background="@null"
+                android:src="@drawable/global_stars"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/imageButton124"
+                android:layout_toStartOf="@+id/imageButton124" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton124"
+                android:background="@null"
+                android:src="@drawable/global_sound"
+                android:layout_alignBottom="@+id/imageButton123"
+                android:layout_toLeftOf="@+id/imageButton125"
+                android:layout_toStartOf="@+id/imageButton125" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton125"
+                android:background="@null"
+                android:src="@drawable/global_help"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/imageButton126"
+                android:layout_toStartOf="@+id/imageButton126" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton126"
+                android:src="@drawable/global_home"
+                android:layout_alignParentTop="true"
+                android:background="@null"
+                android:layout_toLeftOf="@+id/imageButton120"
+                android:layout_toStartOf="@+id/imageButton120" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</FrameLayout>

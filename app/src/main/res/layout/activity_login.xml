@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#0099cc"
+    tools:context="lolz.flippino.login">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="#c3e5f5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|top">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:src="@drawable/bglogin"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="250dp"
+                android:id="@+id/imageView7"
+                android:src="@drawable/namebg"
+                android:layout_marginBottom="101dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton13"
+                android:background="@null"
+                android:src="@drawable/magpatuloy"
+                android:layout_alignTop="@+id/imageView7"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ngalan"
+                android:id="@+id/textView3"
+                android:textColor="#fdfcfc"
+                android:textAlignment="viewStart"
+                android:layout_alignBottom="@+id/imageButton13"
+                android:layout_alignLeft="@+id/imageView7"
+                android:layout_alignStart="@+id/imageView7"
+                android:layout_marginLeft="54dp"
+                android:layout_marginStart="54dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton14"
+                android:background="@null"
+                android:src="@drawable/halina"
+                android:layout_alignBottom="@+id/imageView7"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+</FrameLayout>

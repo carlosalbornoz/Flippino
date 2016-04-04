@@ -1,0 +1,136 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#0099cc"
+    tools:context="lolz.flippino.njcf_tracing_intro_j">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="#c3e5f5">
+
+        <LinearLayout android:id="@+id/fullscreen_content_controls" style="?metaButtonBarStyle"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay" android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView33"
+                android:src="@drawable/ncfj_j_introtracing"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton101"
+                android:background="@null"
+                android:src="@drawable/njcf_tracing_pencil"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/imageView33"
+                android:layout_alignStart="@+id/imageView33"
+                android:layout_marginLeft="195dp"
+                android:layout_marginStart="195dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton102"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:background="@null"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/global_exit" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewplane"
+                android:src="@drawable/global_lessonlabel"
+                android:layout_above="@+id/imageView3"
+                android:layout_toRightOf="@+id/imageButton102"
+                android:layout_toEndOf="@+id/imageButton102"
+                android:layout_marginLeft="124dp"
+                android:layout_marginStart="124dp"
+                android:contentDescription="lol" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton104"
+                android:layout_alignTop="@+id/imageViewplane"
+                android:background="@null"
+                android:layout_toRightOf="@+id/imageViewplane"
+                android:layout_toEndOf="@+id/imageViewplane"
+                android:src="@drawable/global_stars" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton105"
+                android:layout_alignBottom="@+id/imageButton104"
+                android:layout_toRightOf="@+id/imageButton104"
+                android:layout_toEndOf="@+id/imageButton104"
+                android:background="@null"
+                android:src="@drawable/global_sound" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton106"
+                android:layout_alignTop="@+id/imageButton104"
+                android:background="@null"
+                android:layout_toRightOf="@+id/imageButton105"
+                android:layout_toEndOf="@+id/imageButton105"
+                android:src="@drawable/global_help" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton107"
+                android:layout_alignTop="@+id/imageButton106"
+                android:background="@null"
+                android:layout_toRightOf="@+id/imageButton106"
+                android:layout_toEndOf="@+id/imageButton106"
+                android:src="@drawable/global_home" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton108"
+                android:layout_alignBottom="@+id/imageView33"
+                android:layout_toRightOf="@+id/imageButton102"
+                android:layout_toEndOf="@+id/imageButton102"
+                android:layout_marginBottom="65dp"
+                android:background="@null"
+                android:src="@drawable/global_leftarrow" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton109"
+                android:src="@drawable/global_rightarrow"
+                android:layout_alignBottom="@+id/imageButton108"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="91dp"
+                android:background="@null"
+                android:layout_marginEnd="91dp" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</FrameLayout>

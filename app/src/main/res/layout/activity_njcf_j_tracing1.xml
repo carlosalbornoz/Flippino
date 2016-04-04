@@ -1,0 +1,158 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#c3e5f5"
+    tools:context="lolz.flippino.njcf_j_tracing1">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout android:id="@+id/fullscreen_content_controls" style="?metaButtonBarStyle"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay" android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView34"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="159dp"
+                android:layout_marginStart="159dp"
+                android:src="@drawable/njcf_tracing_jj" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView35"
+                android:src="@drawable/njcf_tracing_jj_dotted"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="99dp"
+                android:layout_marginEnd="99dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton110"
+                android:background="@null"
+                android:src="@drawable/njcf_tracing_pencil"
+                android:layout_centerVertical="true"
+                android:layout_alignRight="@+id/imageView35"
+                android:layout_alignEnd="@+id/imageView35"
+                android:layout_marginRight="65dp"
+                android:layout_marginEnd="65dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView36"
+                android:src="@drawable/njcf_tracing_activityboxes"
+                android:layout_marginBottom="47dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/imageView35"
+                android:layout_toStartOf="@+id/imageView35"
+                android:layout_marginRight="45dp"
+                android:layout_marginEnd="45dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton111"
+                android:src="@drawable/global_leftarrow"
+                android:layout_below="@+id/imageView34"
+                android:layout_alignParentLeft="true"
+                android:background="@null"
+                android:layout_alignParentStart="true" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton112"
+                android:src="@drawable/global_rightarrow"
+                android:layout_below="@+id/imageView34"
+                android:background="@null"
+                android:layout_toRightOf="@+id/imageButton110"
+                android:layout_toEndOf="@+id/imageButton110" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton113"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:background="@null"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/global_exit" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton114"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/imageView34"
+                android:background="@null"
+                android:layout_alignStart="@+id/imageView34"
+                android:src="@drawable/global_lessonlabel" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton115"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageButton114"
+                android:layout_toEndOf="@+id/imageButton114"
+                android:background="@null"
+                android:src="@drawable/global_stars" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton116"
+                android:layout_alignParentTop="true"
+                android:background="@null"
+                android:layout_toRightOf="@+id/imageButton115"
+                android:layout_toEndOf="@+id/imageButton115"
+                android:src="@drawable/global_sound" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton117"
+                android:src="@drawable/global_help"
+                android:layout_above="@+id/imageView35"
+                android:layout_toRightOf="@+id/imageButton116"
+                android:layout_toEndOf="@+id/imageButton116"
+                android:layout_marginLeft="59dp"
+                android:background="@null"
+                android:layout_marginStart="59dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton118"
+                android:layout_alignTop="@+id/imageButton117"
+                android:layout_toRightOf="@+id/imageButton117"
+                android:background="@null"
+                android:layout_toEndOf="@+id/imageButton117"
+                android:src="@drawable/global_home" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</FrameLayout>
