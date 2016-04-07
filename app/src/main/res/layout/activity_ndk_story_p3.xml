@@ -37,6 +37,40 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/imageView64"
+                android:src="@drawable/ndkclouds"
+                android:layout_below="@+id/imageView59"
+                android:layout_alignEnd="@+id/imageButton169"
+                android:layout_toEndOf="@+id/imageButton" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView61"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ndkland" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView66"
+                android:src="@drawable/ndknenap3"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="650dp"
+                android:layout_height="650dp"
+                android:id="@+id/imageView67"
+                android:scaleType="fitXY"
+                android:src="@drawable/ndkstorep3"
+                android:layout_below="@+id/imageButton3"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:id="@+id/imageView59"
                 android:layout_alignParentTop="true"
                 android:layout_toEndOf="@+id/imageButton"
@@ -61,15 +95,6 @@
                 android:layout_alignBottom="@+id/imageButton"
                 android:layout_toStartOf="@+id/imageButton122" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView64"
-                android:src="@drawable/ndkclouds"
-                android:layout_below="@+id/imageView59"
-                android:layout_alignEnd="@+id/imageButton169"
-                android:layout_toEndOf="@+id/imageButton" />
-
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -89,73 +114,33 @@
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="65dp" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView60"
-                android:layout_centerVertical="true"
-                android:layout_centerHorizontal="true" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView61"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:src="@drawable/ndkland" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView62"
-                android:src="@drawable/ndkkubo"
-                android:layout_alignParentBottom="true"
-                android:layout_alignEnd="@+id/imageView59"
-                android:layout_marginBottom="49dp" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView65"
-                android:src="@drawable/ndknena"
-                android:layout_above="@+id/imageView61"
-                android:layout_toEndOf="@+id/imageView60" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView63"
-                android:src="@drawable/ndkstore"
-                android:layout_marginBottom="68dp"
-                android:layout_alignBottom="@+id/imageView62"
-                android:layout_toEndOf="@+id/imageView59" />
-
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton170"
+                android:id="@+id/imageButton172"
                 android:src="@drawable/global_leftarrow"
                 android:background="@null"
-                android:layout_alignBottom="@+id/imageView62"
-                android:layout_alignStart="@+id/imageView62" />
+                android:layout_alignBottom="@+id/imageView67"
+                android:layout_alignStart="@+id/imageView64" />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton171"
+                android:id="@+id/imageButton173"
                 android:src="@drawable/global_rightarrow"
                 android:background="@null"
-                android:layout_alignTop="@+id/imageButton170"
-                android:layout_toEndOf="@+id/imageButton122" />
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/imageButton122" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ang kubo ni Aling Nena ay may maliit na tindahan sa harap."
-                android:id="@+id/textView"
-                android:layout_alignTop="@+id/imageButton171"
+                android:text="Tara na, bili na ng niyog at durian kay Aling Nena dahil mapapangita ka sa sarap!"
+                android:id="@+id/textView8"
+                android:layout_alignBottom="@+id/imageButton172"
                 android:layout_centerHorizontal="true"
-                android:textSize="38dp" />
+                android:textSize="30dp" />
+
 
         </RelativeLayout>
     </FrameLayout>

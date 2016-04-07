@@ -1,0 +1,132 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#c3e5f5"
+    tools:context="com.thesisit.flippino.tlh_story_p2_">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="left|center_vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton174"
+                android:layout_alignParentTop="true"
+                android:background="@null"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/global_exit" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView68"
+                android:src="@drawable/ndkclouds"
+                android:layout_below="@+id/imageButton174"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="71dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView69"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/imageView68"
+                android:src="@drawable/global_lessonlabel" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton175"
+                android:background="@null"
+                android:src="@drawable/global_stars"
+                android:layout_alignTop="@+id/imageButton176"
+                android:layout_toStartOf="@+id/imageButton176" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton176"
+                android:background="@null"
+                android:src="@drawable/global_sound"
+                android:layout_above="@+id/imageView68"
+                android:layout_toStartOf="@+id/imageButton177" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton177"
+                android:layout_above="@+id/imageView68"
+                android:background="@null"
+                android:layout_alignEnd="@+id/imageView68"
+                android:src="@drawable/global_help" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton178"
+                android:background="@null"
+                android:src="@drawable/global_home"
+                android:layout_above="@+id/imageView68"
+                android:layout_toEndOf="@+id/imageView68" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView70"
+                android:src="@drawable/tlhenvironment_p2"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton179"
+                android:src="@drawable/global_leftarrow"
+                android:layout_alignParentBottom="true"
+                android:background="@null"
+                android:layout_toEndOf="@+id/imageButton174"
+                android:layout_marginBottom="68dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton180"
+                android:src="@drawable/global_rightarrow"
+                android:background="@null"
+                android:layout_alignTop="@+id/imageButton179"
+                android:layout_alignEnd="@+id/imageButton178" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageView71"
+                android:scaleType="fitXY"
+                android:src="@drawable/tlhbird_whiyas"
+                android:layout_below="@+id/imageView69"
+                android:layout_alignEnd="@+id/imageView69"
+                android:layout_marginEnd="136dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ang loro na ito ang nag-aalaga sa nakatagong mahiwagang kwintas."
+                android:id="@+id/textView9"
+                android:textSize="50dp"
+                android:layout_alignBottom="@+id/imageButton179"
+                android:layout_alignStart="@+id/imageView71" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+</FrameLayout>
