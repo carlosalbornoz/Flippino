@@ -41,6 +41,18 @@
             android:label="@string/title_activity_tlh_story_p3"
             android:theme="@style/FullscreenTheme" >
         </activity>
+        <activity
+            android:name=".bmng_story_p3"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_bmng_story_p3"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".ndk_story_p2"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_ndk_story_p2"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
     </application>
 
 </manifest>
