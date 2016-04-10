@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="lolz.flippino.istoryp1"
+    android:background="#c3e5f5">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/global_stars"
+        android:src="@drawable/global_stars"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/global_sound" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/global_sound"
+        android:src="@drawable/global_sound"
+        android:layout_alignTop="@+id/global_help"
+        android:layout_toStartOf="@+id/global_help" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:background="@null"
+        android:id="@+id/global_help"
+        android:src="@drawable/global_help"
+        android:layout_alignTop="@+id/global_home"
+        android:layout_toStartOf="@+id/global_home" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/global_home"
+        android:src="@drawable/global_home"
+        android:layout_alignBottom="@+id/global_stars"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/global_label"
+        android:src="@drawable/global_label"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/global_leftarrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patinig"
+        android:id="@+id/textView"
+        android:textSize="50dp"
+        android:layout_alignTop="@+id/imageView20"
+        android:layout_alignEnd="@+id/imageView22" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/global_exit"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/global_exit" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView21"
+        android:src="@drawable/istory1bg"
+        android:layout_below="@+id/global_label"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView20"
+        android:src="@drawable/istory1cloud"
+        android:layout_below="@+id/global_help"
+        android:layout_alignEnd="@+id/global_stars" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/global_leftarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/global_leftarrow" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/global_rightarrow"
+        android:src="@drawable/global_rightarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView22"
+        android:src="@drawable/istory1bird"
+        android:layout_marginEnd="95dp"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/global_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iyak ng iyak ang mga ibon sa Ilog Pasig dahil sa mga basurang itinatapon dito."
+        android:id="@+id/textView6"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/global_rightarrow" />
+
+</RelativeLayout>
