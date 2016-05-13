@@ -1,21 +1,7 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:background="#c3e5f5"
-    tools:context="com.thesisit.flippino.bmng_story_p3">
-
-    <!-- The primary full-screen view. This can be replaced with whatever view
-         is needed to present your content, e.g. VideoView, SurfaceView,
-         TextureView, etc. -->
-
-    <!-- This FrameLayout insets its children based on system windows using
-         android:fitsSystemWindows. -->
-    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
-        android:fitsSystemWindows="true">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center">
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#c3e5f5">
 
             <ImageView
                 android:layout_width="2000dp"
@@ -133,7 +119,6 @@
                 android:textSize="44dp"
                 android:layout_above="@+id/imageButton103"
                 android:layout_centerHorizontal="true" />
-        </RelativeLayout>
-    </FrameLayout>
 
-</FrameLayout>
+
+</RelativeLayout>
