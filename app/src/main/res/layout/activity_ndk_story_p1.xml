@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#c3e5f5">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton"
+                android:layout_alignParentTop="true"
+                android:background="@null"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/global_exit" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView59"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/imageButton"
+                android:layout_marginStart="87dp"
+                android:src="@drawable/global_lessonlabel" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton2"
+                android:background="@null"
+                android:src="@drawable/global_stars"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/imageButton3" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton3"
+                android:background="@null"
+                android:src="@drawable/global_sound"
+                android:layout_alignBottom="@+id/imageButton"
+                android:layout_toStartOf="@+id/imageButton122" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView64"
+                android:src="@drawable/ndkclouds"
+                android:layout_below="@+id/imageView59"
+                android:layout_alignEnd="@+id/imageButton169"
+                android:layout_toEndOf="@+id/imageButton" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton122"
+                android:background="@null"
+                android:src="@drawable/global_help"
+                android:layout_alignTop="@+id/imageButton3"
+                android:layout_toStartOf="@+id/imageButton169" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton169"
+                android:background="@null"
+                android:src="@drawable/global_home"
+                android:layout_alignBottom="@+id/imageButton2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="65dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView60"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView61"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ndkland" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView62"
+                android:src="@drawable/ndkkubo"
+                android:layout_alignParentBottom="true"
+                android:layout_alignEnd="@+id/imageView59"
+                android:layout_marginBottom="49dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView65"
+                android:src="@drawable/ndknena"
+                android:layout_above="@+id/imageView61"
+                android:layout_toEndOf="@+id/imageView60" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView63"
+                android:src="@drawable/ndkstore"
+                android:layout_marginBottom="68dp"
+                android:layout_alignBottom="@+id/imageView62"
+                android:layout_toEndOf="@+id/imageView59" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton170"
+                android:src="@drawable/global_leftarrow"
+                android:background="@null"
+                android:layout_alignBottom="@+id/imageView62"
+                android:layout_alignStart="@+id/imageView62" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton171"
+                android:src="@drawable/global_rightarrow"
+                android:background="@null"
+                android:layout_alignTop="@+id/imageButton170"
+                android:layout_toEndOf="@+id/imageButton122" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ang kubo ni Aling Nena ay may maliit na tindahan sa harap."
+                android:id="@+id/textView"
+                android:layout_alignTop="@+id/imageButton171"
+                android:layout_centerHorizontal="true"
+                android:textSize="38dp" />
+
+ </RelativeLayout>
+

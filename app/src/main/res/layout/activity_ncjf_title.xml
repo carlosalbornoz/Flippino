@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#c3e5f5">
+            <ImageView
+                android:layout_width="1300"
+                android:layout_height="1000"
+                android:id="@+id/imageView11"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:src="@drawable/ncjf_title_bg"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView12"
+                android:background="@null"
+                android:src="@drawable/njcf_title"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="69dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView13"
+                android:background="@null"
+                android:src="@drawable/njcf_title_jose"
+                android:layout_alignBottom="@+id/imageView14"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView14"
+                android:src="@drawable/njcf_title_nina"
+                android:background="@null"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/imageView13"
+                android:layout_alignStart="@+id/imageView13"
+                android:layout_marginLeft="133dp"
+                android:layout_marginStart="133dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton43"
+                android:src="@drawable/global_leftarrow"
+                android:layout_alignTop="@+id/imageView12"
+                android:background="@null"
+                android:layout_toLeftOf="@+id/imageView12"
+                android:layout_toStartOf="@+id/imageView12" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton44"
+                android:background="@null"
+                android:src="@drawable/global_rightarrow"
+                android:layout_alignTop="@+id/imageView12"
+                android:layout_toRightOf="@+id/imageView12"
+                android:layout_toEndOf="@+id/imageView12" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton45"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:background="@null"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/exit" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton46"
+                android:layout_alignParentTop="true"
+                android:background="@null"
+                android:layout_toRightOf="@+id/imageButton43"
+                android:layout_toEndOf="@+id/imageButton43"
+                android:src="@drawable/global_lessonlabel" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton47"
+                android:layout_alignParentTop="true"
+                android:background="@null"
+                android:layout_toRightOf="@+id/imageButton46"
+                android:layout_toEndOf="@+id/imageButton46"
+                android:src="@drawable/global_stars" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton48"
+                android:layout_alignBottom="@+id/imageButton47"
+                android:background="@null"
+                android:layout_toRightOf="@+id/imageButton47"
+                android:layout_toEndOf="@+id/imageButton47"
+                android:src="@drawable/global_sound" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton49"
+                android:layout_alignParentTop="true"
+                android:background="@null"
+                android:layout_toRightOf="@+id/imageButton48"
+                android:layout_toEndOf="@+id/imageButton48"
+                android:src="@drawable/global_help" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton50"
+                android:layout_alignParentTop="true"
+                android:background="@null"
+                android:layout_toRightOf="@+id/imageButton49"
+                android:layout_toEndOf="@+id/imageButton49"
+                android:src="@drawable/global_home" />
+
+</RelativeLayout>
+

@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Flippino</string>
+
+    <string name="title_activity_tlh_story_p2">tlh_story_p2</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_tlh_story_p2_">tlh_story_p2_</string>
+
+    <string name="title_activity_ndk_story_p3">ndk_story_p3</string>
+
+    <string name="title_activity_tlh_story_p3">tlh_story_p3</string>
+
+    <string name="title_activity_bmng_story_p3">bmng_story_p3</string>
+
+    <string name="title_activity_ndk_story_p2">ndk_story_p2</string>
 </resources>
