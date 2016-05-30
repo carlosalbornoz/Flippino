@@ -4,7 +4,8 @@
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="lolz.flippino.vzstoryp2">
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="lolz.flippino.vzstoryp2"
+    android:background="#ffe094">
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,15 +25,6 @@
         android:layout_toStartOf="@+id/global_help" />
 
     <ImageButton
-        android:layout_width="80dp"
-        android:layout_height="90dp"
-        android:background="@null"
-        android:id="@+id/global_help"
-        android:src="@drawable/global_help"
-        android:layout_alignTop="@+id/global_home"
-        android:layout_toStartOf="@+id/global_home" />
-
-    <ImageButton
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:background="@null"
@@ -40,14 +32,6 @@
         android:src="@drawable/global_home"
         android:layout_alignBottom="@+id/global_stars"
         android:layout_alignParentEnd="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView20"
-        android:src="@drawable/istory1cloud"
-        android:layout_below="@+id/global_help"
-        android:layout_alignEnd="@+id/global_stars" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -105,4 +89,70 @@
         android:textColor="#000000"
         android:textAlignment="center"
         android:textSize="50dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView40"
+        android:src="@drawable/vzbg"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView20"
+        android:src="@drawable/istory1cloud"
+        android:layout_alignTop="@+id/imageView40"
+        android:layout_toStartOf="@+id/global_sound" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView37"
+        android:src="@drawable/vzstory1vinta1"
+        android:layout_below="@+id/imageView20"
+        android:layout_alignEnd="@+id/global_label" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView38"
+        android:src="@drawable/vzstory1vinta2"
+        android:layout_alignTop="@+id/imageView39"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/global_label"
+        android:src="@drawable/global_label"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/global_leftarrow" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView39"
+        android:src="@drawable/vzstory1vinta3"
+        android:layout_alignBottom="@+id/imageView37"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="56dp" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:background="@null"
+        android:id="@+id/global_help"
+        android:src="@drawable/global_help"
+        android:layout_alignTop="@+id/global_home"
+        android:layout_toStartOf="@+id/global_home" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView41"
+        android:src="@drawable/vzstory2girl"
+        android:layout_alignBottom="@+id/imageView38"
+        android:layout_toStartOf="@+id/global_stars" />
 </RelativeLayout>

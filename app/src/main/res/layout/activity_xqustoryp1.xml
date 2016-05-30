@@ -43,14 +43,6 @@
         android:layout_alignBottom="@+id/global_stars"
         android:layout_alignParentEnd="true" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/global_label"
-        android:src="@drawable/global_label"
-        android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/global_leftarrow" />
-
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -63,10 +55,27 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/imageView43"
+        android:src="@drawable/xqubg"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/imageView20"
         android:src="@drawable/istory1cloud"
+        android:layout_marginEnd="79dp"
         android:layout_below="@+id/global_help"
         android:layout_alignEnd="@+id/global_stars" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/global_label"
+        android:src="@drawable/global_label"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/global_leftarrow" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -91,7 +100,17 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView31"
         android:src="@drawable/xqustory1bus"
+        android:layout_marginBottom="80dp"
         android:layout_above="@+id/global_rightarrow"
-        android:layout_toStartOf="@+id/global_help"
-        android:layout_marginBottom="89dp" />
+        android:layout_toStartOf="@+id/global_help" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Si Xander ay naglibot sa Quezon"
+        android:id="@+id/textView16"
+        android:textSize="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView20" />
+
 </RelativeLayout>
