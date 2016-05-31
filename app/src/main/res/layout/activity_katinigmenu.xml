@@ -1,122 +1,131 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:background="@color/flippinoBlue"
-    tools:context="lolz.flippino.katinigmenu">
+    tools:context="lolz.flippino.katinigmenu"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    >
 
-
-    <ImageView
-        android:layout_width="wrap_content"
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
-        android:src="@drawable/katinigmenu_icon"
-        android:layout_alignBottom="@+id/katinigmenu_bmng"
-        android:layout_toEndOf="@+id/global_exit" />
+        android:orientation="horizontal"
+        android:id="@+id/relativeLayout3">
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/global_leftarrow"
-        android:src="@drawable/global_leftarrow"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/global_exit"
-        android:src="@drawable/global_exit"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/global_label"
+            android:src="@drawable/global_label"/>
 
-    <ImageButton
-        android:layout_width="500dp"
-        android:layout_height="110dp"
-        android:background="@null"
-        android:id="@+id/katinigmenu_tlh"
-        android:src="@drawable/katinigmenu_tlh"
-        android:layout_below="@+id/global_exit"
-        android:layout_toEndOf="@+id/imageButton" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_exit"
+            android:src="@drawable/global_exit" />
 
-    <ImageButton
-        android:layout_width="500dp"
-        android:layout_height="110dp"
-        android:background="@null"
-        android:id="@+id/katinigmenu_ndk"
-        android:src="@drawable/katinigmenu_ndk"
-        android:layout_below="@+id/katinigmenu_tlh"
-        android:layout_alignStart="@+id/katinigmenu_pr" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_stars"
+            android:src="@drawable/global_stars"
+            android:layout_toStartOf="@+id/global_sound" />
 
-    <ImageButton
-        android:layout_width="500dp"
-        android:layout_height="110dp"
-        android:background="@null"
-        android:id="@+id/katinigmenu_wy"
-        android:src="@drawable/katinigmenu_wy"
-        android:layout_below="@+id/katinigmenu_ndk"
-        android:layout_toEndOf="@+id/imageButton" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_sound"
+            android:src="@drawable/global_sound"
+            android:layout_toStartOf="@+id/global_help" />
 
-    <ImageButton
-        android:layout_width="500dp"
-        android:layout_height="110dp"
-        android:background="@null"
-        android:id="@+id/katinigmenu_pr"
-        android:src="@drawable/katinigmenu_pr"
-        android:layout_below="@+id/katinigmenu_wy"
-        android:layout_alignStart="@+id/katinigmenu_pagsusulit" />
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:background="@null"
+            android:id="@+id/global_help"
+            android:src="@drawable/global_help"
+            android:layout_toStartOf="@+id/global_home" />
 
-    <ImageButton
-        android:layout_width="500dp"
-        android:layout_height="110dp"
-        android:background="@null"
-        android:id="@+id/katinigmenu_bmng"
-        android:src="@drawable/katinigmenu_bmng"
-        android:layout_below="@+id/katinigmenu_pr"
-        android:layout_alignStart="@+id/katinigmenu_wy" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_home"
+            android:src="@drawable/global_home"
+            android:layout_alignParentEnd="true" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/katinigmenu_pagsusulit"
-        android:src="@drawable/katinigmenu_pagsusulit"
-        android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/katinigmenu_bmng" />
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/global_stars"
-        android:src="@drawable/global_stars"
-        android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/global_sound" />
+        <ImageButton
+            android:layout_width="500dp"
+            android:layout_height="110dp"
+            android:background="@null"
+            android:id="@+id/katinigmenu_tlh"
+            android:src="@drawable/katinigmenu_tlh"
+            android:layout_below="@+id/global_stars"
+            android:layout_toEndOf="@+id/imageView82" />
 
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/global_sound"
-        android:src="@drawable/global_sound"
-        android:layout_alignTop="@+id/global_help"
-        android:layout_toStartOf="@+id/global_help" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/katinigmenu_icon"
+            android:id="@+id/imageView82"
+            android:layout_below="@+id/global_label"
+            android:layout_toEndOf="@+id/global_exit" />
 
-    <ImageButton
-        android:layout_width="80dp"
-        android:layout_height="90dp"
-        android:background="@null"
-        android:id="@+id/global_help"
-        android:src="@drawable/global_help"
-        android:layout_alignTop="@+id/global_home"
-        android:layout_toStartOf="@+id/global_home" />
+        <ImageButton
+            android:layout_width="500dp"
+            android:layout_height="110dp"
+            android:background="@null"
+            android:id="@+id/katinigmenu_wy"
+            android:src="@drawable/katinigmenu_wy"
+            android:layout_below="@+id/katinigmenu_ndk"
+            android:layout_toEndOf="@+id/imageView82"
+            android:layout_alignParentEnd="true" />
 
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/global_home"
-        android:src="@drawable/global_home"
-        android:layout_alignBottom="@+id/global_stars"
-        android:layout_toEndOf="@+id/katinigmenu_ndk" />
+        <ImageButton
+            android:layout_width="500dp"
+            android:layout_height="110dp"
+            android:background="@null"
+            android:id="@+id/katinigmenu_pr"
+            android:src="@drawable/katinigmenu_pr"
+            android:layout_below="@+id/katinigmenu_wy"
+            android:layout_toEndOf="@+id/imageView82"/>
+
+        <ImageButton
+            android:layout_width="500dp"
+            android:layout_height="110dp"
+            android:background="@null"
+            android:id="@+id/katinigmenu_bmng"
+            android:src="@drawable/katinigmenu_bmng"
+            android:layout_below="@+id/katinigmenu_pr"
+            android:layout_toEndOf="@+id/imageView82" />
+
+
+        <ImageButton
+            android:layout_width="500dp"
+            android:layout_height="110dp"
+            android:background="@null"
+            android:id="@+id/katinigmenu_ndk"
+            android:src="@drawable/katinigmenu_ndk"
+            android:layout_below="@+id/katinigmenu_tlh"
+            android:layout_toEndOf="@+id/imageView82" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/katinigmenu_pagsusulit"
+            android:src="@drawable/katinigmenu_pagsusulit"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/global_label" />
+
+
+    </RelativeLayout>
+
 
 </RelativeLayout>

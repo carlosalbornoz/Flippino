@@ -1,16 +1,113 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:background="@color/flippinoBlue"
-    tools:context="lolz.flippino.hirammenu">
+    tools:context="lolz.flippino.hirammenu"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    >
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/relativeLayout2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/global_label"
+            android:src="@drawable/global_label"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_exit"
+            android:src="@drawable/global_exit" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_stars"
+            android:src="@drawable/global_stars"
+            android:layout_toStartOf="@+id/global_sound" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_sound"
+            android:src="@drawable/global_sound"
+            android:layout_toStartOf="@+id/global_help" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:background="@null"
+            android:id="@+id/global_help"
+            android:src="@drawable/global_help"
+            android:layout_toStartOf="@+id/global_home" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_home"
+            android:src="@drawable/global_home"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hirammenu_icon"
+        android:src="@drawable/hirammenu_icon"
+        android:layout_above="@+id/global_leftarrow"
+        android:layout_toEndOf="@+id/global_leftarrow"
+        android:layout_marginStart="84dp" />
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="110dp"
+        android:background="@null"
+        android:id="@+id/hirammenu_njcf"
+        android:src="@drawable/hirammenu_njcf"
+        android:layout_alignTop="@+id/hirammenu_icon"
+        android:layout_toEndOf="@+id/hirammenu_icon" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@null"
-        android:id="@+id/global_exit"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:src="@drawable/global_exit" />
+        android:id="@+id/hirammenu_vz"
+        android:src="@drawable/hirammenu_vz"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/hirammenu_njcf" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/hirammenu_fxqu"
+        android:src="@drawable/hirammenu_fxqu"
+        android:layout_above="@+id/hirammenu_pagsusulit"
+        android:layout_alignStart="@+id/hirammenu_vz" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/hirammenu_pagsusulit"
+        android:src="@drawable/hirammenu_pagsusulit"
+        android:layout_above="@+id/global_leftarrow"
+        android:layout_alignEnd="@+id/hirammenu_fxqu" />
+
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -21,87 +118,6 @@
         android:layout_alignParentStart="true"
         android:src="@drawable/global_leftarrow" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/hirammenu_icon"
-        android:src="@drawable/hirammenu_icon"
-        android:layout_marginStart="104dp"
-        android:layout_centerVertical="true"
-        android:layout_toEndOf="@+id/global_exit" />
 
-    <ImageButton
-        android:layout_width="500dp"
-        android:layout_height="110dp"
-        android:background="@null"
-        android:id="@+id/hirammenu_njcf"
-        android:src="@drawable/hirammenu_njcf"
-        android:layout_alignTop="@+id/hirammenu_icon"
-        android:layout_alignStart="@+id/hirammenu_fxqu" />
-
-    <ImageButton
-        android:layout_width="500dp"
-        android:layout_height="110dp"
-        android:background="@null"
-        android:id="@+id/hirammenu_vz"
-        android:src="@drawable/hirammenu_vz"
-        android:layout_below="@+id/hirammenu_njcf"
-        android:layout_alignStart="@+id/hirammenu_pagsusulit" />
-
-    <ImageButton
-        android:layout_width="500dp"
-        android:layout_height="110dp"
-        android:background="@null"
-        android:id="@+id/hirammenu_fxqu"
-        android:src="@drawable/hirammenu_fxqu"
-        android:layout_below="@+id/hirammenu_vz"
-        android:layout_toEndOf="@+id/hirammenu_icon" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/hirammenu_pagsusulit"
-        android:src="@drawable/hirammenu_pagsusulit"
-        android:layout_alignBottom="@+id/hirammenu_icon"
-        android:layout_alignEnd="@+id/hirammenu_fxqu" />
-
-
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/global_stars"
-        android:src="@drawable/global_stars"
-        android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/global_sound" />
-
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/global_sound"
-        android:src="@drawable/global_sound"
-        android:layout_alignTop="@+id/global_help"
-        android:layout_toStartOf="@+id/global_help" />
-
-    <ImageButton
-        android:layout_width="80dp"
-        android:layout_height="90dp"
-        android:background="@null"
-        android:id="@+id/global_help"
-        android:src="@drawable/global_help"
-        android:layout_alignTop="@+id/global_home"
-        android:layout_toStartOf="@+id/global_home" />
-
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/global_home"
-        android:src="@drawable/global_home"
-        android:layout_alignBottom="@+id/global_stars"
-        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

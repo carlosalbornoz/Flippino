@@ -6,7 +6,7 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton163"
+        android:id="@+id/global_stars"
         android:layout_marginRight="286dp"
         android:background="@null"
         android:layout_marginEnd="286dp"
@@ -18,27 +18,27 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton164"
+        android:id="@+id/global_sound"
         android:src="@drawable/global_sound"
         android:background="@null"
         android:layout_marginLeft="144dp"
         android:layout_marginStart="144dp"
         android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/imageButton163"
-        android:layout_alignStart="@+id/imageButton163" />
+        android:layout_alignLeft="@+id/global_stars"
+        android:layout_alignStart="@+id/global_stars" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton166"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/imageButton164"
-        android:layout_toEndOf="@+id/imageButton164" />
+        android:layout_toRightOf="@+id/global_sound"
+        android:layout_toEndOf="@+id/global_sound" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton165"
+        android:id="@+id/global_help"
         android:background="@null"
         android:src="@drawable/global_help"
         android:layout_alignParentTop="true"
@@ -48,17 +48,17 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton167"
+        android:id="@+id/global_home"
         android:background="@null"
         android:src="@drawable/global_home"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/imageButton165"
-        android:layout_toEndOf="@+id/imageButton165" />
+        android:layout_toRightOf="@+id/global_help"
+        android:layout_toEndOf="@+id/global_help" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton162"
+        android:id="@+id/global_exit"
         android:background="@null"
         android:src="@drawable/global_exit"
         android:layout_alignParentTop="true"
@@ -68,29 +68,29 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton103"
+        android:id="@+id/global_leftarrow"
         android:background="@null"
         android:src="@drawable/global_leftarrow"
-        android:layout_alignTop="@+id/imageButton168"
-        android:layout_toRightOf="@+id/imageButton162"
-        android:layout_toEndOf="@+id/imageButton162" />
+        android:layout_alignTop="@+id/global_rightarrow"
+        android:layout_toRightOf="@+id/global_exit"
+        android:layout_toEndOf="@+id/global_exit" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton168"
+        android:id="@+id/global_rightarrow"
         android:background="@null"
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/imageButton167"
-        android:layout_alignEnd="@+id/imageButton167" />
+        android:layout_alignRight="@+id/global_home"
+        android:layout_alignEnd="@+id/global_home" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView55"
         android:layout_below="@+id/imageButton166"
-        android:layout_toRightOf="@+id/imageButton103"
-        android:layout_toEndOf="@+id/imageButton103"
+        android:layout_toRightOf="@+id/global_leftarrow"
+        android:layout_toEndOf="@+id/global_leftarrow"
         android:src="@drawable/global_lessonlabel" />
 </RelativeLayout>
