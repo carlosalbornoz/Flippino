@@ -10,8 +10,8 @@
 
 
     <ImageButton
-                android:layout_width="375"
-                android:layout_height="350"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:id="@+id/imageButton20"
                 android:src="@drawable/patinig"
                 android:background="@null"
@@ -21,8 +21,8 @@
                 android:layout_alignStart="@+id/imageButton22" />
 
             <ImageButton
-                android:layout_width="350"
-                android:layout_height="350"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:id="@+id/imageButton21"
                 android:scaleType="fitXY"
                 android:background="@null"
@@ -32,8 +32,8 @@
                 android:layout_toStartOf="@+id/imageButton20" />
 
             <ImageButton
-                android:layout_width="400"
-                android:layout_height="350"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:id="@+id/imageButton22"
                 android:background="@null"
                 android:scaleType="fitXY"
@@ -42,8 +42,8 @@
                 android:layout_centerHorizontal="true" />
 
             <ImageButton
-                android:layout_width="350"
-                android:layout_height="350"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:id="@+id/imageButton23"
                 android:background="@null"
                 android:scaleType="fitXY"

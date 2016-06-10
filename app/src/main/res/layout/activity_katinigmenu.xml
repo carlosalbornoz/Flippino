@@ -60,14 +60,7 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
-        <ImageButton
-            android:layout_width="500dp"
-            android:layout_height="110dp"
-            android:background="@null"
-            android:id="@+id/katinigmenu_tlh"
-            android:src="@drawable/katinigmenu_tlh"
-            android:layout_below="@+id/global_stars"
-            android:layout_toEndOf="@+id/imageView82" />
+
 
         <ImageView
             android:layout_width="wrap_content"
@@ -78,54 +71,65 @@
             android:layout_toEndOf="@+id/global_exit" />
 
         <ImageButton
-            android:layout_width="500dp"
-            android:layout_height="110dp"
-            android:background="@null"
-            android:id="@+id/katinigmenu_wy"
-            android:src="@drawable/katinigmenu_wy"
-            android:layout_below="@+id/katinigmenu_ndk"
-            android:layout_toEndOf="@+id/imageView82"
-            android:layout_alignParentEnd="true" />
-
-        <ImageButton
-            android:layout_width="500dp"
-            android:layout_height="110dp"
-            android:background="@null"
-            android:id="@+id/katinigmenu_pr"
-            android:src="@drawable/katinigmenu_pr"
-            android:layout_below="@+id/katinigmenu_wy"
-            android:layout_toEndOf="@+id/imageView82"/>
-
-        <ImageButton
-            android:layout_width="500dp"
-            android:layout_height="110dp"
-            android:background="@null"
-            android:id="@+id/katinigmenu_bmng"
-            android:src="@drawable/katinigmenu_bmng"
-            android:layout_below="@+id/katinigmenu_pr"
-            android:layout_toEndOf="@+id/imageView82" />
-
-
-        <ImageButton
-            android:layout_width="500dp"
-            android:layout_height="110dp"
-            android:background="@null"
-            android:id="@+id/katinigmenu_ndk"
-            android:src="@drawable/katinigmenu_ndk"
-            android:layout_below="@+id/katinigmenu_tlh"
-            android:layout_toEndOf="@+id/imageView82" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tlh"
+            android:src="@drawable/katinigmenu_tlh"
+            android:layout_alignTop="@+id/imageView82"
+            android:layout_toStartOf="@+id/ndk" />
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/ndk"
+            android:layout_alignBottom="@+id/tlh"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/katinigmenu_ndk" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wy"
+            android:layout_below="@+id/tlh"
+            android:layout_alignStart="@+id/tlh"
+            android:src="@drawable/katinigmenu_wy" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pr"
+            android:src="@drawable/katinigmenu_pr"
+            android:layout_below="@+id/ndk"
+            android:layout_alignEnd="@+id/ndk" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bmng"
+            android:layout_below="@+id/pr"
+            android:layout_alignStart="@+id/wy"
+            android:src="@drawable/katinigmenu_bmng" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton8"
             android:background="@null"
-            android:id="@+id/katinigmenu_pagsusulit"
             android:src="@drawable/katinigmenu_pagsusulit"
-            android:layout_alignParentBottom="true"
-            android:layout_alignEnd="@+id/global_label" />
+            android:layout_marginTop="57dp"
+            android:layout_below="@+id/bmng"
+            android:layout_toStartOf="@+id/global_home" />
 
 
     </RelativeLayout>
 
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/global_leftarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/global_leftarrow" />
 
 </RelativeLayout>

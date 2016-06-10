@@ -8,50 +8,7 @@
     android:background="#c3e5f5">
 
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/global_leftarrow"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:src="@drawable/global_leftarrow" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/global_rightarrow"
-        android:src="@drawable/global_rightarrow"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
-
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/global_sound"
-        android:src="@drawable/global_sound"
-        android:layout_alignTop="@+id/global_help"
-        android:layout_toStartOf="@+id/global_help" />
-
-    <ImageButton
-        android:layout_width="80dp"
-        android:layout_height="90dp"
-        android:background="@null"
-        android:id="@+id/global_help"
-        android:src="@drawable/global_help"
-        android:layout_alignTop="@+id/global_home"
-        android:layout_toStartOf="@+id/global_home" />
-
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/global_home"
-        android:src="@drawable/global_home"
-        android:layout_alignBottom="@+id/global_stars"
-        android:layout_alignParentEnd="true" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -62,49 +19,14 @@
         android:layout_alignParentBottom="true"
         android:layout_toEndOf="@+id/global_leftarrow" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/global_label"
-        android:src="@drawable/global_label"
-        android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/global_leftarrow" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/global_stars"
-        android:src="@drawable/global_stars"
-        android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/global_sound" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Patinig"
-        android:id="@+id/textView"
-        android:textSize="50dp"
-        android:layout_below="@+id/global_help"
-        android:layout_alignEnd="@+id/global_label"
-        android:layout_marginEnd="84dp" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/global_exit"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:src="@drawable/global_exit" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView16"
         android:src="@drawable/ustory1heart"
-        android:layout_centerVertical="true"
-        android:layout_toStartOf="@+id/global_help" />
+        android:layout_centerVertical="true"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -124,5 +46,76 @@
         android:textSize="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/relativeLayout2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/global_label"
+            android:src="@drawable/global_label"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_exit"
+            android:src="@drawable/global_exit" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_stars"
+            android:src="@drawable/global_stars"
+            android:layout_toStartOf="@+id/global_sound" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_sound"
+            android:src="@drawable/global_sound"
+            android:layout_toStartOf="@+id/global_help" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:background="@null"
+            android:id="@+id/global_help"
+            android:src="@drawable/global_help"
+            android:layout_toStartOf="@+id/global_home" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_home"
+            android:src="@drawable/global_home"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/global_leftarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/global_leftarrow" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/global_rightarrow"
+        android:src="@drawable/global_rightarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
