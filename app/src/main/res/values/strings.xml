@@ -30,12 +30,12 @@
 <!--<string name="HNL_NJCF_Enyeintro_ninya">Ni�a</string>
 <string name="HNL_NJCF_Enyeintro_Enye"> ��</string
 <string name="HNL_NJCF_p1">Si Ni�a at Jose sa Casa Felipe</string>
-<string name="HNL_NJCF_p2">Ang Casa Felipe ay napapalibutan ng magagandang bulaklak</string>
+<string name="HNL_NJCF_p2">Ang Casa Felipe ay napalilibutan ng magagandang bulaklak</string>
 <string name="HNL_NJCF_p3">Sila Ni�a at Jose ang magkapatid na nakatira dito.</string>-->
 <string name="HNL_VZ_Vintro_vinta">Vinta</string>
 <string name="HNL_VZ_Vintro_Vv">Vv</string>
 <string name="HNL_VZ_Zintro_zamboanga">Zamboanga</string>
-<string name="HNL_VZ_title">Ang Mga Makukulay na Vinta sa Zamboanga</string>
+<string name="HNL_VZ_title">Ang Mga Makulay na Vinta sa Zamboanga</string>
 <string name="HNL_VZ_p1">Asul, kahel, luntian at pula,</string>
 <string name="HNL_VZ_p2">Ito ang iba't-ibang kulay ng mga vinta.</string>
 <string name="HNL_VZ_p3">Ito ay dinarayo araw-araw ng mga turista sa Zamboanga.</string>
@@ -45,7 +45,7 @@
 <string name="HNL_XQu_Quintro_Qu">Qu</string>
 <string name="HNL_XQu_p1">Ang Field Trip ni Xander sa Quezon</string>
 <string name="HNL_XQu_p2">Si Xander ay naglibot sa Quezon.</string>
-<string name="HNL_XQu_p3">Siya ay nakakita ng palaisdaan at mga puno at tuwang-tuwa siya sa dami nito.</string>
+<string name="HNL_XQu_p3">Siya ay nakakita ng mga palaisdaan at mga puno.</string>
 <string name="P_A_Aintro_ana">Ana</string>
 <string name="P_A_Aintro_Aa">Aa</string>
 <string name="P_A_title">Ang Alagang Aso ni Ana</string>
