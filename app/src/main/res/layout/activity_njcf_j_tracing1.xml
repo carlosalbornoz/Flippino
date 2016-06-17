@@ -12,10 +12,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView34"
-                android:layout_marginLeft="159dp"
+                android:layout_marginLeft="50dp"
                 android:src="@drawable/njcf_tracing_jj"
                 android:layout_centerVertical="true"
-                android:layout_alignEnd="@+id/imageView36" />
+                android:layout_alignStart="@+id/imageView36"
+                android:layout_marginStart="69dp" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -23,10 +24,7 @@
                 android:id="@+id/imageView35"
                 android:src="@drawable/njcf_tracing_jj_dotted"
                 android:layout_centerVertical="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginRight="99dp"
-                android:layout_marginEnd="99dp" />
+                android:layout_toEndOf="@+id/imageView36" />
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -45,12 +43,9 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView36"
                 android:src="@drawable/njcf_tracing_activityboxes"
-                android:layout_marginBottom="47dp"
-                android:layout_alignParentBottom="true"
-                android:layout_toLeftOf="@+id/imageView35"
-                android:layout_toStartOf="@+id/imageView35"
                 android:layout_marginRight="45dp"
-                android:layout_marginEnd="45dp" />
+                android:layout_alignBottom="@+id/global_leftarrow"
+                android:layout_toEndOf="@+id/global_leftarrow" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"

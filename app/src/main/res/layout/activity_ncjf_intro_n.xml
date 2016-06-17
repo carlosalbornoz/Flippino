@@ -59,6 +59,16 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView21"
+            android:src="@drawable/njcf_intro_nina"
+            android:layout_marginLeft="65dp"
+            android:background="@null"
+            android:layout_below="@+id/global_sound"
+            android:layout_toStartOf="@+id/global_help" />
+
     </RelativeLayout>
             <ImageView
                 android:layout_width="wrap_content"
@@ -78,20 +88,8 @@
                 android:id="@+id/imageView20"
                 android:scaleType="fitXY"
                 android:src="@drawable/njcf_ene"
-                android:layout_below="@+id/relativeLayout2"
-                android:layout_alignParentEnd="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView21"
-        android:src="@drawable/njcf_intro_nina"
-        android:layout_marginLeft="65dp"
-        android:background="@null"
-        android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/global_rightarrow"
-        android:layout_marginEnd="55dp"
-        android:layout_marginTop="85dp" />
+        android:layout_alignTop="@+id/imageView19"
+        android:layout_toStartOf="@+id/global_rightarrow" />
 
     <ImageButton
         android:layout_width="wrap_content"

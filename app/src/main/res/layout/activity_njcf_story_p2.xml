@@ -33,14 +33,6 @@
                 android:layout_toEndOf="@+id/imageView27"
                 android:src="@drawable/njcf_title_nina" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView29"
-                android:src="@drawable/njcf_story_p2"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -111,5 +103,14 @@
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="placeholder"
+        android:id="@+id/textView19"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="45dp" />
 </RelativeLayout>
 

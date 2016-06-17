@@ -12,11 +12,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView22"
-                android:layout_marginLeft="59dp"
-                android:layout_marginStart="59dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:src="@drawable/njcf_tracing_ene"
-                android:layout_centerVertical="true"
-                android:layout_alignParentLeft="true"
+                android:layout_above="@+id/global_leftarrow"
                 android:layout_alignParentStart="true" />
 
             <ImageView
@@ -24,10 +23,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView23"
                 android:src="@drawable/njcf_tracing_activityboxes"
-                android:layout_marginBottom="47dp"
-                android:layout_alignParentBottom="true"
-                android:layout_alignRight="@+id/imageView22"
-                android:layout_alignEnd="@+id/imageView22" />
+                android:layout_alignBottom="@+id/global_leftarrow"
+                android:layout_toEndOf="@+id/global_leftarrow" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -35,8 +32,7 @@
                 android:id="@+id/imageView24"
                 android:src="@drawable/njcf_tracing_ene_dotted"
                 android:layout_alignTop="@+id/imageView22"
-                android:layout_toRightOf="@+id/imageView23"
-                android:layout_toEndOf="@+id/imageView23" />
+                android:layout_toEndOf="@+id/imageView22" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"

@@ -24,10 +24,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView51"
         android:layout_marginLeft="154dp"
-        android:layout_marginStart="138dp"
         android:src="@drawable/tlhbird"
         android:layout_below="@+id/relativeLayout2"
-        android:layout_toEndOf="@+id/global_leftarrow" />
+        android:layout_toStartOf="@+id/textView20"
+        android:layout_marginEnd="73dp" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -99,5 +99,15 @@
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="placeholder"
+        android:id="@+id/textView20"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF" />
 
 </RelativeLayout>

@@ -5,7 +5,6 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="lolz.flippino.xqustoryp1"
     android:background="#c3e5f5">
 
 
@@ -43,6 +42,7 @@
         android:text="Si Xander ay naglibot sa Quezon"
         android:id="@+id/textView16"
         android:textSize="50dp"
+        android:textColor="#FFFFFF"
         android:layout_alignTop="@+id/global_rightarrow"
         android:layout_centerHorizontal="true" />
 

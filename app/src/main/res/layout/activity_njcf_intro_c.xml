@@ -12,10 +12,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView37"
-                android:layout_marginLeft="145dp"
+                android:layout_marginLeft="50dp"
                 android:src="@drawable/njcf_intro_house"
                 android:layout_alignTop="@+id/imageView38"
-                android:layout_toStartOf="@+id/imageView39" />
+                android:layout_alignParentStart="true" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView39"
                 android:src="@drawable/njcf_intro_casa"
-                android:layout_marginRight="69dp"
+                android:layout_marginRight="50dp"
                 android:layout_alignParentTop="true"
                 android:layout_alignEnd="@+id/global_rightarrow"
                 android:layout_marginTop="76dp" />

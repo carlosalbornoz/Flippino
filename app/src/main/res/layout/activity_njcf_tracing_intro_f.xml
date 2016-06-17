@@ -13,9 +13,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView43"
                 android:src="@drawable/njcf_tracing_f"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="176dp" />
+                android:layout_below="@+id/relativeLayout2"
+                android:layout_centerHorizontal="true" />
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -23,8 +22,10 @@
                 android:id="@+id/imageButton136"
                 android:src="@drawable/njcf_tracing_pencil"
                 android:background="@null"
-                android:layout_centerVertical="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_marginBottom="85dp"
+                android:layout_above="@+id/global_leftarrow"
+                android:layout_alignStart="@+id/imageView43"
+                android:layout_marginStart="99dp" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"

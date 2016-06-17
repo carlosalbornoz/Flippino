@@ -21,26 +21,16 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView16"
                 android:src="@drawable/njcf_title_jose"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="160dp" />
+                android:layout_alignBottom="@+id/imageView17"
+                android:layout_centerHorizontal="true" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView17"
                 android:src="@drawable/njcf_title_nina"
-                android:layout_alignTop="@+id/imageView16"
-                android:layout_toRightOf="@+id/imageView16"
+                android:layout_centerVertical="true"
                 android:layout_toEndOf="@+id/imageView16" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView18"
-                android:src="@drawable/njcf_story_p1"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -112,5 +102,15 @@
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="placeholder"
+        android:id="@+id/textView18"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="45dp" />
 </RelativeLayout>
 

@@ -37,31 +37,29 @@
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/ndkland" />
 
-            <ImageView
+    <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView62"
                 android:src="@drawable/ndkkubo"
                 android:layout_alignParentBottom="true"
-                android:layout_alignEnd="@+id/imageView59"
                 android:layout_marginBottom="49dp" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView65"
-                android:src="@drawable/ndknena"
-                android:layout_above="@+id/imageView61"
-                android:layout_toEndOf="@+id/imageView62" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView65"
+        android:src="@drawable/ndknena"
+        android:layout_above="@+id/imageView61"
+        android:layout_alignStart="@+id/imageView64" />
 
-            <ImageView
+    <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView63"
                 android:src="@drawable/ndkstore"
                 android:layout_marginBottom="68dp"
-                android:layout_alignBottom="@+id/imageView62"
-                android:layout_toEndOf="@+id/imageView59" />
+                android:layout_alignBottom="@+id/imageView62" />
 
 
 
@@ -70,6 +68,7 @@
                 android:layout_height="wrap_content"
                 android:text="Ang kubo ni Aling Nena ay may maliit na tindahan sa harap."
                 android:id="@+id/textView"
+                android:textColor="#FFFFFF"
                 android:layout_alignTop="@+id/global_rightarrow"
                 android:layout_centerHorizontal="true"
                 android:textSize="38dp" />

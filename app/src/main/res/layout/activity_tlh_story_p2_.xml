@@ -9,7 +9,7 @@
     >
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageView70"
         android:src="@drawable/tlhenvironment_p2"
@@ -23,7 +23,7 @@
                 android:id="@+id/imageView71"
                 android:scaleType="fitXY"
                 android:src="@drawable/tlhbird_whiyas"
-                android:layout_marginStart="143dp"
+                android:layout_marginStart="136dp"
         android:layout_below="@+id/relativeLayout2"
         android:layout_toEndOf="@+id/global_leftarrow" />
 
@@ -36,6 +36,7 @@
                 android:textAlignment="center"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentEnd="true" />
+
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
