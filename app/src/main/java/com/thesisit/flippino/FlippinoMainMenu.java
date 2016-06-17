@@ -10,6 +10,11 @@ public class FlippinoMainMenu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_flippino_mainmenu);
+        setContentView(r.layout.activity_mainmenu);
+    }
+
+    public void startApp(View view) {
+        Intent intent = new Intent(this, TitleA.class);
+        startActivity(intent);
     }
 }

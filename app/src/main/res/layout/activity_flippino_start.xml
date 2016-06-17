@@ -59,7 +59,6 @@
         android:src="@drawable/start_magsimula"
         android:background="@null"
         android:layout_above="@+id/btn_magpatuloy"
-        android:layout_alignStart="@+id/btn_magpatuloy"
-        android:onClick="startApp"/>
+        android:layout_alignStart="@+id/btn_magpatuloy" />
 
 </RelativeLayout>
