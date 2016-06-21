@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#c3e5f5">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView79"
+        android:src="@drawable/Clouds"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageButton181" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView80"
+        android:src="@drawable/Birds"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton181"
+        android:src="@drawable/global_exit"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton182"
+        android:src="@drawable/global_lessonlabel"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:layout_alignStart="@+id/imageView80" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton183"
+        android:background="@null"
+        android:src="@drawable/global_stars"
+        android:layout_alignTop="@+id/imageButton184"
+        android:layout_toStartOf="@+id/imageButton184" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton184"
+        android:background="@null"
+        android:src="@drawable/global_sound"
+        android:layout_alignBottom="@+id/imageButton181"
+        android:layout_toStartOf="@+id/imageButton186" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton185"
+        android:layout_alignBottom="@+id/imageButton183"
+        android:layout_alignStart="@+id/imageButton184" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton186"
+        android:src="@drawable/global_help"
+        android:background="@null"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView80" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton187"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/global_home"
+        android:background="@null"
+        android:layout_alignEnd="@+id/imageView79"
+        android:layout_toEndOf="@+id/imageButton186" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView81"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/Landscape"
+        android:layout_below="@+id/imageView80"
+        android:layout_alignParentBottom="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton188"
+        android:src="@drawable/Ana"
+        android:layout_alignParentBottom="true"
+        android:background="@null"
+        android:layout_toStartOf="@+id/imageButton183"
+        android:layout_marginBottom="58dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton189"
+        android:layout_alignBottom="@+id/imageButton188"
+        android:background="@null"
+        android:layout_alignStart="@+id/imageButton183"
+        android:src="@drawable/Dog" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ang alagang Aso ni Ana"
+        android:id="@+id/textView13"
+        android:textSize="100dp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/imageView80"
+        android:layout_alignEnd="@+id/imageView81"
+        android:layout_toEndOf="@+id/imageButton182" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton231"
+        android:src="@drawable/global_leftarrow"
+        android:background="@null"
+        android:layout_alignBottom="@+id/imageButton188"
+        android:layout_alignStart="@+id/imageView79" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton232"
+        android:layout_alignTop="@+id/imageButton189"
+        android:background="@null"
+        android:layout_toEndOf="@+id/imageButton184"
+        android:src="@drawable/global_rightarrow" />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#c3e5f5">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton190"
+        android:src="@drawable/global_exit"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView82"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageButton190"
+        android:layout_marginStart="101dp"
+        android:src="@drawable/global_lessonlabel" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton191"
+        android:background="@null"
+        android:src="@drawable/global_stars"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/imageButton192" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton192"
+        android:background="@null"
+        android:src="@drawable/global_sound"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/imageButton193" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton193"
+        android:background="@null"
+        android:src="@drawable/global_help"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/imageButton194"
+        android:layout_marginEnd="73dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton194"
+        android:src="@drawable/global_home"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:layout_marginEnd="80dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="Ang laruang eroplano ni Edu"
+        android:textSize="60dp"
+        android:layout_marginTop="84dp"
+        android:layout_below="@+id/imageView82"
+        android:layout_toEndOf="@+id/imageView82" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton233"
+        android:background="@null"
+        android:layout_marginBottom="67dp"
+        android:src="@drawable/global_leftarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageButton190" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton234"
+        android:src="@drawable/global_rightarrow"
+        android:layout_alignTop="@+id/imageButton233"
+        android:background="@null"
+        android:layout_alignEnd="@+id/imageButton194" />
+
+</RelativeLayout>
