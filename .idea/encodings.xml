@@ -1,35 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_bmng_story_p1.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_bmng_story_p2.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_gpr_story_p1.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_gpr_story_p2.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_gpr_story_p3.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_lessonmenu.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_lettersmenu.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mainmenu.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ncjf_intro_j.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ncjf_intro_n.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ncjf_title.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ncjf_tracing_intro_n.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ndk_story_p1.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_njcf_c_tracing1.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_njcf_ene_tracing1.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_njcf_f_tracing1.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_njcf_intro_c.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_njcf_intro_f.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_njcf_j_tracing1.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_njcf_story_p1.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_njcf_story_p2.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_njcf_tracing_intro_f.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_njcf_tracing_intro_j.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pangungusapmenu.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registername.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_salitamenu.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_start_screen.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_tlh_story_p1.xml" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
