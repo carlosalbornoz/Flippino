@@ -86,6 +86,102 @@
         <activity
             android:name=".XQu_story_title"
             android:label="@string/title_activity_xqu_story_title"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".vz_v_tracing1"
+            android:label="@string/title_activity_vz_v_tracing1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".vz_tracing_introv"
+            android:label="@string/title_activity_vz_tracing_introv"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".vz_intro_v"
+            android:label="@string/title_activity_vz_intro_v"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".vz_intro_z"
+            android:label="@string/title_activity_vz_intro_z"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".vz_tracing_introz"
+            android:label="@string/title_activity_vz_tracing_introz"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".vz_z_tracing1"
+            android:label="@string/title_activity_vz_z_tracing1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".gpr_g_tracing1"
+            android:label="@string/title_activity_gpr_g_tracing1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".gpr_intro_p"
+            android:label="@string/title_activity_gpr_intro_p"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".gpr_intro_r"
+            android:label="@string/title_activity_gpr_intro_r"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".gpr_g_tracing12"
+            android:label="@string/title_activity_gpr_g_tracing12"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".gpr_p_tracing"
+            android:label="@string/title_activity_gpr_p_tracing"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".gpr_r_tracing"
+            android:label="@string/title_activity_gpr_r_tracing"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".gpr_tracing_introg"
+            android:label="@string/title_activity_gpr_tracing_introg"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".gpr_tracing_introp"
+            android:label="@string/title_activity_gpr_tracing_introp"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".gpr_tracing_intror"
+            android:label="@string/title_activity_gpr_tracing_intror"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".bmng_intro_b"
+            android:label="@string/title_activity_bmng_intro_b"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".bmng_intro_m"
+            android:label="@string/title_activity_bmng_intro_m"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".bmng_intro_ng"
+            android:label="@string/title_activity_bmng_intro_ng"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".bmng_tracing_introb"
+            android:label="@string/title_activity_bmng_tracing_introb"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".bmng_tracing_introm"
+            android:label="@string/title_activity_bmng_tracing_introm"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".bmng_tracing_introng"
+            android:label="@string/title_activity_bmng_tracing_introng"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".bmng_b_tracing"
+            android:label="@string/title_activity_bmng_b_tracing"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.thesisit.f.bmng_m_tracing"
+            android:label="@string/title_activity_bmng_m_tracing"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".bmng_ng_tracing"
+            android:label="@string/title_activity_bmng_ng_tracing"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
     </application>
 
