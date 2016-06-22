@@ -22,8 +22,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView48"
                 android:src="@drawable/njcf_ff"
-                android:layout_alignParentBottom="true"
-                android:layout_toEndOf="@+id/imageView47" />
+                android:layout_alignBottom="@+id/global_rightarrow"
+                android:layout_alignEnd="@+id/global_rightarrow" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -31,7 +31,7 @@
                 android:id="@+id/imageView49"
                 android:src="@drawable/njcf_intro_felipe"
                 android:layout_alignTop="@+id/imageView47"
-                android:layout_alignEnd="@+id/imageView48" />
+                android:layout_alignStart="@+id/imageView48" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -83,6 +83,16 @@
             android:id="@+id/global_home"
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Katinig"
+            android:id="@+id/textView28"
+            android:textSize="50dp"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label"
+            android:layout_marginEnd="93dp" />
 
     </RelativeLayout>
 

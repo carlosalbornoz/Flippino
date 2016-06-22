@@ -16,39 +16,24 @@
                 android:layout_marginRight="5dp"
                 android:src="@drawable/njcf_tracing_cc"
                 android:layout_alignParentBottom="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignEnd="@+id/imageView42" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView41"
                 android:src="@drawable/njcf_tracing_cc_dotted"
-                android:layout_centerVertical="true"
-                android:layout_toRightOf="@+id/imageView40"
-                android:layout_toEndOf="@+id/imageView40" />
+                android:layout_above="@+id/global_rightarrow"
+                android:layout_alignParentEnd="true" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView42"
                 android:src="@drawable/njcf_tracing_activityboxes"
-                android:layout_alignParentBottom="true"
-                android:layout_toLeftOf="@+id/imageView41"
-                android:layout_toStartOf="@+id/imageView41"
                 android:layout_marginRight="71dp"
-                android:layout_marginEnd="71dp" />
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageButton127"
-                android:background="@null"
-                android:src="@drawable/njcf_tracing_pencil"
-                android:layout_centerVertical="true"
-                android:layout_toRightOf="@+id/imageView40"
-                android:layout_toEndOf="@+id/imageView40"
-                android:layout_marginLeft="74dp"
-                android:layout_marginStart="74dp" />
+                android:layout_alignBottom="@+id/imageView40"
+                android:layout_toEndOf="@+id/global_leftarrow" />
 
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -101,6 +86,16 @@
             android:id="@+id/global_home"
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Katinig"
+            android:id="@+id/textView28"
+            android:textSize="50dp"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label"
+            android:layout_marginEnd="93dp" />
 
     </RelativeLayout>
 

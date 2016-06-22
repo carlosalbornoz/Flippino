@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 
-    -
 <resources>
 
     <string name="app_name">Flippino</string>
@@ -38,7 +37,7 @@
     <string name="HNL_VZ_Zintro_zamboanga">Zamboanga</string>
     <string name="HNL_VZ_title">Ang Mga Makulay na Vinta sa Zamboanga</string>
     <string name="HNL_VZ_p1">Asul, kahel, luntian at pula,</string>
-    <string name="HNL_VZ_p2">Ito ang iba't-ibang kulay ng mga vinta.</string>
+    <string name="HNL_VZ_p2">Ito ang ibat-ibang kulay ng mga vinta.</string>
     <string name="HNL_VZ_p3">Ito ay dinarayo araw-araw ng mga turista sa Zamboanga.</string>
     <string name="HNL_XQu_Xintro_xander">Xander</string>
     <string name="HNL_XQu_Xintro_Xx">Xx</string>
@@ -66,7 +65,7 @@
     <string name="P_I_p1">Iyak ng iyak ang mga ibon sa Ilog Pasig dahil sa mga basurang itinapon
         dito.
     </string>
-    <string name="P_I_p2">Halina't linisin ang Ilog Pasig. Hikayatin mo ang iyong mga kaibigan
+    <string name="P_I_p2">Halinat linisin ang Ilog Pasig. Hikayatin mo ang iyong mga kaibigan
         maglinis nito.
     </string>
     <string name="P_O_Ointro_oso">Oso</string>
@@ -144,4 +143,6 @@
     <string name="title_activity_bmng_story_title">BMNg_story_title</string>
     <string name="title_activity_vz_story_title">VZ_story_title</string>
     <string name="title_activity_xqu_story_title">XQu_story_title</string>
+    <string name="title_activity_o_tracing">o_tracing</string>
+    <string name="title_activity_vz_intro_z">vz_intro_z</string>
 </resources>

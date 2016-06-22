@@ -35,6 +35,25 @@
         android:layout_alignParentStart="true"
         android:src="@drawable/global_leftarrow" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView57"
+        android:src="@drawable/bmnglizard"
+        android:layout_marginTop="74dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignStart="@+id/textView7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ang maliit at masayahing butiki ay"
+        android:id="@+id/textView7"
+        android:textSize="50dp"
+        android:textColor="#111111"
+        android:layout_alignBottom="@+id/imageView56"
+        android:layout_centerHorizontal="true" />
+
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -86,26 +105,17 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Katinig"
+            android:id="@+id/textView28"
+            android:textSize="50dp"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label"
+            android:layout_marginEnd="93dp" />
+
     </RelativeLayout>
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView57"
-        android:src="@drawable/bmnglizard"
-        android:layout_marginTop="74dp"
-        android:layout_below="@+id/relativeLayout2"
-        android:layout_alignStart="@+id/textView7" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ang maliit at masayahing butiki ay"
-        android:id="@+id/textView7"
-        android:textSize="50dp"
-        android:textColor="#111111"
-        android:layout_alignBottom="@+id/imageView56"
-        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

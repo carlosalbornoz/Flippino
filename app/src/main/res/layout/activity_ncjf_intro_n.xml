@@ -69,6 +69,16 @@
             android:layout_below="@+id/global_sound"
             android:layout_toStartOf="@+id/global_help" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hiram Na Letra"
+            android:id="@+id/textView26"
+            android:textSize="35dp"
+            android:layout_marginEnd="51dp"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label" />
+
     </RelativeLayout>
             <ImageView
                 android:layout_width="wrap_content"

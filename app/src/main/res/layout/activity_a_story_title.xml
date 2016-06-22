@@ -1,115 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
     android:background="#c3e5f5">
 
-
-    <ImageView
-        android:layout_width="wrap_content"
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView79"
-        android:src="@drawable/Clouds"
+        android:orientation="horizontal"
         android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/imageButton181" />
+        android:layout_alignParentStart="true">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/global_label"
+            android:src="@drawable/global_label"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_exit"
+            android:src="@drawable/global_exit" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_stars"
+            android:src="@drawable/global_stars"
+            android:layout_toStartOf="@+id/global_sound" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_sound"
+            android:src="@drawable/global_sound"
+            android:layout_toStartOf="@+id/global_help" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:background="@null"
+            android:id="@+id/global_help"
+            android:src="@drawable/global_help"
+            android:layout_toStartOf="@+id/global_home" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_home"
+            android:src="@drawable/global_home"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView79"
+            android:src="@drawable/atitle_clouds"
+            android:layout_below="@+id/global_label"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patinig"
+            android:id="@+id/textView25"
+            android:textSize="50dp"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label"
+            android:layout_marginEnd="93dp" />
+
+    </RelativeLayout>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView80"
-        android:src="@drawable/Birds"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="85dp" />
+        android:src="@drawable/atitle_birds"
+        android:layout_alignTop="@+id/imageView81"
+        android:layout_toStartOf="@+id/global_rightarrow" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton181"
-        android:src="@drawable/global_exit"
-        android:layout_alignParentTop="true"
-        android:background="@null"
-        android:layout_alignParentStart="true" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton182"
-        android:src="@drawable/global_lessonlabel"
-        android:layout_alignParentTop="true"
-        android:background="@null"
-        android:layout_alignStart="@+id/imageView80" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton183"
-        android:background="@null"
-        android:src="@drawable/global_stars"
-        android:layout_alignTop="@+id/imageButton184"
-        android:layout_toStartOf="@+id/imageButton184" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton184"
-        android:background="@null"
-        android:src="@drawable/global_sound"
-        android:layout_alignBottom="@+id/imageButton181"
-        android:layout_toStartOf="@+id/imageButton186" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton185"
-        android:layout_alignBottom="@+id/imageButton183"
-        android:layout_alignStart="@+id/imageButton184" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton186"
-        android:src="@drawable/global_help"
-        android:background="@null"
-        android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/imageView80" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton187"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/global_home"
-        android:background="@null"
-        android:layout_alignEnd="@+id/imageView79"
-        android:layout_toEndOf="@+id/imageButton186" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView81"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/Landscape"
-        android:layout_below="@+id/imageView80"
-        android:layout_alignParentBottom="true" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton188"
-        android:src="@drawable/Ana"
-        android:layout_alignParentBottom="true"
+        android:src="@drawable/astory1ana"
         android:background="@null"
-        android:layout_toStartOf="@+id/imageButton183"
-        android:layout_marginBottom="58dp" />
+        android:layout_marginBottom="50dp"
+        android:layout_alignBottom="@+id/imageView81"
+        android:layout_alignEnd="@+id/textView13"
+        android:layout_marginEnd="67dp" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton189"
-        android:layout_alignBottom="@+id/imageButton188"
         android:background="@null"
-        android:layout_alignStart="@+id/imageButton183"
-        android:src="@drawable/Dog" />
+        android:src="@drawable/astory1dog"
+        android:layout_alignBottom="@+id/imageButton188"
+        android:layout_toStartOf="@+id/imageButton188" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView81"
+        android:src="@drawable/atitle_land"
+        android:layout_above="@+id/textView13"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -117,28 +123,28 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Ang alagang Aso ni Ana"
         android:id="@+id/textView13"
-        android:textSize="100dp"
+        android:textSize="80dp"
         android:textIsSelectable="false"
-        android:layout_below="@+id/imageView80"
-        android:layout_alignEnd="@+id/imageView81"
-        android:layout_toEndOf="@+id/imageButton182" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton231"
-        android:src="@drawable/global_leftarrow"
         android:background="@null"
-        android:layout_alignBottom="@+id/imageButton188"
-        android:layout_alignStart="@+id/imageView79" />
+        android:id="@+id/global_leftarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/global_leftarrow" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton232"
-        android:layout_alignTop="@+id/imageButton189"
         android:background="@null"
-        android:layout_toEndOf="@+id/imageButton184"
-        android:src="@drawable/global_rightarrow" />
+        android:id="@+id/global_rightarrow"
+        android:src="@drawable/global_rightarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
 
 </RelativeLayout>
