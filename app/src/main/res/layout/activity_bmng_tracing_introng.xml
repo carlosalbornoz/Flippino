@@ -90,17 +90,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView142"
         android:src="@drawable/ngdotted"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_above="@+id/global_leftarrow"
+        android:layout_alignParentStart="true" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton267"
-        android:layout_above="@+id/global_leftarrow"
-        android:layout_toEndOf="@+id/global_leftarrow"
-        android:layout_marginBottom="112dp"
         android:background="@null"
-        android:src="@drawable/njcf_tracing_pencil" />
+        android:src="@drawable/njcf_tracing_pencil"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/global_leftarrow" />
 
 </RelativeLayout>

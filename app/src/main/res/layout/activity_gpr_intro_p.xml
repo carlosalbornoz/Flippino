@@ -89,9 +89,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView114"
-        android:layout_centerVertical="true"
-        android:layout_alignParentStart="true"
-        android:src="@drawable/papaya" />
+        android:src="@drawable/papaya"
+        android:layout_above="@+id/global_leftarrow"
+        android:layout_alignParentStart="true" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -106,8 +106,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView116"
-        android:layout_alignTop="@+id/imageView114"
-        android:layout_toStartOf="@+id/global_rightarrow"
-        android:src="@drawable/papayaname" />
+        android:src="@drawable/papayaname"
+        android:layout_below="@+id/relativeLayout9"
+        android:layout_alignStart="@+id/imageView115"
+        android:layout_marginStart="133dp" />
 
 </RelativeLayout>

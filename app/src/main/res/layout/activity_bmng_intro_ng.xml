@@ -88,27 +88,27 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView137"
-        android:src="@drawable/sanga"
-        android:layout_marginEnd="571dp"
-        android:layout_below="@+id/relativeLayout9"
-        android:layout_toStartOf="@+id/global_rightarrow" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/imageView138"
         android:src="@drawable/ng"
-        android:layout_alignBottom="@+id/global_rightarrow"
+        android:layout_above="@+id/global_rightarrow"
         android:layout_toEndOf="@+id/global_leftarrow"
-        android:layout_marginStart="449dp" />
+        android:layout_marginStart="400dp" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView139"
         android:src="@drawable/sanganame"
-        android:layout_above="@+id/imageView138"
-        android:layout_alignEnd="@+id/imageView138" />
+        android:layout_below="@+id/relativeLayout9"
+        android:layout_alignEnd="@+id/relativeLayout9" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView137"
+        android:src="@drawable/sanga"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/imageView139"
+        android:layout_marginEnd="108dp" />
 
 </RelativeLayout>

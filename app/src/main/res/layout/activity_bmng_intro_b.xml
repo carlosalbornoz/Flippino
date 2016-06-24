@@ -62,6 +62,13 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView133"
+            android:src="@drawable/butikiname"
+            android:layout_below="@+id/global_help"
+            android:layout_toStartOf="@+id/global_home" />
 
 
     </RelativeLayout>
@@ -98,15 +105,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView132"
         android:src="@drawable/bb"
-        android:layout_below="@+id/imageView133"
+        android:layout_alignTop="@+id/imageView131"
         android:layout_alignParentEnd="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView133"
-        android:src="@drawable/butikiname"
-        android:layout_below="@+id/relativeLayout9"
-        android:layout_toStartOf="@+id/global_rightarrow" />
 
 </RelativeLayout>

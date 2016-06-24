@@ -89,9 +89,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView111"
-        android:layout_centerVertical="true"
-        android:layout_toEndOf="@+id/global_leftarrow"
-        android:src="@drawable/guava" />
+        android:src="@drawable/guava"
+        android:layout_alignTop="@+id/imageView112"
+        android:layout_toEndOf="@+id/global_leftarrow" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -106,7 +106,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView113"
         android:src="@drawable/gg"
-        android:layout_below="@+id/imageView112"
-        android:layout_toEndOf="@+id/imageView111" />
+        android:layout_alignTop="@+id/imageView111"
+        android:layout_alignEnd="@+id/global_rightarrow"
+        android:layout_marginTop="93dp" />
 
 </RelativeLayout>

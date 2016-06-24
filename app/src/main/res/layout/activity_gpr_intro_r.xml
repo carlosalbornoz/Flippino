@@ -89,18 +89,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView117"
-        android:layout_centerVertical="true"
-        android:layout_alignParentStart="true"
-        android:src="@drawable/rambutan" />
+        android:src="@drawable/rambutan"
+        android:layout_above="@+id/global_leftarrow"
+        android:layout_toEndOf="@+id/global_leftarrow" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView118"
         android:src="@drawable/rr"
-        android:layout_below="@+id/relativeLayout9"
         android:layout_toStartOf="@+id/global_rightarrow"
-        android:layout_marginTop="145dp" />
+        android:layout_alignTop="@+id/imageView117"
+        android:layout_alignEnd="@+id/global_rightarrow" />
 
     <ImageView
         android:layout_width="wrap_content"

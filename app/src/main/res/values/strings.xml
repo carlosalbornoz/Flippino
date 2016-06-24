@@ -1,6 +1,4 @@
 <?xml version="1.0"?>
-
-    -
 <resources>
 
     <string name="app_name">Flippino</string>
@@ -38,7 +36,7 @@
     <string name="HNL_VZ_Zintro_zamboanga">Zamboanga</string>
     <string name="HNL_VZ_title">Ang Mga Makulay na Vinta sa Zamboanga</string>
     <string name="HNL_VZ_p1">Asul, kahel, luntian at pula,</string>
-    <string name="HNL_VZ_p2">Ito ang iba't-ibang kulay ng mga vinta.</string>
+    <string name="HNL_VZ_p2">Ito ang ibat-ibang kulay ng mga vinta.</string>
     <string name="HNL_VZ_p3">Ito ay dinarayo araw-araw ng mga turista sa Zamboanga.</string>
     <string name="HNL_XQu_Xintro_xander">Xander</string>
     <string name="HNL_XQu_Xintro_Xx">Xx</string>
@@ -66,7 +64,7 @@
     <string name="P_I_p1">Iyak ng iyak ang mga ibon sa Ilog Pasig dahil sa mga basurang itinapon
         dito.
     </string>
-    <string name="P_I_p2">Halina't linisin ang Ilog Pasig. Hikayatin mo ang iyong mga kaibigan
+    <string name="P_I_p2">Halinat linisin ang Ilog Pasig. Hikayatin mo ang iyong mga kaibigan
         maglinis nito.
     </string>
     <string name="P_O_Ointro_oso">Oso</string>
@@ -148,6 +146,10 @@
     <string name="title_activity_vz_tracing_introv">vz_tracing_introv</string>
     <string name="title_activity_vz_intro_v">vz_intro_v</string>
     <string name="title_activity_vz_intro_z">vz_intro_z</string>
+    <string name="title_activity_tlh_story_p2">tlh_story_p2_</string>
+    <string name="title_activity_tlh_story_p3">tlh_story_p3</string>
+    <string name="title_activity_bmng_story_p3">bmng_story_p3</string>
+    <string name="title_activity_ndk_story_p2">ndk_story_p2</string>
     <string name="title_activity_vz_tracing_introz">vz_tracing_introz</string>
     <string name="title_activity_vz_z_tracing1">vz_z_tracing1</string>
     <string name="title_activity_gpr_g_tracing1">gpr_g_tracing1</string>

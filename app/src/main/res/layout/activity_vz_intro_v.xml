@@ -62,6 +62,13 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView104"
+            android:src="@drawable/vintaname"
+            android:layout_below="@+id/global_stars"
+            android:layout_alignParentEnd="true" />
 
 
     </RelativeLayout>
@@ -89,26 +96,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView102"
-        android:layout_below="@+id/relativeLayout9"
-        android:layout_toEndOf="@+id/global_leftarrow"
-        android:src="@drawable/vinta" />
+        android:src="@drawable/vinta"
+        android:layout_above="@+id/global_leftarrow"
+        android:layout_toEndOf="@+id/global_leftarrow" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView103"
         android:src="@drawable/vv1"
-        android:layout_alignTop="@+id/imageView102"
-        android:layout_alignEnd="@+id/global_rightarrow"
-        android:layout_marginTop="140dp" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView104"
-        android:src="@drawable/vintaname"
-        android:layout_alignTop="@+id/imageView102"
-        android:layout_toStartOf="@+id/global_rightarrow"
-        android:layout_marginEnd="87dp" />
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageView102"
+        android:layout_marginStart="117dp" />
 
 </RelativeLayout>

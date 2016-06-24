@@ -98,7 +98,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView149"
         android:src="@drawable/ngdotted"
-        android:layout_below="@+id/relativeLayout9"
+        android:layout_above="@+id/global_leftarrow"
         android:layout_alignEnd="@+id/imageView148" />
 
 </RelativeLayout>
