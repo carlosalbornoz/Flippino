@@ -18,7 +18,8 @@
                 android:scaleType="fitXY"
                 android:layout_alignParentTop="true"
                 android:layout_alignLeft="@+id/imageButton22"
-                android:layout_alignStart="@+id/imageButton22" />
+                android:layout_alignStart="@+id/imageButton22"
+                android:onClick="startPatinig"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -28,7 +29,8 @@
                 android:background="@null"
                 android:src="@drawable/katinig"
                 android:layout_centerVertical="true"
-                android:layout_toStartOf="@+id/imageButton20" />
+                android:layout_toStartOf="@+id/imageButton20"
+                android:onClick="startKatinig"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -38,7 +40,8 @@
                 android:scaleType="fitXY"
                 android:src="@drawable/alpabeto"
                 android:layout_below="@+id/imageButton20"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:onClick="startALog"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -49,7 +52,8 @@
                 android:src="@drawable/hnl"
                 android:layout_alignTop="@+id/imageButton21"
                 android:layout_toRightOf="@+id/imageButton22"
-                android:layout_toEndOf="@+id/imageButton22" />
+                android:layout_toEndOf="@+id/imageButton22"
+                android:onClick="startHiram"/>
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -68,7 +72,8 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:id="@+id/global_exit"
-            android:src="@drawable/global_exit" />
+            android:src="@drawable/global_exit"
+            android:onClick="exit"/>
 
         <ImageButton
             android:layout_width="wrap_content"

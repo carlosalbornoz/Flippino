@@ -26,15 +26,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:id="@+id/global_leftarrow"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:src="@drawable/global_leftarrow" />
-
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -103,7 +94,6 @@
         android:text="Ang maliit at masayahing butiki ay"
         android:id="@+id/textView7"
         android:textSize="50dp"
-        android:textColor="#111111"
         android:layout_alignBottom="@+id/imageView56"
         android:layout_centerHorizontal="true" />
 

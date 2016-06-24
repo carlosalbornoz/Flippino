@@ -42,7 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Ngalan"
+                android:text="Pangalan"
                 android:id="@+id/textView3"
                 android:textColor="#fdfcfc"
                 android:textAlignment="viewStart"
@@ -59,7 +59,8 @@
                 android:background="@null"
                 android:src="@drawable/halina"
                 android:layout_alignBottom="@+id/imageView7"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:onClick="userLogin"/>
 
         </RelativeLayout>
 

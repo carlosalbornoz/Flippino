@@ -10,11 +10,16 @@ public class FlippinoStart extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_flippino_start);
+        setContentView(R.layout.activity_start_screen);
     }
 
-    public void startApp(View view) {
-        Intent intent = new Intent(this, FlippinoMainMenu.class);
+    public void startMagsimula(View view) {
+        Intent intent = new Intent(this, NewUser.class);
+        startActivity(intent);
+    }
+
+    public void startMagpatuloy(View view) {
+        Intent intent = new Intent(this, UserLogin.class);
         startActivity(intent);
     }
 }

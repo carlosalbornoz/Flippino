@@ -17,8 +17,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TitleA" />
-        <activity android:name=".FlippinoMainMenu"></activity>
+        <activity android:name=".PatinigTitle" />
+        <activity android:name=".FlippinoMainMenu" />
+        <activity android:name=".UserLogin" />
+        <activity android:name=".NewUser" />
+        <activity android:name=".LettersMenu" />
+        <activity android:name=".LettersSubPatinig" />
+        <activity android:name=".LettersSubKatinig" />
+        <activity android:name=".LettersSubHiram" />
+        <activity android:name=".LettersSubALog" />
+        <activity android:name=".PatinigStoryP1" />
+        <activity android:name=".PatinigStoryP2"></activity>
     </application>
 
 </manifest>
