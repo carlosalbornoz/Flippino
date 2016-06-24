@@ -120,7 +120,7 @@
     <string name="K_TLH_Hintro_Hh">Hh</string>
     <string name="K_TLH_title">Ang Loro sa Talon Hiyas</string>
     <string name="K_TLH_p1">May isang matapang na loro na nakatira sa Talon Hiyas</string>
-    <string name="K_TLH_P2">Ang loro na ito ang nag-aalaga sa nakatagong mahiwagang kwintas.
+    <string name="K_TLH_p2_">Ang loro na ito ang nag-aalaga sa nakatagong mahiwagang kwintas.
     </string>
     <string name="K_TLH_p3">Ang mahiwagang kwintas na pagmamay-ari ng diyosa ng Hiyas.</string>
     <string name="K_WY_Wintro_waldo">Waldo</string>
@@ -146,10 +146,11 @@
     <string name="title_activity_vz_tracing_introv">vz_tracing_introv</string>
     <string name="title_activity_vz_intro_v">vz_intro_v</string>
     <string name="title_activity_vz_intro_z">vz_intro_z</string>
-    <string name="title_activity_tlh_story_p2">tlh_story_p2_</string>
+    <string name="title_activity_tlh_story_p2_">tlh_story_p2_</string>
     <string name="title_activity_tlh_story_p3">tlh_story_p3</string>
     <string name="title_activity_bmng_story_p3">bmng_story_p3</string>
     <string name="title_activity_ndk_story_p2">ndk_story_p2</string>
+    <string name="title_activity_ndk_story_p3">ndk_story_p3</string>
     <string name="title_activity_vz_tracing_introz">vz_tracing_introz</string>
     <string name="title_activity_vz_z_tracing1">vz_z_tracing1</string>
     <string name="title_activity_gpr_g_tracing1">gpr_g_tracing1</string>

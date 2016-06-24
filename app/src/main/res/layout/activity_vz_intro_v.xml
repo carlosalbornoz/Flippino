@@ -67,8 +67,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView104"
             android:src="@drawable/vintaname"
-            android:layout_below="@+id/global_stars"
-            android:layout_alignParentEnd="true" />
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_help" />
 
 
     </RelativeLayout>
@@ -105,8 +105,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView103"
         android:src="@drawable/vv1"
-        android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/imageView102"
-        android:layout_marginStart="117dp" />
+        android:layout_alignTop="@+id/imageView102"
+        android:layout_alignEnd="@+id/relativeLayout9" />
 
 </RelativeLayout>
