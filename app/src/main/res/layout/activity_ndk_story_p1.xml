@@ -51,19 +51,20 @@
         android:id="@+id/imageView65"
         android:src="@drawable/ndknena"
         android:layout_above="@+id/imageView61"
-        android:layout_alignStart="@+id/imageView64" />
+        android:layout_toEndOf="@+id/imageView60"
+        android:layout_marginStart="69dp" />
 
     <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView63"
                 android:src="@drawable/ndkstore"
-                android:layout_marginBottom="68dp"
-                android:layout_alignBottom="@+id/imageView62" />
+        android:layout_above="@+id/textView"
+        android:layout_toEndOf="@+id/imageView60"
+        android:layout_marginBottom="66dp" />
 
 
-
-            <TextView
+    <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Ang kubo ni Aling Nena ay may maliit na tindahan sa harap."

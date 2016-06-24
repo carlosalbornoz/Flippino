@@ -49,8 +49,8 @@
         android:layout_height="wrap_content"
         android:text="Ang maliit at masayahing butiki ay"
         android:id="@+id/textView7"
-        android:textSize="50dp"
-        android:textColor="#111111"
+        android:textSize="60dp"
+        android:textColor="#FFFFFF"
         android:layout_alignBottom="@+id/imageView56"
         android:layout_centerHorizontal="true" />
 
