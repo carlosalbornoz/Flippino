@@ -10,7 +10,8 @@
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:id="@+id/relativeLayout18">
 
 
         <ImageView
@@ -58,7 +59,7 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
-        <TextView
+        <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Patinig"
@@ -66,22 +67,11 @@
             android:textSize="50dp"
             android:layout_below="@+id/global_help"
             android:layout_alignEnd="@+id/global_label"
-            android:layout_marginEnd="93dp" />
+            android:layout_marginEnd="93dp"
+            android:textColor="#c9533d" />
 
     </RelativeLayout>
 
-
-
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:text="Ang laruang eroplano ni Edu"
-        android:textSize="60dp"
-        android:layout_alignBottom="@+id/global_leftarrow"
-        android:layout_centerHorizontal="true" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -104,10 +94,31 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/imageView189"
+        android:src="@drawable/etitle_edu"
+        android:layout_marginStart="159dp"
+        android:layout_below="@+id/relativeLayout18"
+        android:layout_toEndOf="@+id/global_leftarrow" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/imageView77"
         android:src="@drawable/etitle_plane"
-        android:layout_centerVertical="true"
-        android:layout_alignEnd="@+id/editText" />
+        android:layout_above="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="Ang laruang\nEroplano ni Edu"
+        android:textSize="70dp"
+        android:textColor="#346868"
+        android:textAlignment="center"
+        android:layout_above="@+id/global_rightarrow"
+        android:layout_toStartOf="@+id/global_rightarrow"
+        android:layout_marginBottom="85dp" />
 
 
 </RelativeLayout>

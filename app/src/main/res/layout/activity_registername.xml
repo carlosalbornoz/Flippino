@@ -17,15 +17,34 @@
                 android:src="@drawable/nameplate"
                 android:adjustViewBounds="true" />
 
-            <TextView
+            <com.thesisit.flippino.MontserratTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="LARGE TEXT"
+                android:text="CARLOS"
                 android:id="@+id/textView2"
+                android:layout_marginTop="64dp"
+                android:textStyle="normal"
+                android:textSize="50dp"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="87dp"
-                android:textStyle="normal" />
+                android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView201"
+        android:src="@drawable/global_label"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sumunod"
+        android:id="@+id/textView79"
+        android:textColor="#c9533d"
+        android:textSize="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/imageView4" />
 </RelativeLayout>
 

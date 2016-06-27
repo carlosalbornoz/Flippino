@@ -83,15 +83,16 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
-        <TextView
+        <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Katinig"
-            android:id="@+id/textView28"
-            android:textSize="50dp"
+            android:text="Hiram Na Letra"
+            android:id="@+id/textView26"
+            android:textSize="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#c9533d"
             android:layout_below="@+id/global_help"
-            android:layout_alignEnd="@+id/global_label"
-            android:layout_marginEnd="93dp" />
+            android:layout_alignEnd="@+id/global_label" />
 
     </RelativeLayout>
 

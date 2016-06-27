@@ -8,29 +8,22 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     >
 
-            <ImageView
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView199"
+        android:src="@drawable/njcf_clouds"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView15"
+                android:src="@drawable/njcf_story_environment"
                 android:layout_centerVertical="true"
-                android:layout_centerHorizontal="true"
-                android:src="@drawable/njcf_story_environment" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView16"
-                android:src="@drawable/njcf_title_jose"
-                android:layout_alignBottom="@+id/imageView17"
-                android:layout_centerHorizontal="true" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView17"
-                android:src="@drawable/njcf_title_nina"
-                android:layout_centerVertical="true"
-                android:layout_toEndOf="@+id/imageView16" />
+                android:layout_alignParentEnd="true" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -83,15 +76,16 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
-        <TextView
+        <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Katinig"
-            android:id="@+id/textView28"
-            android:textSize="50dp"
+            android:text="Hiram Na Letra"
+            android:id="@+id/textView26"
+            android:textSize="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#c9533d"
             android:layout_below="@+id/global_help"
-            android:layout_alignEnd="@+id/global_label"
-            android:layout_marginEnd="93dp" />
+            android:layout_alignEnd="@+id/global_label" />
 
     </RelativeLayout>
 
@@ -113,14 +107,16 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
 
-    <TextView
+    <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="placeholder"
+        android:text="Ang Casa Felipe ay napapalibutan\n ng mga magagandang bulaklak."
         android:id="@+id/textView18"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
-        android:textSize="45dp" />
+        android:textSize="55dp"
+        android:textColor="#346868" />
+
 </RelativeLayout>
 

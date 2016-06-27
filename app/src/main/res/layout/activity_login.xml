@@ -38,7 +38,7 @@
                 android:layout_alignTop="@+id/imageView7"
                 android:layout_centerHorizontal="true" />
 
-            <TextView
+            <com.thesisit.flippino.MontserratTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"

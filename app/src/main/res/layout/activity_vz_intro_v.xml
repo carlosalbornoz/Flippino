@@ -62,13 +62,16 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
-        <ImageView
+        <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView104"
-            android:src="@drawable/vintaname"
+            android:text="Hiram Na Letra"
+            android:id="@+id/textView26"
+            android:textSize="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#c9533d"
             android:layout_below="@+id/global_help"
-            android:layout_alignEnd="@+id/global_help" />
+            android:layout_alignEnd="@+id/global_label" />
 
 
     </RelativeLayout>
@@ -100,12 +103,24 @@
         android:layout_above="@+id/global_leftarrow"
         android:layout_toEndOf="@+id/global_leftarrow" />
 
-    <ImageView
+    <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView103"
-        android:src="@drawable/vv1"
+        android:text="vinta"
+        android:id="@+id/textView71"
+        android:textColor="#c9533d"
+        android:textSize="150dp"
         android:layout_alignTop="@+id/imageView102"
-        android:layout_alignEnd="@+id/relativeLayout9" />
+        android:layout_toStartOf="@+id/global_rightarrow" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vv"
+        android:id="@+id/textView72"
+        android:textSize="350dp"
+        android:layout_below="@+id/textView71"
+        android:layout_toStartOf="@+id/global_rightarrow"
+        android:textColor="#7f7dbb" />
 
 </RelativeLayout>

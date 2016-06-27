@@ -10,6 +10,7 @@
     tools:context="com.thesisit.flippino.FlippinoStart"
     android:background="@color/flippinoBlue">
 
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,23 +43,37 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <ImageButton
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn_magpatuloy"
         android:src="@drawable/start_magpatuloy"
-        android:background="@null"
         android:layout_alignBottom="@+id/imageView"
         android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="startMagpatuloy"
+        style="?android:borderlessButtonStyle"
         android:layout_marginBottom="128dp" />
 
-    <ImageButton
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn_magsimula"
         android:src="@drawable/start_magsimula"
-        android:background="@null"
+        android:onClick="startMagsimula"
+        style="?android:borderlessButtonStyle"
         android:layout_above="@+id/btn_magpatuloy"
         android:layout_alignStart="@+id/btn_magpatuloy" />
+
+    <com.thesisit.flippino.GIFView
+        android:layout_marginRight="450dp"
+        android:layout_marginBottom="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView93"
+        android:src="@drawable/yay" />
+
+
+
 
 </RelativeLayout>

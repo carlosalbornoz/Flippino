@@ -12,28 +12,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView37"
-                android:layout_marginLeft="50dp"
                 android:src="@drawable/njcf_intro_house"
-                android:layout_alignTop="@+id/imageView38"
-                android:layout_alignParentStart="true" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView38"
-                android:src="@drawable/njcf_cc"
-                android:layout_alignParentBottom="true"
-                android:layout_toEndOf="@+id/imageView37" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView39"
-                android:src="@drawable/njcf_intro_casa"
-                android:layout_marginRight="50dp"
-                android:layout_alignParentTop="true"
-                android:layout_alignEnd="@+id/global_rightarrow"
-                android:layout_marginTop="76dp" />
+                android:layout_alignBottom="@+id/textView62"
+                android:layout_toEndOf="@+id/global_leftarrow" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -86,15 +67,16 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
-        <TextView
+        <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Katinig"
-            android:id="@+id/textView28"
-            android:textSize="50dp"
+            android:text="Hiram Na Letra"
+            android:id="@+id/textView26"
+            android:textSize="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#c9533d"
             android:layout_below="@+id/global_help"
-            android:layout_alignEnd="@+id/global_label"
-            android:layout_marginEnd="93dp" />
+            android:layout_alignEnd="@+id/global_label" />
 
     </RelativeLayout>
 
@@ -116,5 +98,25 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
 
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="casa"
+        android:id="@+id/textView61"
+        android:textColor="#c9533d"
+        android:textSize="150dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignEnd="@+id/textView62" />
 
- </RelativeLayout>
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cc"
+        android:id="@+id/textView62"
+        android:textSize="350dp"
+        android:layout_below="@+id/textView61"
+        android:layout_toStartOf="@+id/global_rightarrow"
+        android:textColor="#7f7dbb" />
+
+
+</RelativeLayout>

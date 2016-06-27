@@ -24,15 +24,16 @@
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true" />
 
-            <TextView
+            <com.thesisit.flippino.MontserratTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="nagbabantay upang di malaglag ang mga mangga sa sanga"
+                android:text="Nagbabantay upang di malaglag ang mga mangga\nsa sanga"
                 android:id="@+id/textView11"
                 android:textAlignment="center"
                 android:textSize="38dp"
                 android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:textColor="#346868" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -103,15 +104,16 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
-        <TextView
+        <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Katinig"
-            android:id="@+id/textView28"
+            android:id="@+id/textView31"
             android:textSize="50dp"
             android:layout_below="@+id/global_help"
             android:layout_alignEnd="@+id/global_label"
-            android:layout_marginEnd="93dp" />
+            android:layout_marginEnd="93dp"
+            android:textColor="#c9533d" />
 
     </RelativeLayout>
 

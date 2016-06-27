@@ -12,26 +12,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView47"
-                android:layout_marginLeft="50dp"
                 android:src="@drawable/njcf_intro_felipehouse"
-                android:layout_centerVertical="true"
+                android:layout_alignParentBottom="true"
                 android:layout_alignParentStart="true" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView48"
-                android:src="@drawable/njcf_ff"
-                android:layout_alignBottom="@+id/global_rightarrow"
-                android:layout_alignEnd="@+id/global_rightarrow" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView49"
-                android:src="@drawable/njcf_intro_felipe"
-                android:layout_alignTop="@+id/imageView47"
-                android:layout_alignStart="@+id/imageView48" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -84,15 +67,16 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
-        <TextView
+        <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Katinig"
-            android:id="@+id/textView28"
-            android:textSize="50dp"
+            android:text="Hiram Na Letra"
+            android:id="@+id/textView26"
+            android:textSize="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#c9533d"
             android:layout_below="@+id/global_help"
-            android:layout_alignEnd="@+id/global_label"
-            android:layout_marginEnd="93dp" />
+            android:layout_alignEnd="@+id/global_label" />
 
     </RelativeLayout>
 
@@ -113,5 +97,25 @@
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
-        </RelativeLayout>
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Felipe"
+        android:id="@+id/textView63"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignEnd="@+id/relativeLayout2"
+        android:textColor="#c9533d"
+        android:textSize="150dp" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ff"
+        android:id="@+id/textView64"
+        android:textSize="350dp"
+        android:layout_below="@+id/textView63"
+        android:layout_toStartOf="@+id/global_rightarrow"
+        android:textColor="#7f7dbb" />
+</RelativeLayout>
 

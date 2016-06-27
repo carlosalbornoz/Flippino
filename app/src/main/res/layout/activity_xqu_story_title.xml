@@ -58,13 +58,14 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
-        <TextView
+        <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hiram Na Letra"
             android:id="@+id/textView26"
-            android:textSize="35dp"
-            android:layout_marginEnd="51dp"
+            android:textSize="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#c9533d"
             android:layout_below="@+id/global_help"
             android:layout_alignEnd="@+id/global_label" />
 
@@ -83,20 +84,23 @@
         android:id="@+id/imageButton251"
         android:src="@drawable/xqustory1bus"
         android:background="@null"
-        android:layout_above="@+id/global_rightarrow"
-        android:layout_alignEnd="@+id/textView20"
-        android:layout_marginBottom="118dp" />
+        android:layout_marginBottom="79dp"
+        android:layout_above="@+id/textView20"
+        android:layout_toStartOf="@+id/global_rightarrow"
+        android:layout_marginEnd="87dp" />
 
 
 
-    <TextView
+    <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Ang Field Trip ni Xander sa Quezon"
         android:id="@+id/textView20"
         android:textSize="60dp"
-        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:layout_above="@+id/global_leftarrow"
         android:layout_centerHorizontal="true" />
 
     <ImageButton

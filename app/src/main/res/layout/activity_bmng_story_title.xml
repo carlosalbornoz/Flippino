@@ -21,22 +21,26 @@
         android:id="@+id/imageButton223"
         android:background="@null"
         android:src="@drawable/bmng_lizard_p2"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="20dp"
         android:layout_below="@+id/relativeLayout2"
-        android:layout_alignStart="@+id/textView18" />
+        android:layout_toEndOf="@+id/global_leftarrow" />
 
 
 
 
 
 
-    <TextView
+    <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Ang Butiki sa Sanga ng Puno ng Mangga"
+        android:text="Ang Butiki sa Sanga\nng Puno ng Mangga"
         android:id="@+id/textView18"
-        android:textSize="50dp"
-        android:layout_alignBottom="@+id/imageView92"
+        android:textSize="70dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/global_rightarrow"
         android:layout_centerHorizontal="true" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -90,15 +94,16 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
-        <TextView
+        <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Katinig"
-            android:id="@+id/textView28"
+            android:id="@+id/textView31"
             android:textSize="50dp"
             android:layout_below="@+id/global_help"
             android:layout_alignEnd="@+id/global_label"
-            android:layout_marginEnd="93dp" />
+            android:layout_marginEnd="93dp"
+            android:textColor="#c9533d" />
 
     </RelativeLayout>
 

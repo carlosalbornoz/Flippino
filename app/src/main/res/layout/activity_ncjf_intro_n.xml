@@ -59,23 +59,14 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView21"
-            android:src="@drawable/njcf_intro_nina"
-            android:layout_marginLeft="65dp"
-            android:background="@null"
-            android:layout_below="@+id/global_sound"
-            android:layout_toStartOf="@+id/global_help" />
-
-        <TextView
+        <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hiram Na Letra"
             android:id="@+id/textView26"
-            android:textSize="35dp"
-            android:layout_marginEnd="51dp"
+            android:textSize="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#c9533d"
             android:layout_below="@+id/global_help"
             android:layout_alignEnd="@+id/global_label" />
 
@@ -88,18 +79,9 @@
                 android:background="@null"
                 android:layout_marginLeft="71dp"
                 android:layout_above="@+id/global_leftarrow"
-                android:layout_toStartOf="@+id/imageView20"
-                android:layout_marginEnd="55dp" />
+                android:layout_toEndOf="@+id/global_leftarrow"
+                android:layout_marginStart="126dp" />
 
-
-    <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView20"
-                android:scaleType="fitXY"
-                android:src="@drawable/njcf_ene"
-        android:layout_alignTop="@+id/imageView19"
-        android:layout_toStartOf="@+id/global_rightarrow" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -119,6 +101,28 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
 
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nina"
+        android:id="@+id/textView53"
+        android:textAlignment="center"
+        android:textColor="#c9533d"
+        android:textSize="150dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignEnd="@+id/textView54"
+        android:layout_marginEnd="72dp" />
 
- </RelativeLayout>
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nn"
+        android:id="@+id/textView54"
+        android:textSize="350dp"
+        android:layout_below="@+id/textView53"
+        android:layout_toStartOf="@+id/global_rightarrow"
+        android:textColor="#7f7dbb" />
+
+
+</RelativeLayout>
 
