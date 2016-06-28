@@ -8,14 +8,6 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     >
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView37"
-                android:src="@drawable/njcf_intro_house"
-                android:layout_alignBottom="@+id/textView62"
-                android:layout_toEndOf="@+id/global_leftarrow" />
-
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -97,26 +89,34 @@
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView195"
+        android:src="@drawable/panel"
+        android:layout_above="@+id/global_rightarrow"
+        android:layout_toStartOf="@+id/global_rightarrow" />
+
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="casa"
-        android:id="@+id/textView61"
+        android:text="Felipe"
+        android:id="@+id/textView63"
         android:textColor="#c9533d"
         android:textSize="150dp"
-        android:layout_below="@+id/relativeLayout2"
-        android:layout_alignEnd="@+id/textView62" />
+        android:layout_alignTop="@+id/imageView195"
+        android:layout_alignEnd="@+id/imageView195" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cc"
-        android:id="@+id/textView62"
+        android:text="Ff"
+        android:id="@+id/textView64"
         android:textSize="350dp"
-        android:layout_below="@+id/textView61"
-        android:layout_toStartOf="@+id/global_rightarrow"
-        android:textColor="#7f7dbb" />
-
-
+        android:textColor="#7f7dbb"
+        android:layout_below="@+id/textView63"
+        android:layout_alignEnd="@+id/imageView195"
+        android:layout_marginEnd="49dp" />
 </RelativeLayout>
+
