@@ -10,7 +10,7 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
             android:name=".FlippinoStart"
-            android:screenOrientation="landscape"></activity>
+            android:screenOrientation="landscape" />
 
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -25,6 +25,58 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
+        <activity
+            android:name=".wys_intro_wa"
+            android:label="@string/title_activity_wys_intro_wa"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".wys_intro_si"
+            android:label="@string/title_activity_wys_intro_si"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".wys_intro_yo"
+            android:label="@string/title_activity_wys_intro_yo"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".wys_tracing_s"
+            android:label="@string/title_activity_wys_tracing_s"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".wys_tracing_w"
+            android:label="@string/title_activity_wys_tracing_w"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".wys_tracing_y"
+            android:label="@string/title_activity_wys_tracing_y"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".wys_tracingintro_s"
+            android:label="@string/title_activity_wys_tracingintro_s"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".wys_tracingintro_w"
+            android:label="@string/title_activity_wys_tracingintro_w"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".wys_tracingintro_y"
+            android:label="@string/title_activity_wys_tracingintro_y"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".wys_story_title"
+            android:label="@string/title_activity_wys_story_title"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".wys_story_p1"
+            android:label="@string/title_activity_wys_story_p1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".wys_story_p2"
+            android:label="@string/title_activity_wys_story_p2"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".wys_story_p3"
+            android:label="@string/title_activity_wys_story_p3"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
     </application>
 
 </manifest>

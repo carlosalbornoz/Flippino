@@ -171,4 +171,17 @@
     <string name="title_activity_bmng_b_tracing">bmng_b_tracing</string>
     <string name="title_activity_bmng_m_tracing">bmng_m_tracing</string>
     <string name="title_activity_bmng_ng_tracing">bmng_ng_tracing</string>
+    <string name="title_activity_wys_intro_wa">wys_intro_wa</string>
+    <string name="title_activity_wys_intro_si">wys_intro_si</string>
+    <string name="title_activity_wys_intro_yo">wys_intro_yo</string>
+    <string name="title_activity_wys_tracing_s">wys_tracing_s</string>
+    <string name="title_activity_wys_tracing_w">wys_tracing_w</string>
+    <string name="title_activity_wys_tracing_y">wys_tracing_y</string>
+    <string name="title_activity_wys_tracingintro_s">wys_tracingintro_s</string>
+    <string name="title_activity_wys_tracingintro_w">wys_tracingintro_w</string>
+    <string name="title_activity_wys_tracingintro_y">wys_tracingintro_y</string>
+    <string name="title_activity_wys_story_title">wys_story_title</string>
+    <string name="title_activity_wys_story_p1">wys_story_p1</string>
+    <string name="title_activity_wys_story_p2">wys_story_p2</string>
+    <string name="title_activity_wys_story_p3">wys_story_p3</string>
 </resources>
