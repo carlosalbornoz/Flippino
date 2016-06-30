@@ -119,7 +119,6 @@
         android:text="j"
         android:textSize="315dp"
         android:textColor="#7f7dbb"
-        android:margin_bottom="20 dp"
         android:id="@+id/textView142"
         android:layout_alignTop="@+id/textView141"
         android:layout_alignEnd="@+id/imageView195"

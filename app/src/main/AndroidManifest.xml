@@ -10,73 +10,27 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
             android:name=".FlippinoStart"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        <!--
- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
-        -->
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
-
-        <activity
-            android:name=".wys_intro_wa"
-            android:label="@string/title_activity_wys_intro_wa"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".wys_intro_si"
-            android:label="@string/title_activity_wys_intro_si"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".wys_intro_yo"
-            android:label="@string/title_activity_wys_intro_yo"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".wys_tracing_s"
-            android:label="@string/title_activity_wys_tracing_s"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".wys_tracing_w"
-            android:label="@string/title_activity_wys_tracing_w"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".wys_tracing_y"
-            android:label="@string/title_activity_wys_tracing_y"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".wys_tracingintro_s"
-            android:label="@string/title_activity_wys_tracingintro_s"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".wys_tracingintro_w"
-            android:label="@string/title_activity_wys_tracingintro_w"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".wys_tracingintro_y"
-            android:label="@string/title_activity_wys_tracingintro_y"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".wys_story_title"
-            android:label="@string/title_activity_wys_story_title"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".wys_story_p1"
-            android:label="@string/title_activity_wys_story_p1"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".wys_story_p2"
-            android:label="@string/title_activity_wys_story_p2"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".wys_story_p3"
-            android:label="@string/title_activity_wys_story_p3"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FlippinoMainMenu" />
+        <activity android:name=".UserLogin" />
+        <activity android:name=".NewUser" />
+        <activity android:name=".LettersMenu" />
+        <activity android:name=".LettersSubMenu" />
+        <activity android:name=".LettersSubALog" />
+        <activity android:name=".StoryTitle" />
+        <activity android:name=".StoryP1" />
+        <activity android:name=".LetterIntro" />
+        <activity android:name=".StoryP2" />
+        <activity android:name=".StoryP3" />
+        <activity android:name=".TracingIntro" />
+        <activity android:name=".Tracing" />
+        <activity android:name=".Configuration"></activity>
     </application>
 
 </manifest>

@@ -97,4 +97,3 @@
         android:layout_alignEnd="@+id/global_label" />
 
 </RelativeLayout>
-    </android.support.design.widget.CoordinatorLayout>
