@@ -11,21 +11,21 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView43"
-        android:src="@drawable/xqubg"
-        android:layout_centerVertical="true"
-        android:layout_alignParentEnd="true" />
+        android:id="@+id/imageView20"
+        android:src="@drawable/istory1cloud"
+        android:layout_marginTop="77dp"
+        android:layout_alignTop="@+id/imageView43"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_marginStart="90dp" />
+
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView20"
-        android:src="@drawable/istory1cloud"
-        android:layout_marginTop="58dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/textView16" />
-
-
+        android:id="@+id/imageView43"
+        android:src="@drawable/xqubg"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -36,10 +36,10 @@
         android:layout_above="@+id/textView16"
         android:layout_toEndOf="@+id/global_leftarrow" />
 
-    <TextView
+    <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Si Xander ay naglibot sa Quezon"
+        android:text="Si Xander ay naglibot sa Quezon."
         android:id="@+id/textView16"
         android:textSize="50dp"
         android:textColor="#FFFFFF"
@@ -96,6 +96,17 @@
             android:id="@+id/global_home"
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
+
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hiram Na Letra"
+            android:id="@+id/textView26"
+            android:textSize="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#c9533d"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label" />
 
     </RelativeLayout>
 

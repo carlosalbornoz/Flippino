@@ -75,6 +75,17 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patinig"
+            android:id="@+id/textView25"
+            android:textSize="50dp"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label"
+            android:layout_marginEnd="93dp"
+            android:textColor="#c9533d" />
+
     </RelativeLayout>
 
     <ImageButton
@@ -94,14 +105,15 @@
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
-    <TextView
+    <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ang oso na nakatira sa bundok Makiling ay ang tagapag-alaga ng hayop at halaman."
+        android:text="Ang oso na nakatira sa bundok Makiling ay\nang tagapang-alaga ng hayop at halaman."
         android:id="@+id/textView8"
-        android:textColor="#FFFFFF"
+        android:textColor="#346868"
         android:textAlignment="center"
-        android:textSize="33dp"
-        android:layout_alignParentBottom="true"/>
+        android:textSize="44dp"
+        android:layout_alignBottom="@+id/imageView25"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

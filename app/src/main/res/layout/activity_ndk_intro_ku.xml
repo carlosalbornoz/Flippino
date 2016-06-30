@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#c3e5f5">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout9">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/global_label"
+            android:src="@drawable/global_label"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_exit"
+            android:src="@drawable/global_exit" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_stars"
+            android:src="@drawable/global_stars"
+            android:layout_toStartOf="@+id/global_sound" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_sound"
+            android:src="@drawable/global_sound"
+            android:layout_toStartOf="@+id/global_help" />
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:background="@null"
+            android:id="@+id/global_help"
+            android:src="@drawable/global_help"
+            android:layout_toStartOf="@+id/global_home" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_home"
+            android:src="@drawable/global_home"
+            android:layout_alignParentEnd="true" />
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Katinig"
+            android:id="@+id/textView31"
+            android:textSize="50dp"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label"
+            android:layout_marginEnd="93dp"
+            android:textColor="#c9533d" />
+
+    </RelativeLayout>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/global_leftarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/global_leftarrow" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/global_rightarrow"
+        android:src="@drawable/global_rightarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView196"
+        android:layout_alignTop="@+id/imageView195"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/tab" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView200"
+        android:src="@drawable/tabselect"
+        android:layout_above="@+id/global_leftarrow"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView199"
+        android:src="@drawable/tab"
+        android:layout_above="@+id/imageView200"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView198"
+        android:src="@drawable/tab"
+        android:layout_above="@+id/imageView199"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView197"
+        android:src="@drawable/tab"
+        android:layout_above="@+id/imageView198"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView195"
+        android:src="@drawable/panel"
+        android:layout_above="@+id/global_rightarrow"
+        android:layout_toStartOf="@+id/global_rightarrow" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kk"
+        android:textSize="330dp"
+        android:textColor="#737fdd"
+        android:id="@+id/textView130"
+        android:layout_alignBottom="@+id/imageView195"
+        android:layout_alignEnd="@+id/imageView195"
+        android:layout_marginBottom="34dp" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kubo"
+        android:textColor="#c9533d"
+        android:textSize="150dp"
+        android:id="@+id/textView131"
+        android:layout_alignBottom="@+id/imageView197"
+        android:layout_alignStart="@+id/textView130"
+        android:visibility="visible" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="buko"
+        android:textColor="#c9533d"
+        android:textSize="150dp"
+        android:id="@+id/textView132"
+        android:layout_above="@+id/textView130"
+        android:layout_alignStart="@+id/textView131"
+        android:visibility="invisible"/>
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kintab"
+        android:id="@+id/textView133"
+        android:textColor="#c9533d"
+        android:textSize="145dp"
+        android:layout_alignTop="@+id/textView131"
+        android:layout_alignEnd="@+id/textView130"
+        android:visibility="invisible" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kendi"
+        android:textColor="#c9533d"
+        android:textSize="150dp"
+        android:id="@+id/textView134"
+        android:layout_alignTop="@+id/textView131"
+        android:layout_alignStart="@+id/textView130"
+        android:visibility="invisible" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kama"
+        android:textColor="#c9533d"
+        android:textSize="150dp"
+        android:id="@+id/textView135"
+        android:layout_alignBottom="@+id/textView133"
+        android:layout_alignStart="@+id/textView130"
+        android:visibility="invisible" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ka"
+        android:textColor="#346868"
+        android:textSize="60dp"
+        android:id="@+id/textView136"
+        android:layout_alignTop="@+id/textView132"
+        android:layout_toStartOf="@+id/imageView195" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ke"
+        android:textColor="#346868"
+        android:textSize="60dp"
+        android:id="@+id/textView137"
+        android:layout_alignBottom="@+id/textView133"
+        android:layout_toStartOf="@+id/imageView195" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ki"
+        android:textColor="#346868"
+        android:textSize="60dp"
+        android:id="@+id/textView138"
+        android:layout_alignBottom="@+id/imageView198"
+        android:layout_toStartOf="@+id/imageView195"
+        android:layout_marginBottom="18dp" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ko"
+        android:textColor="#346868"
+        android:textSize="60dp"
+        android:id="@+id/textView139"
+        android:layout_alignBottom="@+id/imageView199"
+        android:layout_toStartOf="@+id/imageView195"
+        android:layout_marginBottom="19dp" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ku"
+        android:textColor="#c9533d"
+        android:textSize="60dp"
+        android:id="@+id/textView140"
+        android:layout_alignBaseline="@+id/textView130"
+        android:layout_alignBottom="@+id/textView130"
+        android:layout_alignStart="@+id/textView137" />
+
+</RelativeLayout>

@@ -8,14 +8,14 @@
     android:background="#ffe094">
 
 
-    <TextView
+    <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ito ang iba&apos;t-ibang kulay ng mga vinta."
         android:id="@+id/textView14"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:textColor="#000000"
+        android:textColor="#346868"
         android:textAlignment="center"
         android:textSize="50dp" />
 
@@ -65,7 +65,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/ctrace"
+        android:id="@+id/imageView41"
         android:src="@drawable/vzstory2girl"
         android:layout_marginStart="85dp"
         android:layout_alignTop="@+id/imageView38"
@@ -121,6 +121,17 @@
             android:id="@+id/global_home"
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
+
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hiram Na Letra"
+            android:id="@+id/textView26"
+            android:textSize="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#c9533d"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label" />
 
     </RelativeLayout>
 

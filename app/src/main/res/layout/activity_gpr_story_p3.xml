@@ -61,6 +61,17 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Katinig"
+            android:id="@+id/textView31"
+            android:textSize="50dp"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label"
+            android:layout_marginEnd="93dp"
+            android:textColor="#c9533d" />
+
     </RelativeLayout>
 
 
@@ -93,12 +104,14 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
 
-    <TextView
+    <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ano mas magandang i-regalo: guava, rambutan o papaya?"
+        android:text="Ano mas magandang i-regalo: guava,\nrambutan o papaya?"
         android:id="@+id/textView6"
         android:textSize="40dp"
-        android:layout_alignTop="@+id/global_leftarrow"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="#346868" />
 </RelativeLayout>

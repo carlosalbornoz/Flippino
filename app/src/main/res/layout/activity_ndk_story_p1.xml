@@ -51,27 +51,18 @@
         android:id="@+id/imageView65"
         android:src="@drawable/ndknena"
         android:layout_above="@+id/imageView61"
-        android:layout_alignStart="@+id/imageView64" />
+        android:layout_toEndOf="@+id/imageView60"
+        android:layout_marginStart="69dp" />
 
     <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView63"
                 android:src="@drawable/ndkstore"
-                android:layout_marginBottom="68dp"
-                android:layout_alignBottom="@+id/imageView62" />
+        android:layout_marginBottom="60dp"
+        android:layout_above="@+id/textView30"
+        android:layout_toEndOf="@+id/imageView62" />
 
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ang kubo ni Aling Nena ay may maliit na tindahan sa harap."
-                android:id="@+id/textView"
-                android:textColor="#FFFFFF"
-                android:layout_alignTop="@+id/global_rightarrow"
-                android:layout_centerHorizontal="true"
-                android:textSize="38dp" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -124,6 +115,17 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Katinig"
+            android:id="@+id/textView31"
+            android:textSize="50dp"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label"
+            android:layout_marginEnd="93dp"
+            android:textColor="#c9533d" />
+
     </RelativeLayout>
 
     <ImageButton
@@ -142,7 +144,22 @@
         android:id="@+id/global_rightarrow"
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:visibility="visible" />
 
- </RelativeLayout>
+
+
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ang kubo ni Aling Nena ay may maliit na tindahan\nsa harapan."
+        android:id="@+id/textView30"
+        android:textSize="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#346868"
+        android:textAlignment="center" />
+
+</RelativeLayout>
 

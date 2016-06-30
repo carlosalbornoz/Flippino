@@ -14,17 +14,23 @@ public class LettersMenu extends AppCompatActivity {
     }
 
     public void startPatinig(View view) {
-        Intent intent = new Intent(this, LettersSubPatinig.class);
+        Intent intent = new Intent(this, LettersSubMenu.class);
+        char menuSelection = 'P';
+        intent.putExtra("menuSelection", menuSelection);
         startActivity(intent);
     }
 
     public void startKatinig(View view) {
-        Intent intent = new Intent(this, LettersSubKatinig.class);
+        Intent intent = new Intent(this, LettersSubMenu.class);
+        char menuSelection = 'K';
+        intent.putExtra("menuSelection", menuSelection);
         startActivity(intent);
     }
 
     public void startHiram(View view) {
-        Intent intent = new Intent(this, LettersSubHiram.class);
+        Intent intent = new Intent(this, LettersSubMenu.class);
+        char menuSelection = 'H';
+        intent.putExtra("menuSelection", menuSelection);
         startActivity(intent);
     }
 

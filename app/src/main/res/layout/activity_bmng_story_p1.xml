@@ -26,6 +26,36 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
 
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/global_leftarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/global_leftarrow" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView57"
+        android:src="@drawable/bmnglizard"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignStart="@+id/textView7" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ang maliit at masayahing butiki ay"
+        android:id="@+id/textView7"
+        android:textSize="50dp"
+        android:textColor="#346868"
+        android:layout_alignTop="@+id/global_rightarrow"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -77,24 +107,19 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Katinig"
+            android:id="@+id/textView31"
+            android:textSize="50dp"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label"
+            android:layout_marginEnd="93dp"
+            android:textColor="#c9533d" />
+
+
     </RelativeLayout>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView57"
-        android:src="@drawable/bmnglizard"
-        android:layout_marginTop="74dp"
-        android:layout_below="@+id/relativeLayout2"
-        android:layout_alignStart="@+id/textView7" />
-
-    <com.thesisit.flippino.MontserratTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ang maliit at masayahing butiki ay"
-        android:id="@+id/textView7"
-        android:textSize="50dp"
-        android:layout_alignBottom="@+id/imageView56"
-        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

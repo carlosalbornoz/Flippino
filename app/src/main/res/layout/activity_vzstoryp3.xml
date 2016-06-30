@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView40"
         android:src="@drawable/vzbg"
-        android:layout_centerVertical="true"
+        android:layout_alignBottom="@+id/textView15"
         android:layout_alignParentEnd="true" />
 
     <ImageView
@@ -46,26 +46,26 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView39"
         android:src="@drawable/vzstory1vinta3"
-        android:layout_marginBottom="82dp"
-        android:layout_above="@+id/textView15"
-        android:layout_alignParentStart="true" />
+        android:layout_alignBottom="@+id/imageView37"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="65dp" />
 
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/ctrace"
+        android:id="@+id/imageView41"
         android:src="@drawable/vzstory2girl"
         android:layout_marginEnd="101dp"
         android:layout_alignBottom="@+id/imageView38"
         android:layout_toStartOf="@+id/imageView38" />
 
-    <TextView
+    <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ito ay dinarayo araw-araw ng mga turista sa Zamboanga."
+        android:text="Ito ay dinarayo araw-araw ng mga\nturista sa Zamboanga."
         android:id="@+id/textView15"
-        android:textColor="#000000"
+        android:textColor="#346868"
         android:textAlignment="center"
         android:textSize="50dp"
         android:layout_alignParentBottom="true"
@@ -78,7 +78,7 @@
         android:id="@+id/imageView42"
         android:src="@drawable/astory1dog"
         android:layout_alignBottom="@+id/imageView38"
-        android:layout_toStartOf="@+id/ctrace"
+        android:layout_toStartOf="@+id/imageView41"
         android:layout_marginEnd="90dp" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -131,6 +131,17 @@
             android:id="@+id/global_home"
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
+
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hiram Na Letra"
+            android:id="@+id/textView26"
+            android:textSize="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#c9533d"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label" />
 
     </RelativeLayout>
 

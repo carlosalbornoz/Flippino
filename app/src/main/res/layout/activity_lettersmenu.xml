@@ -16,32 +16,18 @@
                 android:src="@drawable/patinig"
                 android:background="@null"
                 android:scaleType="fitXY"
-                android:layout_alignParentTop="true"
-                android:layout_alignLeft="@+id/imageButton22"
-                android:layout_alignStart="@+id/imageButton22"
-                android:onClick="startPatinig"/>
+        android:layout_alignTop="@+id/imageButton23"
+        android:layout_alignParentStart="true" />
 
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageButton21"
-                android:scaleType="fitXY"
-                android:background="@null"
-                android:src="@drawable/katinig"
-                android:layout_centerVertical="true"
-                android:layout_toStartOf="@+id/imageButton20"
-                android:onClick="startKatinig"/>
-
-            <ImageButton
+    <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageButton22"
                 android:background="@null"
                 android:scaleType="fitXY"
                 android:src="@drawable/alpabeto"
-                android:layout_below="@+id/imageButton20"
-                android:layout_centerHorizontal="true"
-                android:onClick="startALog"/>
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -50,10 +36,8 @@
                 android:background="@null"
                 android:scaleType="fitXY"
                 android:src="@drawable/hnl"
-                android:layout_alignTop="@+id/imageButton21"
-                android:layout_toRightOf="@+id/imageButton22"
-                android:layout_toEndOf="@+id/imageButton22"
-                android:onClick="startHiram"/>
+                android:layout_centerVertical="true"
+                android:layout_alignEnd="@+id/relativeLayout2" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -61,19 +45,12 @@
         android:orientation="horizontal"
         android:id="@+id/relativeLayout2">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/global_label"
-            android:src="@drawable/global_label"/>
-
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
             android:id="@+id/global_exit"
-            android:src="@drawable/global_exit"
-            android:onClick="exit"/>
+            android:src="@drawable/global_exit" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -106,6 +83,16 @@
             android:id="@+id/global_home"
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton21"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:src="@drawable/katinig"
+            android:layout_below="@+id/global_sound"
+            android:layout_centerHorizontal="true" />
 
     </RelativeLayout>
 

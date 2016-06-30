@@ -59,6 +59,17 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kumusta!"
+            android:textSize="50dp"
+            android:id="@+id/textView27"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label"
+            android:layout_marginEnd="62dp"
+            android:textColor="#c9533d" />
+
 
 
         <ImageView
@@ -72,6 +83,32 @@
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/pr"
+            android:src="@drawable/katinigmenu_pr"
+            android:layout_alignTop="@+id/imageView82"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="195dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ndk"
+            android:src="@drawable/katinigmenu_ndk"
+            android:layout_alignTop="@+id/imageView82"
+            android:layout_alignStart="@+id/pr"
+            android:layout_marginTop="79dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wy"
+            android:src="@drawable/katinigmenu_wy"
+            android:layout_centerVertical="true"
+            android:layout_alignStart="@+id/tlh" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:id="@+id/tlh"
             android:src="@drawable/katinigmenu_tlh"
             android:layout_alignTop="@+id/imageView82"
@@ -80,44 +117,19 @@
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ndk"
-            android:layout_alignBottom="@+id/tlh"
-            android:layout_alignParentEnd="true"
-            android:src="@drawable/katinigmenu_ndk" />
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/wy"
-            android:layout_below="@+id/tlh"
-            android:layout_alignStart="@+id/tlh"
-            android:src="@drawable/katinigmenu_wy" />
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/pr"
-            android:src="@drawable/katinigmenu_pr"
-            android:layout_below="@+id/ndk"
-            android:layout_alignEnd="@+id/ndk" />
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/bmng"
+            android:src="@drawable/katinigmenu_bmng"
             android:layout_below="@+id/pr"
-            android:layout_alignStart="@+id/wy"
-            android:src="@drawable/katinigmenu_bmng" />
+            android:layout_alignStart="@+id/wy" />
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageButton8"
             android:background="@null"
-            android:src="@drawable/katinigmenu_pagsusulit"
-            android:layout_marginTop="57dp"
+            android:src="@drawable/pagsusulit"
             android:layout_below="@+id/bmng"
-            android:layout_toStartOf="@+id/global_home" />
+            android:layout_toEndOf="@+id/bmng" />
 
 
     </RelativeLayout>

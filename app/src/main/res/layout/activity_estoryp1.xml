@@ -58,6 +58,17 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patinig"
+            android:id="@+id/textView25"
+            android:textSize="50dp"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label"
+            android:layout_marginEnd="93dp"
+            android:textColor="#c9533d" />
+
     </RelativeLayout>
 
     <ImageView
@@ -114,15 +125,15 @@
 
 
 
-    <TextView
+    <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ang laruang eroplano ni Edu ay kulay asul. Ito ang kanyang paboritong laruan."
+        android:text="Ang laruang eroplano ni Edu ay kulay asul.\nIto ang kanyang paboritong laruan."
         android:id="@+id/textView4"
-        android:textSize="30dp"
+        android:textSize="45dp"
         android:textAlignment="center"
-        android:textColor="#000000"
-        android:layout_below="@+id/imageView79"
+        android:textColor="#346868"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
 

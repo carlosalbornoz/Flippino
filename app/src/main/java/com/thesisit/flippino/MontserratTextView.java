@@ -12,19 +12,16 @@ public class MontserratTextView extends TextView {
 
     public MontserratTextView(Context context) {
         super(context);
-
         applyCustomFont(context);
     }
 
     public MontserratTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
-
         applyCustomFont(context);
     }
 
     public MontserratTextView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-
         applyCustomFont(context);
     }
 

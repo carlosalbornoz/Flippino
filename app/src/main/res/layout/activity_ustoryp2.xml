@@ -27,16 +27,16 @@
         android:layout_below="@+id/relativeLayout2"
         android:layout_centerHorizontal="true" />
 
-    <TextView
+    <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ang ulap ay nag-iisip ng sorpresa para sa kaarawan ng kanyang kaibigan."
+        android:text="Ang ulap ay nag-iisip ng sorpresa\npara sa kaarawan ng kanyang kaibigan."
         android:id="@+id/textView11"
         android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="50dp"
+        android:textColor="#346868"
+        android:textSize="48dp"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/global_leftarrow" />
+        android:layout_centerHorizontal="true" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -88,6 +88,17 @@
             android:id="@+id/global_home"
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
+
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patinig"
+            android:id="@+id/textView25"
+            android:textSize="50dp"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label"
+            android:layout_marginEnd="93dp"
+            android:textColor="#c9533d" />
 
     </RelativeLayout>
 
