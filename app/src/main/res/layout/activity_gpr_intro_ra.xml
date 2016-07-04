@@ -92,7 +92,9 @@
         android:id="@+id/global_rightarrow"
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="demoR"/>
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -263,6 +265,51 @@
         android:layout_alignTop="@+id/imageView200"
         android:layout_alignStart="@+id/textView74"
         android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView91"
+        android:src="@drawable/rubi"
+        android:layout_alignTop="@+id/textView73"
+        android:layout_toEndOf="@+id/textView73"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView93"
+        android:src="@drawable/rosas"
+        android:layout_alignTop="@+id/imageView91"
+        android:layout_toEndOf="@+id/textView77"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView95"
+        android:src="@drawable/riles"
+        android:layout_alignTop="@+id/imageView91"
+        android:layout_toStartOf="@+id/textView72"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView152"
+        android:src="@drawable/relo"
+        android:layout_alignBottom="@+id/imageView200"
+        android:layout_alignStart="@+id/imageView95"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView161"
+        android:src="@drawable/rambutanphonogram"
+        android:layout_alignTop="@+id/imageView91"
+        android:layout_alignStart="@+id/imageView95"
+        android:visibility="visible" />
 
 
 </RelativeLayout>

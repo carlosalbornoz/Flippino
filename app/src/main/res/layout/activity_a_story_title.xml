@@ -63,6 +63,14 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/imageView80"
+            android:src="@drawable/atitle_birds"
+            android:layout_below="@+id/global_help"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:id="@+id/imageView79"
             android:src="@drawable/atitle_clouds"
             android:layout_below="@+id/global_label"
@@ -73,21 +81,20 @@
             android:layout_height="wrap_content"
             android:text="Patinig"
             android:id="@+id/textView25"
-            android:textSize="50dp"
-            android:layout_below="@+id/global_help"
-            android:layout_alignEnd="@+id/global_label"
-            android:layout_marginEnd="93dp"
-            android:textColor="#c9533d" />
+            android:textSize="40dp"
+            android:textColor="#c9533d"
+            android:layout_marginStart="55dp"
+            android:layout_above="@+id/imageView79"
+            android:layout_alignStart="@+id/imageView188" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageView188"
             android:src="@drawable/atitlehouse"
-            android:layout_marginStart="103dp"
-            android:layout_marginTop="93dp"
-            android:layout_below="@+id/global_label"
-            android:layout_toEndOf="@+id/global_exit" />
+            android:layout_marginTop="48dp"
+            android:layout_below="@+id/imageView80"
+            android:layout_toStartOf="@+id/textView13" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -130,14 +137,6 @@
 
     </RelativeLayout>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView80"
-        android:src="@drawable/atitle_birds"
-        android:layout_alignTop="@+id/imageView81"
-        android:layout_toStartOf="@+id/global_rightarrow" />
-
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -155,7 +154,8 @@
         android:id="@+id/global_rightarrow"
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="startA"/>
 
 
 </RelativeLayout>

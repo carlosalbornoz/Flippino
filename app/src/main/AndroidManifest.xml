@@ -28,9 +28,55 @@
         <activity android:name=".LetterIntro" />
         <activity android:name=".StoryP2" />
         <activity android:name=".StoryP3" />
+        <activity android:name=".LetterIntro" />
+        <activity android:name=".Configuration" />
+        <activity android:name=".IntroToBu" />
         <activity android:name=".TracingIntro" />
         <activity android:name=".Tracing" />
-        <activity android:name=".Configuration"></activity>
+        <activity
+            android:name=".tlh_intro_h"
+            android:label="@string/title_activity_tlh_intro_h"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".tlh_intro_t"
+            android:label="@string/title_activity_tlh_intro_t"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".tlh_intro_l"
+            android:label="@string/title_activity_tlh_intro_l"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ndk_intro_k"
+            android:label="@string/title_activity_ndk_intro_k"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".gpr_intro_p"
+            android:label="@string/title_activity_gpr_intro_p"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".wys_intro_w"
+            android:label="@string/title_activity_wys_intro_w"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ndk_intro_n"
+            android:label="@string/title_activity_ndk_intro_n"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".gpr_intro_r"
+            android:label="@string/title_activity_gpr_intro_r"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".wys_intro_y"
+            android:label="@string/title_activity_wys_intro_y"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".bmng_intro_m"
+            android:label="@string/title_activity_bmng_intro_m"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".wys_intro_s"
+            android:label="@string/title_activity_wys_intro_s"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
     </application>
 
 </manifest>

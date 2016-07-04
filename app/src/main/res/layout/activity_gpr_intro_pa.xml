@@ -92,7 +92,8 @@
         android:id="@+id/global_rightarrow"
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="demoP"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -271,6 +272,50 @@
         android:layout_alignTop="@+id/imageView200"
         android:layout_alignStart="@+id/textView65"
         android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView48"
+        android:src="@drawable/pusa"
+        android:layout_alignBottom="@+id/imageView200"
+        android:layout_toStartOf="@+id/textView57"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView49"
+        android:src="@drawable/poso"
+        android:layout_alignTop="@+id/imageView196"
+        android:layout_alignStart="@+id/imageView48"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView55"
+        android:src="@drawable/pisara"
+        android:layout_alignBottom="@+id/imageView200"
+        android:layout_alignStart="@+id/imageView48"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView85"
+        android:src="@drawable/petsa"
+        android:layout_alignTop="@+id/textView62"
+        android:layout_alignStart="@+id/imageView48"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView90"
+        android:src="@drawable/papayaphonogram"
+        android:layout_alignTop="@+id/imageView195"
+        android:layout_toEndOf="@+id/imageView196" />
 
 
 </RelativeLayout>

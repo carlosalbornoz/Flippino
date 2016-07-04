@@ -1,4 +1,4 @@
-package com.thesisit.flippino;
+/*package com.thesisit.flippino;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -26,4 +26,4 @@ public class wys_story_p3 extends AppCompatActivity {
         });
     }
 
-}
+}*/

@@ -93,7 +93,8 @@
         android:id="@+id/global_rightarrow"
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="demoM"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -109,7 +110,8 @@
         android:id="@+id/imageView200"
         android:src="@drawable/tab"
         android:layout_above="@+id/global_leftarrow"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:visibility="visible"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -118,7 +120,8 @@
         android:src="@drawable/tab"
         android:layout_above="@+id/imageView200"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginBottom="8dp"
+        android:visibility="visible"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -127,7 +130,8 @@
         android:src="@drawable/tab"
         android:layout_above="@+id/imageView199"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginBottom="8dp"
+        android:visibility="visible"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -136,7 +140,8 @@
         android:src="@drawable/tab"
         android:layout_above="@+id/imageView198"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginBottom="8dp"
+        android:visibility="visible"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -233,7 +238,8 @@
         android:textColor="#346868"
         android:layout_alignBottom="@+id/imageView197"
         android:layout_toStartOf="@+id/imageView195"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="16dp"
+        android:visibility="visible"/>
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
@@ -244,7 +250,8 @@
         android:textColor="#346868"
         android:layout_alignBottom="@+id/imageView198"
         android:layout_alignEnd="@+id/textView37"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="16dp"
+        android:visibility="visible"/>
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
@@ -255,7 +262,8 @@
         android:textColor="#346868"
         android:layout_alignTop="@+id/imageView199"
         android:layout_alignStart="@+id/textView36"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"
+        android:visibility="visible"/>
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
@@ -266,7 +274,8 @@
         android:textSize="60dp"
         android:layout_alignTop="@+id/imageView200"
         android:layout_alignStart="@+id/textView37"
-        android:layout_marginTop="14dp" />
+        android:layout_marginTop="14dp"
+        android:visibility="visible" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -303,5 +312,14 @@
         android:layout_alignBottom="@+id/imageView150"
         android:layout_alignStart="@+id/imageView150"
         android:visibility="visible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView47"
+        android:src="@drawable/motor"
+        android:layout_alignTop="@+id/textView36"
+        android:layout_alignStart="@+id/imageView150"
+        android:visibility="invisible" />
 
 </RelativeLayout>
