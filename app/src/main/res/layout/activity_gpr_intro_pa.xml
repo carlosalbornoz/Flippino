@@ -317,5 +317,61 @@
         android:layout_alignTop="@+id/imageView195"
         android:layout_toEndOf="@+id/imageView196" />
 
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pa"
+        android:textSize="60dp"
+        android:textColor="#346868"
+        android:id="@+id/textView234"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/imageView196"
+        android:layout_alignStart="@+id/textView62" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pe"
+        android:textSize="60dp"
+        android:textColor="#c9533d"
+        android:id="@+id/textView235"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/textView63"
+        android:layout_alignEnd="@+id/textView65" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pi"
+        android:textSize="60dp"
+        android:textColor="#c9533d"
+        android:id="@+id/textView236"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/textView64"
+        android:layout_alignEnd="@+id/textView62" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Po"
+        android:textSize="60dp"
+        android:textColor="#c9533d"
+        android:id="@+id/textView237"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/imageView199"
+        android:layout_alignStart="@+id/textView65" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pu"
+        android:textSize="60dp"
+        android:textColor="#c9533d"
+        android:id="@+id/textView238"
+        android:visibility="invisible"
+        android:layout_alignBottom="@+id/imageView48"
+        android:layout_alignEnd="@+id/textView65" />
+
+
 
 </RelativeLayout>

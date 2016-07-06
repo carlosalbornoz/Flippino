@@ -130,5 +130,11 @@
     <string name="title_activity_wys_intro_y">wys_intro_y</string>
     <string name="title_activity_bmng_intro_m">bmng_intro_m</string>
     <string name="title_activity_wys_intro_s">wys_intro_s</string>
+    <string name="title_activity_bmng_intro_b">bmng_intro_b</string>
+    <string name="title_activity_bmng_intro_nga">bmng_intro_nga</string>
+    <string name="title_activity_bmng_intro_ng">bmng_intro_ng</string>
+    <string name="title_activity_bmng_intro_g">bmng_intro_g</string>
+    <string name="title_activity_njcf_intro_c">njcf_intro_c</string>
+    <string name="title_activity_bmng_intro_bu">bmng_intro_bu</string>
 
 </resources>

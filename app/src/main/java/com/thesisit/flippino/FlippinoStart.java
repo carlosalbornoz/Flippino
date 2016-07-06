@@ -13,7 +13,7 @@ public class FlippinoStart extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_flippino_start);
+        setContentView(R.layout.activity_bmng_intro_ng);
         mySound = MediaPlayer.create(this, R.raw.youmakemesmile);
         mySound.start();
     }

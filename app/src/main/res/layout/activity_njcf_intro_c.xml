@@ -65,13 +65,13 @@
         <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Katinig"
-            android:id="@+id/textView31"
-            android:textSize="50dp"
+            android:text="Hiram Na Letra"
+            android:id="@+id/textView26"
+            android:textSize="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#c9533d"
             android:layout_below="@+id/global_help"
-            android:layout_alignEnd="@+id/global_label"
-            android:layout_marginEnd="93dp"
-            android:textColor="#c9533d" />
+            android:layout_alignEnd="@+id/global_label" />
 
 
 
@@ -99,7 +99,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView231"
+        android:id="@+id/imageView254"
         android:src="@drawable/panel"
         android:layout_above="@+id/global_rightarrow"
         android:layout_centerHorizontal="true" />
@@ -107,31 +107,29 @@
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mm"
-        android:id="@+id/textView78"
-        android:textSize="300dp"
+        android:text="Cc"
+        android:id="@+id/textView215"
+        android:textSize="330dp"
         android:textColor="#7f7dbb"
-        android:layout_alignBottom="@+id/imageView231"
-        android:layout_alignEnd="@+id/imageView231" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/imageView254" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="mangga"
-        android:id="@+id/textView82"
-        android:textSize="130dp"
+        android:text="casa"
         android:textColor="#c9533d"
-        android:visibility="visible"
-        android:layout_alignStart="@+id/textView78"
-        android:layout_below="@+id/relativeLayout9"
-        android:layout_above="@+id/textView78" />
+        android:textSize="150dp"
+        android:id="@+id/textView216"
+        android:layout_alignTop="@+id/imageView254"
+        android:layout_alignEnd="@+id/imageView254" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView232"
-        android:src="@drawable/mata"
-        android:layout_alignTop="@+id/imageView231"
-        android:layout_alignStart="@+id/imageView231" />
+        android:id="@+id/imageView255"
+        android:src="@drawable/casa"
+        android:layout_alignTop="@+id/imageView254"
+        android:layout_alignStart="@+id/imageView254" />
 
 </RelativeLayout>

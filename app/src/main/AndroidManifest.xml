@@ -76,6 +76,30 @@
         <activity
             android:name=".wys_intro_s"
             android:label="@string/title_activity_wys_intro_s"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".bmng_intro_b"
+            android:label="@string/title_activity_bmng_intro_b"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".bmng_intro_nga"
+            android:label="@string/title_activity_bmng_intro_nga"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".bmng_intro_ng"
+            android:label="@string/title_activity_bmng_intro_ng"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".bmng_intro_g"
+            android:label="@string/title_activity_bmng_intro_g"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".njcf_intro_c"
+            android:label="@string/title_activity_njcf_intro_c"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".bmng_intro_bu"
+            android:label="@string/title_activity_bmng_intro_bu"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
     </application>
 

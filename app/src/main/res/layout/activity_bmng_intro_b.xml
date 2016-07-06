@@ -99,39 +99,37 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView231"
+        android:id="@+id/imageView195"
         android:src="@drawable/panel"
-        android:layout_above="@+id/global_rightarrow"
+        android:layout_above="@+id/global_leftarrow"
         android:layout_centerHorizontal="true" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mm"
-        android:id="@+id/textView78"
-        android:textSize="300dp"
-        android:textColor="#7f7dbb"
-        android:layout_alignBottom="@+id/imageView231"
-        android:layout_alignEnd="@+id/imageView231" />
+        android:text="Bb"
+        android:id="@+id/textView183"
+        android:textSize="330dp"
+        android:textColor="#7f7bdd"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/imageView195" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="mangga"
-        android:id="@+id/textView82"
-        android:textSize="130dp"
+        android:text="butiki"
+        android:id="@+id/textView184"
+        android:textSize="150dp"
         android:textColor="#c9533d"
-        android:visibility="visible"
-        android:layout_alignStart="@+id/textView78"
-        android:layout_below="@+id/relativeLayout9"
-        android:layout_above="@+id/textView78" />
+        android:layout_above="@+id/textView183"
+        android:layout_alignStart="@+id/textView183" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView232"
-        android:src="@drawable/mata"
-        android:layout_alignTop="@+id/imageView231"
-        android:layout_alignStart="@+id/imageView231" />
+        android:id="@+id/imageView237"
+        android:src="@drawable/butikipolaroid"
+        android:layout_alignBottom="@+id/imageView195"
+        android:layout_alignStart="@+id/imageView195" />
 
 </RelativeLayout>

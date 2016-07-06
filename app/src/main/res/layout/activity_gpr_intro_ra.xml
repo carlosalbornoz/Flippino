@@ -152,11 +152,9 @@
         android:text="Rr"
         android:id="@+id/textView67"
         android:textSize="330dp"
-        android:layout_alignBottom="@+id/imageView200"
-        android:layout_alignEnd="@+id/imageView195"
-        android:layout_marginEnd="31dp"
-        android:layout_marginBottom="38dp"
-        android:textColor="#7f7dbb" />
+        android:textColor="#7f7dbb"
+        android:layout_alignTop="@+id/textView74"
+        android:layout_alignEnd="@+id/imageView195" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
@@ -219,8 +217,9 @@
         android:id="@+id/textView73"
         android:textSize="60dp"
         android:textColor="#c9533d"
-        android:layout_alignTop="@+id/textView69"
-        android:layout_toStartOf="@+id/imageView195" />
+        android:layout_alignBottom="@+id/imageView196"
+        android:layout_alignEnd="@+id/textView74"
+        android:visibility="visible"/>
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
@@ -231,7 +230,8 @@
         android:textSize="60dp"
         android:layout_alignTop="@+id/imageView197"
         android:layout_toStartOf="@+id/imageView195"
-        android:layout_marginTop="14dp" />
+        android:layout_marginTop="14dp"
+        android:visibility="visible"/>
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
@@ -242,7 +242,8 @@
         android:textSize="60dp"
         android:layout_alignBottom="@+id/imageView198"
         android:layout_toStartOf="@+id/imageView195"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="16dp"
+        android:visibility="visible"/>
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
@@ -253,7 +254,8 @@
         android:textSize="60dp"
         android:layout_alignTop="@+id/imageView199"
         android:layout_toStartOf="@+id/imageView195"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="15dp"
+        android:visibility="visible"/>
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
@@ -264,7 +266,8 @@
         android:textSize="60dp"
         android:layout_alignTop="@+id/imageView200"
         android:layout_alignStart="@+id/textView74"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"
+        android:visibility="visible"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -307,9 +310,63 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView161"
         android:src="@drawable/rambutanphonogram"
-        android:layout_alignTop="@+id/imageView91"
-        android:layout_alignStart="@+id/imageView95"
-        android:visibility="visible" />
+        android:visibility="visible"
+        android:layout_below="@+id/textView73"
+        android:layout_alignStart="@+id/imageView93" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ra"
+        android:textSize="60dp"
+        android:textColor="#346868"
+        android:id="@+id/textView239"
+        android:layout_alignTop="@+id/textView73"
+        android:layout_alignEnd="@+id/textView74"
+        android:visibility="invisible"/>
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Re"
+        android:textSize="60dp"
+        android:textColor="#c9533d"
+        android:id="@+id/textView240"
+        android:visibility="invisible"
+        android:layout_alignBottom="@+id/imageView197"
+        android:layout_alignStart="@+id/textView74" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ri"
+        android:textSize="60dp"
+        android:textColor="#c9533d"
+        android:id="@+id/textView241"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/imageView198"
+        android:layout_alignEnd="@+id/textView74" />
 
 
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ro"
+        android:textSize="60dp"
+        android:textColor="#c9533d"
+        android:id="@+id/textView242"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/textView76"
+        android:layout_alignEnd="@+id/textView73" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ru"
+        android:textSize="60dp"
+        android:textColor="#c9533d"
+        android:id="@+id/textView243"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/textView77"
+        android:layout_alignStart="@+id/textView76" />
 </RelativeLayout>

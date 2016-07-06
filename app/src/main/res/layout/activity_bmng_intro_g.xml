@@ -99,7 +99,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView231"
+        android:id="@+id/imageView248"
         android:src="@drawable/panel"
         android:layout_above="@+id/global_rightarrow"
         android:layout_centerHorizontal="true" />
@@ -107,31 +107,22 @@
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mm"
-        android:id="@+id/textView78"
-        android:textSize="300dp"
+        android:text="Gg"
+        android:id="@+id/textView203"
+        android:textSize="330dp"
         android:textColor="#7f7dbb"
-        android:layout_alignBottom="@+id/imageView231"
-        android:layout_alignEnd="@+id/imageView231" />
+        android:layout_alignBottom="@+id/imageView248"
+        android:layout_alignEnd="@+id/imageView248" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="mangga"
-        android:id="@+id/textView82"
-        android:textSize="130dp"
+        android:text="guyabano"
+        android:id="@+id/textView204"
+        android:textSize="100dp"
         android:textColor="#c9533d"
-        android:visibility="visible"
-        android:layout_alignStart="@+id/textView78"
-        android:layout_below="@+id/relativeLayout9"
-        android:layout_above="@+id/textView78" />
+        android:layout_alignTop="@+id/imageView248"
+        android:layout_alignEnd="@+id/imageView248" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView232"
-        android:src="@drawable/mata"
-        android:layout_alignTop="@+id/imageView231"
-        android:layout_alignStart="@+id/imageView231" />
 
 </RelativeLayout>
