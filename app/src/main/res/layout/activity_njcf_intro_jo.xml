@@ -91,7 +91,8 @@
         android:id="@+id/global_rightarrow"
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="demoJ"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -119,7 +120,6 @@
         android:text="j"
         android:textSize="315dp"
         android:textColor="#7f7dbb"
-        android:margin_bottom="20 dp"
         android:id="@+id/textView142"
         android:layout_alignTop="@+id/textView141"
         android:layout_alignEnd="@+id/imageView195"

@@ -108,7 +108,8 @@
                 android:src="@drawable/njcf_tracing_pencil"
                 android:layout_above="@+id/global_leftarrow"
                 android:layout_alignStart="@+id/imageView25"
-                android:layout_marginBottom="73dp" />
+                android:layout_marginBottom="73dp"
+                android:onClick="tracingN" />
 
 
 

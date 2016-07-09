@@ -57,6 +57,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageButton14"
                 android:background="@null"
+                android:onClick="userLogin"
                 android:src="@drawable/halina"
                 android:layout_alignBottom="@+id/imageView7"
                 android:layout_centerHorizontal="true" />

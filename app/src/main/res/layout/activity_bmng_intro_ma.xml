@@ -93,7 +93,8 @@
         android:id="@+id/global_rightarrow"
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="demoM"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -163,7 +164,7 @@
         android:layout_height="wrap_content"
         android:text="Mm"
         android:id="@+id/textView42"
-        android:textSize="330dp"
+        android:textSize="300dp"
         android:textColor="#7f7dbb"
         android:layout_below="@+id/textView41"
         android:layout_alignEnd="@+id/imageView195" />
@@ -205,12 +206,13 @@
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="mata"
+        android:text="mangga"
         android:id="@+id/textView46"
-        android:layout_above="@+id/textView42"
         android:layout_alignStart="@+id/textView41"
-        android:textSize="150dp"
-        android:textColor="#c9533d" />
+        android:textSize="120dp"
+        android:textColor="#c9533d"
+        android:layout_above="@+id/textView38"
+        android:layout_alignTop="@+id/imageView195" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
@@ -266,5 +268,41 @@
         android:layout_alignTop="@+id/imageView200"
         android:layout_alignStart="@+id/textView37"
         android:layout_marginTop="14dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView97"
+        android:src="@drawable/multo"
+        android:layout_alignBottom="@+id/imageView195"
+        android:layout_toEndOf="@+id/textView39"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView102"
+        android:src="@drawable/minero"
+        android:layout_alignTop="@+id/textView36"
+        android:layout_toStartOf="@+id/textView41"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView150"
+        android:src="@drawable/mesa"
+        android:layout_alignTop="@+id/textView36"
+        android:layout_toStartOf="@+id/textView43"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView151"
+        android:src="@drawable/mata"
+        android:layout_alignBottom="@+id/imageView150"
+        android:layout_alignStart="@+id/imageView150"
+        android:visibility="visible" />
 
 </RelativeLayout>

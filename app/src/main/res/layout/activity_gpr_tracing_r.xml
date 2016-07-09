@@ -118,6 +118,7 @@
         android:id="@+id/imageView127"
         android:src="@drawable/rrtracing"
         android:layout_below="@+id/relativeLayout9"
-        android:layout_toEndOf="@+id/imageView126" />
+        android:layout_toEndOf="@+id/imageView126"
+        android:onClick="doneA"/>
 
 </RelativeLayout>

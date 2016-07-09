@@ -80,7 +80,8 @@
             android:id="@+id/global_rightarrow"
             android:src="@drawable/global_rightarrow"
             android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+			android:onClick="demoB" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -112,7 +113,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageView190"
-            android:layout_alignTop="@+id/imageView189"
+            android:layout_alignTop="@+id/butiki_img"
             android:layout_alignParentStart="true"
             android:src="@drawable/tab" />
 
@@ -140,95 +141,126 @@
             android:layout_above="@+id/global_leftarrow"
             android:layout_alignParentStart="true" />
 
-        <com.thesisit.flippino.MontserratTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="butiki"
-            android:id="@+id/textView30"
-            android:textSize="120dp"
-            android:textColor="#c9533d"
-            android:layout_alignTop="@+id/imageView188"
-            android:layout_alignEnd="@+id/global_help" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView189"
+            android:id="@+id/butiki_img"
             android:src="@drawable/pola"
             android:layout_alignBottom="@+id/imageView188"
             android:layout_alignStart="@+id/imageView188" />
 
-        <com.thesisit.flippino.MontserratTextView
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/belo_img"
+            android:src="@drawable/belo"
+            android:visibility="invisible"
+            android:layout_alignBottom="@+id/imageView188"
+            android:layout_alignStart="@+id/imageView188" />
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bibe_img"
+            android:src="@drawable/bibe"
+            android:visibility="invisible"
+            android:layout_alignBottom="@+id/imageView188"
+            android:layout_alignStart="@+id/imageView188" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bote_img"
+            android:src="@drawable/bote"
+            android:visibility="invisible"
+            android:layout_alignBottom="@+id/imageView188"
+            android:layout_alignStart="@+id/imageView188" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/baboy_img"
+            android:src="@drawable/baboy"
+            android:visibility="invisible"
+            android:layout_alignBottom="@+id/imageView188"
+            android:layout_alignStart="@+id/imageView188" />
+
+        <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bb"
             android:id="@+id/textView29"
             android:textSize="400dp"
-            android:layout_below="@+id/textView30"
-            android:layout_toStartOf="@+id/global_rightarrow"
-            android:textColor="#7f7dbb" />
+            android:textColor="#7f7dbb"
+            android:layout_below="@+id/ba_text"
+            android:layout_toStartOf="@+id/global_rightarrow" />
+
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="butiki"
+            android:id="@+id/butiki"
+            android:textColor="#c9533d"
+            android:textSize="150dp"
+            android:layout_alignTop="@+id/imageView188"
+            android:layout_toEndOf="@+id/butiki_img"
+            android:textAlignment="center" />
 
         <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="baboy"
-            android:id="@+id/textView31"
+            android:id="@+id/baboy"
+            android:visibility="invisible"
             android:textColor="#c9533d"
             android:textSize="150dp"
-            android:visibility="invisible"
             android:layout_alignTop="@+id/imageView188"
-            android:layout_toEndOf="@+id/imageView189" />
+            android:layout_toEndOf="@+id/butiki_img"
+            android:textAlignment="center" />
 
         <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="belo"
-            android:id="@+id/textView32"
+            android:id="@+id/belo"
             android:textColor="#c9533d"
             android:textSize="150dp"
+            android:visibility="invisible"
             android:layout_alignTop="@+id/imageView188"
-            android:layout_alignStart="@+id/textView30"
-            android:visibility="invisible" />
+            android:layout_toEndOf="@+id/butiki_img"
+            android:textAlignment="center" />
 
         <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="bibe"
-            android:id="@+id/textView33"
+            android:id="@+id/bibe"
             android:textColor="#c9533d"
             android:textSize="150dp"
             android:visibility="invisible"
             android:layout_alignTop="@+id/imageView188"
-            android:layout_alignStart="@+id/textView30" />
+            android:layout_toEndOf="@+id/butiki_img"
+            android:textAlignment="center" />
 
         <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="bote"
-            android:id="@+id/textView34"
-            android:layout_alignBottom="@+id/textView31"
-            android:layout_alignEnd="@+id/textView33"
-            android:visibility="invisible"
-            android:textSize="150dp"
-            android:textColor="#c9533d" />
-
-        <com.thesisit.flippino.MontserratTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="buto"
-            android:id="@+id/textView35"
+            android:id="@+id/bote"
             android:textColor="#c9533d"
             android:textSize="150dp"
-            android:layout_below="@+id/global_label"
-            android:layout_alignEnd="@+id/textView32"
-            android:visibility="invisible" />
+            android:visibility="invisible"
+            android:layout_alignTop="@+id/imageView188"
+            android:layout_toEndOf="@+id/butiki_img"
+            android:textAlignment="center" />
 
         <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Ba"
-            android:id="@+id/textView36"
+            android:id="@+id/ba_text"
+            android:onClick="baClick"
             android:textColor="#346868"
             android:textSize="60dp"
             android:layout_alignTop="@+id/imageView188"
@@ -238,44 +270,107 @@
         <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Be"
-            android:id="@+id/textView37"
+            android:text="Ba"
+            android:id="@+id/ba_red"
+            android:onClick="baClick"
+            android:textColor="#c9533d"
+            android:visibility="invisible"
             android:textSize="60dp"
-            android:textColor="#346868"
-            android:layout_below="@+id/textView31"
-            android:layout_toStartOf="@+id/imageView188" />
+            android:layout_alignTop="@+id/imageView188"
+            android:layout_toStartOf="@+id/imageView188"
+            android:layout_marginTop="16dp" />
 
         <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bi"
-            android:id="@+id/textView38"
+            android:text="Be"
+            android:id="@+id/be_text"
+            android:onClick="beClick"
             android:textSize="60dp"
             android:textColor="#346868"
-            android:layout_marginBottom="13dp"
-            android:layout_alignBottom="@+id/imageView192"
+            android:layout_alignBottom="@+id/imageView191"
+            android:layout_alignStart="@+id/ba_text" />
+
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Be"
+            android:id="@+id/be_red"
+            android:onClick="beClick"
+            android:textSize="60dp"
+            android:textColor="#c9533d"
+            android:visibility="invisible"
+            android:layout_alignBottom="@+id/imageView191"
+            android:layout_alignStart="@+id/ba_text" />
+
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bo"
+            android:id="@+id/bo_text"
+            android:onClick="boClick"
+            android:textSize="60dp"
+            android:textColor="#346868"
+            android:layout_above="@+id/imageView194"
             android:layout_toStartOf="@+id/imageView188" />
 
         <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bo"
-            android:id="@+id/textView39"
+            android:id="@+id/bo_red"
+            android:onClick="boClick"
             android:textSize="60dp"
-            android:textColor="#346868"
-            android:layout_marginTop="14dp"
-            android:layout_alignTop="@+id/imageView193"
-            android:layout_alignEnd="@+id/textView38" />
+            android:textColor="#c9533d"
+            android:visibility="invisible"
+            android:layout_above="@+id/imageView194"
+            android:layout_toStartOf="@+id/imageView188" />
 
         <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bu"
-            android:id="@+id/textView40"
+            android:id="@+id/bu_text"
+            android:onClick="buClick"
+            android:textSize="60dp"
+            android:textColor="#c9533d"
+            android:visibility="invisible"
+            android:layout_above="@+id/global_leftarrow"
+            android:layout_toStartOf="@+id/imageView188"/>
+
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bu"
+            android:id="@+id/bu_red"
+            android:onClick="buClick"
             android:textColor="#c9533d"
             android:textSize="60dp"
-            android:layout_alignBottom="@+id/textView29"
-            android:layout_alignStart="@+id/textView37" />
+            android:layout_above="@+id/global_leftarrow"
+            android:layout_toStartOf="@+id/imageView188" />
+
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bi"
+            android:id="@+id/bi_text"
+            android:onClick="biClick"
+            android:textSize="60dp"
+            android:textColor="#346868"
+            android:layout_alignBottom="@+id/imageView192"
+            android:layout_alignStart="@+id/bo_text" />
+
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bi"
+            android:id="@+id/bi_red"
+            android:onClick="biClick"
+            android:textSize="60dp"
+            android:textColor="#c9533d"
+            android:visibility="invisible"
+            android:layout_alignBottom="@+id/imageView192"
+            android:layout_alignStart="@+id/bo_text" />
 
 
     </RelativeLayout>

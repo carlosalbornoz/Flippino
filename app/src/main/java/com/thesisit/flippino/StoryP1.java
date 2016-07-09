@@ -5,7 +5,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.hanks.htextview.HTextView;
+import com.hanks.htextview.HTextViewType;
+import com.hanks.htextview.util.FontManager;
+
 public class StoryP1 extends AppCompatActivity {
+
+    private HTextView hTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,7 +19,7 @@ public class StoryP1 extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         char letter = extras.getChar("letter");
         switch (letter) {
-        //PATINIG
+            //PATINIG
             case 'A':
                 setContentView(R.layout.activity_astoryp1);
                 break;
@@ -30,7 +36,7 @@ public class StoryP1 extends AppCompatActivity {
                 setContentView(R.layout.activity_ustoryp1);
                 break;
 
-        // KATINIG
+            // KATINIG
             // TLH
             case 'T':
                 setContentView(R.layout.activity_tlh_story_p1);
@@ -39,9 +45,9 @@ public class StoryP1 extends AppCompatActivity {
             case 'N':
                 setContentView(R.layout.activity_ndk_story_p1);
                 break;
-            // WY
+            // WYS
             case 'W':
-                //setContentView(R.layout.activity_wy_story_p1);
+                setContentView(R.layout.activity_wys_story_p1);
                 break;
             // GPR
             case 'G':
@@ -52,7 +58,7 @@ public class StoryP1 extends AppCompatActivity {
                 setContentView(R.layout.activity_bmng_story_p1);
                 break;
 
-        // HIRAM
+            // HIRAM
             // NJCF
             case 'J':
                 setContentView(R.layout.activity_njcf_story_p1);
@@ -66,74 +72,57 @@ public class StoryP1 extends AppCompatActivity {
                 setContentView(R.layout.activity_xqustoryp1);
                 break;
         }
+        hTextView = (HTextView) findViewById(R.id.textView2);
+        hTextView.setTypeface(FontManager.getInstance(getAssets()).getFont("fonts/montserrat_black.otf"));
+        hTextView.setAnimateType(HTextViewType.TYPER);
     }
 
-//PATINIG
-    public void letterA(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
+    //PATINIG
+    public void p2A(View view) {
+        Intent intent = new Intent(this, StoryP2.class);
         char letter = 'A';
         intent.putExtra("letter", letter);
         startActivity(intent);
     }
-    public void letterE(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
+
+    public void p2E(View view) {
+        Intent intent = new Intent(this, StoryP2.class);
         char letter = 'E';
         intent.putExtra("letter", letter);
         startActivity(intent);
     }
-    public void letterI(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
+
+    public void p2I(View view) {
+        Intent intent = new Intent(this, StoryP2.class);
         char letter = 'I';
         intent.putExtra("letter", letter);
         startActivity(intent);
     }
-    public void letterO(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
+
+    public void p2O(View view) {
+        Intent intent = new Intent(this, StoryP2.class);
         char letter = 'O';
         intent.putExtra("letter", letter);
         startActivity(intent);
     }
-    public void letterU(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
+
+    public void p2U(View view) {
+        Intent intent = new Intent(this, StoryP2.class);
         char letter = 'U';
         intent.putExtra("letter", letter);
         startActivity(intent);
     }
 
-//KATINIG
+    //KATINIG
     // TLH
-    public void letterT(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
-        char letter = 'T';
-        intent.putExtra("letter", letter);
-        startActivity(intent);
-    }
     public void letterL(View view) {
         Intent intent = new Intent(this, LetterIntro.class);
         char letter = 'L';
         intent.putExtra("letter", letter);
         startActivity(intent);
     }
-    public void letterH(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
-        char letter = 'H';
-        intent.putExtra("letter", letter);
-        startActivity(intent);
-    }
 
     // NDK
-    public void letterN(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
-        char letter = 'N';
-        intent.putExtra("letter", letter);
-        startActivity(intent);
-    }
-    public void letterD(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
-        char letter = 'D';
-        intent.putExtra("letter", letter);
-        startActivity(intent);
-    }
     public void letterK(View view) {
         Intent intent = new Intent(this, LetterIntro.class);
         char letter = 'K';
@@ -141,16 +130,10 @@ public class StoryP1 extends AppCompatActivity {
         startActivity(intent);
     }
 
-    // WY
+    // WYS
     public void letterW(View view) {
         Intent intent = new Intent(this, LetterIntro.class);
         char letter = 'W';
-        intent.putExtra("letter", letter);
-        startActivity(intent);
-    }
-    public void letterY(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
-        char letter = 'Y';
         intent.putExtra("letter", letter);
         startActivity(intent);
     }
@@ -162,18 +145,6 @@ public class StoryP1 extends AppCompatActivity {
         intent.putExtra("letter", letter);
         startActivity(intent);
     }
-    public void letterP(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
-        char letter = 'P';
-        intent.putExtra("letter", letter);
-        startActivity(intent);
-    }
-    public void letterR(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
-        char letter = 'R';
-        intent.putExtra("letter", letter);
-        startActivity(intent);
-    }
 
     // BMNg
     public void letterB(View view) {
@@ -182,56 +153,20 @@ public class StoryP1 extends AppCompatActivity {
         intent.putExtra("letter", letter);
         startActivity(intent);
     }
-    public void letterM(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
-        char letter = 'M';
-        intent.putExtra("letter", letter);
-        startActivity(intent);
-    }
-    public void letterNg(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
-        char letter = ']';
-        intent.putExtra("letter", letter);
-        startActivity(intent);
-    }
 
-// HIRAM
+    // HIRAM
     // NJCF
-    public void letterEne(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
-        char letter = '[';
-        intent.putExtra("letter", letter);
-        startActivity(intent);
-    }
-    public void letterJ(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
-        char letter = 'J';
-        intent.putExtra("letter", letter);
-        startActivity(intent);
-    }
     public void letterC(View view) {
         Intent intent = new Intent(this, LetterIntro.class);
         char letter = 'C';
         intent.putExtra("letter", letter);
         startActivity(intent);
     }
-    public void letterF(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
-        char letter = 'F';
-        intent.putExtra("letter", letter);
-        startActivity(intent);
-    }
 
     // VZ
-    public void letterV(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
+    public void p2VZ(View view) {
+        Intent intent = new Intent(this, StoryP2.class);
         char letter = 'V';
-        intent.putExtra("letter", letter);
-        startActivity(intent);
-    }
-    public void letterZ(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
-        char letter = 'Z';
         intent.putExtra("letter", letter);
         startActivity(intent);
     }
@@ -243,11 +178,4 @@ public class StoryP1 extends AppCompatActivity {
         intent.putExtra("letter", letter);
         startActivity(intent);
     }
-    public void letterQu(View view) {
-        Intent intent = new Intent(this, LetterIntro.class);
-        char letter = 'Q';
-        intent.putExtra("letter", letter);
-        startActivity(intent);
-    }
-
 }

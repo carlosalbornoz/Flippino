@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Flippino.iml" filepath="$PROJECT_DIR$/Flippino.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/HTextView/HTextView.iml" filepath="$PROJECT_DIR$/libs/HTextView/HTextView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

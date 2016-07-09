@@ -89,7 +89,8 @@
         android:id="@+id/hirammenu_njcf"
         android:src="@drawable/hirammenu_njcf"
         android:layout_alignTop="@+id/hirammenu_icon"
-        android:layout_toEndOf="@+id/hirammenu_icon" />
+        android:layout_toEndOf="@+id/hirammenu_icon"
+        android:onClick="titleNJCF"/>
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -99,7 +100,8 @@
         android:src="@drawable/hirammenu_vz"
         android:layout_marginEnd="58dp"
         android:layout_below="@+id/hirammenu_njcf"
-        android:layout_alignEnd="@+id/hirammenu_pagsusulit" />
+        android:layout_alignEnd="@+id/hirammenu_pagsusulit"
+        android:onClick="titleVZ"/>
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -109,7 +111,8 @@
         android:src="@drawable/hirammenu_fxqu"
         android:layout_above="@+id/hirammenu_pagsusulit"
         android:layout_alignStart="@+id/hirammenu_vz"
-        android:layout_marginBottom="44dp" />
+        android:layout_marginBottom="44dp"
+        android:onClick="titleXQu"/>
 
     <ImageButton
         android:layout_width="wrap_content"
