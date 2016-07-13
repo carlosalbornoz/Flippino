@@ -109,10 +109,11 @@
         android:layout_height="wrap_content"
         android:text="Gg"
         android:id="@+id/textView203"
-        android:textSize="330dp"
+        android:textSize="320dp"
         android:textColor="#7f7dbb"
         android:layout_alignBottom="@+id/imageView248"
-        android:layout_alignEnd="@+id/imageView248" />
+        android:layout_alignStart="@+id/textView204"
+        android:layout_marginBottom="59dp" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
@@ -122,7 +123,16 @@
         android:textSize="100dp"
         android:textColor="#c9533d"
         android:layout_alignTop="@+id/imageView248"
-        android:layout_alignEnd="@+id/imageView248" />
+        android:layout_alignEnd="@+id/imageView248"
+        android:layout_above="@+id/textView203" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView47"
+        android:src="@drawable/guyabano"
+        android:layout_alignTop="@+id/imageView248"
+        android:layout_toStartOf="@+id/textView203" />
 
 
 </RelativeLayout>

@@ -111,7 +111,7 @@
         android:id="@+id/textView215"
         android:textSize="330dp"
         android:textColor="#7f7dbb"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/textView216"
         android:layout_alignEnd="@+id/imageView254" />
 
     <com.thesisit.flippino.MontserratTextView
@@ -122,7 +122,7 @@
         android:textSize="150dp"
         android:id="@+id/textView216"
         android:layout_alignTop="@+id/imageView254"
-        android:layout_alignEnd="@+id/imageView254" />
+        android:layout_alignStart="@+id/textView215" />
 
     <ImageView
         android:layout_width="wrap_content"

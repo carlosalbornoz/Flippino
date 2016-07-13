@@ -21,17 +21,18 @@
     <string name="ikaw_at_ka">Ikaw at Ka</string>
     <string name="dito_diyan_at_doon">Dito, Diyan at Doon</string>
     <string name="pagsusulit">Pagsusulit</string>
-    <!--<string name="HNL_NJCF_Cintro_casa">Casa</string>
-<string name="HNL_NJCF_Cintro_Cc">Cc</string>
-<string name="HNL_NJCF_Fintro_felipe">Felipe</string>
-<string name="HNL_NJCF_Finto_Ff">Ff</string>
-<string name="HNL_NJCF_Jintro_jose">Jose</string>
-<string name="HNL_NJCF_Jintro_Jj">Jj</string>
-<string name="HNL_NJCF_Enyeintro_ninya">Ni�a</string>
-<string name="HNL_NJCF_Enyeintro_Enye"> ��</string
-<string name="HNL_NJCF_p1">Si Ni�a at Jose sa Casa Felipe</string>
-<string name="HNL_NJCF_p2">Ang Casa Felipe ay napapalibutan ng magagandang bulaklak</string>
-<string name="HNL_NJCF_p3">Sila Ni�a at Jose ang magkapatid na nakatira dito.</string>-->
+    <string name="HNL_NJCF_Cintro_casa">Casa</string>
+    <string name="HNL_NJCF_Cintro_Cc">Cc</string>
+    <string name="HNL_NJCF_Fintro_felipe">Felipe</string>
+    <string name="HNL_NJCF_Finto_Ff">Ff</string>
+    <string name="HNL_NJCF_Jintro_jose">Jose</string>
+    <string name="HNL_NJCF_Jintro_Jj">Jj</string>
+    <string name="HNL_NJCF_Enyeintro_ninya">Ni&#241;a</string>
+    <string name="HNL_NJCF_Enyeintro_Enye">&#209;&#241;</string>
+    <string name="HNL_NJCF_title">Ang Casa nina Ni&#241;a at Jose sa Nayong Felipe</string>
+    <string name="HNL_NJCF_p1">May Casa sa Nayong Felipe</string>
+    <string name="HNL_NJCF_p2">Napalilibutan ito ng mga magagandang bulaklak</string>
+    <string name="HNL_NJCF_p3">Sila Ni&#241;a at Jose ang magkapatid na nakatira dito.</string>
     <string name="HNL_VZ_Vintro_vinta">Vinta</string>
     <string name="HNL_VZ_Vintro_Vv">Vv</string>
     <string name="HNL_VZ_Zintro_zamboanga">Zamboanga</string>
@@ -136,5 +137,6 @@
     <string name="title_activity_bmng_intro_g">bmng_intro_g</string>
     <string name="title_activity_njcf_intro_c">njcf_intro_c</string>
     <string name="title_activity_bmng_intro_bu">bmng_intro_bu</string>
+    <string name="title_activity_njcf_story_p3">njcf_story_p3</string>
 
 </resources>

@@ -119,22 +119,22 @@
         android:text="Ngng"
         android:id="@+id/textView196"
         android:textColor="#7f7dbb"
-        android:textSize="210dp"
-        android:layout_alignBottom="@+id/imageView241"
+        android:textSize="200dp"
+        android:layout_alignTop="@+id/imageView242"
         android:layout_toEndOf="@+id/imageView242"
-        android:layout_marginBottom="93dp" />
+        android:layout_marginTop="191dp"
+        android:layout_alignParentBottom="true" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="sanga"
-        android:textColor="#c9533d"
         android:textSize="150dp"
-        android:id="@+id/textView197"
-        android:layout_alignTop="@+id/imageView242"
-        android:layout_alignEnd="@+id/textView196"
-        android:layout_marginEnd="76dp"
-        android:layout_above="@+id/textView196" />
+        android:textColor="#c9533d"
+        android:id="@+id/textView39"
+        android:layout_alignTop="@+id/imageView241"
+        android:layout_toEndOf="@+id/imageView242"
+        android:layout_alignBottom="@+id/imageView241" />
 
 
 </RelativeLayout>
