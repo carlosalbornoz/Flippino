@@ -112,7 +112,7 @@
         android:layout_marginEnd="287dp"
         android:src="@drawable/njcffelipetitle" />
 
-    <com.thesisit.flippino.MontserratTextView
+    <com.hanks.htextview.HTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Napalilibutan ito ng mga magagandang bulaklak."
@@ -122,7 +122,9 @@
         android:textColor="#346868"
         android:layout_alignParentBottom="true"
         android:layout_toStartOf="@+id/global_rightarrow"
-        android:layout_below="@+id/imageView48" />
+        android:layout_below="@+id/imageView48"
+        htext:animateType="typer"
+        htext:fontAsset="fonts/montserrat_black.otf"/>
 
 
     <ImageView

@@ -46,7 +46,7 @@
         android:layout_below="@+id/relativeLayout2"
         android:layout_alignStart="@+id/textView7" />
 
-    <com.thesisit.flippino.MontserratTextView
+    <com.hanks.htextview.HTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ang maliit at masayahing butiki ay"
@@ -54,6 +54,8 @@
         android:textSize="50dp"
         android:textColor="#346868"
         android:layout_alignTop="@+id/global_rightarrow"
+        htext:animateType="typer"
+        htext:fontAsset="fonts/montserrat_black.otf"
         android:layout_centerHorizontal="true"
         android:textAlignment="center" />
 

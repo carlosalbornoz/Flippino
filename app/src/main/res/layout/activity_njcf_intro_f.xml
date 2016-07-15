@@ -119,5 +119,13 @@
         android:textColor="#7f7dbb"
         android:layout_alignBottom="@+id/imageView195"
         android:layout_alignStart="@+id/textView63" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView308"
+        android:src="@drawable/felipepolaroid"
+        android:layout_alignTop="@+id/imageView195"
+        android:layout_alignStart="@+id/imageView195" />
 </RelativeLayout>
 

@@ -29,7 +29,7 @@
 
 
 
-        <com.thesisit.flippino.MontserratTextView
+     <com.hanks.htextview.HTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="naglalakad sa sanga ng puno ng mangga."
@@ -38,7 +38,9 @@
             android:textColor="#346868"
             android:layout_alignTop="@+id/global_leftarrow"
             android:layout_centerHorizontal="true"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            htext:animateType="typer"
+            htext:fontAsset="fonts/montserrat_black.otf"/>
 
 
     <ImageButton

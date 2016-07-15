@@ -99,7 +99,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView231"
+        android:id="@+id/imageView248"
         android:src="@drawable/panel"
         android:layout_above="@+id/global_rightarrow"
         android:layout_centerHorizontal="true" />
@@ -107,41 +107,32 @@
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="G"
-        android:id="@+id/textView78"
-        android:textSize="340dp"
+        android:text="Gg"
+        android:id="@+id/textView203"
+        android:textSize="320dp"
         android:textColor="#7f7dbb"
-        android:layout_alignBottom="@+id/imageView231"
-        android:layout_toEndOf="@+id/imageView232" />
-
-    <com.thesisit.flippino.MontserratTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="g"
-        android:id="@+id/textView233"
-        android:textSize="280dp"
-        android:textColor="#7f7dbb"
-        android:layout_alignTop="@+id/textView78"
-        android:layout_toEndOf="@+id/textView78"
-        android:layout_alignBottom="@+id/imageView231" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView232"
-        android:src="@drawable/papayaphonogram"
-        android:layout_alignTop="@+id/imageView231"
-        android:layout_alignStart="@+id/imageView231" />
+        android:layout_alignBottom="@+id/imageView248"
+        android:layout_alignStart="@+id/textView204"
+        android:layout_marginBottom="59dp" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="guyabano"
-        android:id="@+id/textView28"
+        android:id="@+id/textView204"
         android:textSize="100dp"
         android:textColor="#c9533d"
-        android:layout_alignTop="@+id/imageView231"
-        android:layout_toEndOf="@+id/imageView232"
-        android:layout_above="@+id/textView78" />
+        android:layout_alignTop="@+id/imageView248"
+        android:layout_alignEnd="@+id/imageView248"
+        android:layout_above="@+id/textView203" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView47"
+        android:src="@drawable/guyabano"
+        android:layout_alignTop="@+id/imageView248"
+        android:layout_toStartOf="@+id/textView203" />
+
 
 </RelativeLayout>

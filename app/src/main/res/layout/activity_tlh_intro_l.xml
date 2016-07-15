@@ -124,9 +124,8 @@
         android:textSize="130dp"
         android:textColor="#c9533d"
         android:visibility="visible"
-        android:layout_alignStart="@+id/textView78"
-        android:layout_below="@+id/relativeLayout9"
-        android:layout_above="@+id/textView78" />
+        android:layout_above="@+id/textView78"
+        android:layout_alignStart="@+id/textView78" />
 
     <ImageView
         android:layout_width="wrap_content"

@@ -112,7 +112,7 @@
         android:layout_marginEnd="287dp"
         android:src="@drawable/njcffelipetitle" />
 
-    <com.thesisit.flippino.MontserratTextView
+    <com.hanks.htextview.HTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="May Casa sa Nayong Felipe"
@@ -120,7 +120,9 @@
         android:id="@+id/textView37"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:layout_below="@+id/imageView36" />
+        android:layout_below="@+id/imageView36"
+        htext:animateType="typer"
+        htext:fontAsset="fonts/montserrat_black.otf"/>
 
     <ImageView
         android:layout_width="wrap_content"

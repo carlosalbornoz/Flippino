@@ -45,7 +45,7 @@
         android:layout_above="@+id/global_leftarrow"
         android:layout_centerHorizontal="true" />
 
-            <com.thesisit.flippino.MontserratTextView
+            <com.hanks.htextview.HTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Tara na, bili na ng niyog at durian kay Aling Nena\ndahil mapapangiti ka sa sarap!"
@@ -54,7 +54,9 @@
                 android:textAlignment="center"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:textColor="#346868" />
+                android:textColor="#346868"
+                htext:animateType="typer"
+                htext:fontAsset="fonts/montserrat_black.otf"/>
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"

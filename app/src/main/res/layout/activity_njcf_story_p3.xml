@@ -110,7 +110,7 @@
         android:layout_above="@+id/global_rightarrow"
         android:layout_toStartOf="@+id/imageView45" />
 
-    <com.thesisit.flippino.MontserratTextView
+    <com.hanks.htextview.HTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sila Ni&#241;a at Jose ang magkapatid \n na nakatira rito."
@@ -120,7 +120,9 @@
         android:textColor="#346868"
         android:layout_alignBottom="@+id/global_rightarrow"
         android:layout_toStartOf="@+id/global_rightarrow"
-        android:layout_marginEnd="134dp" />
+        android:layout_marginEnd="134dp"
+        htext:animateType="typer"
+        htext:fontAsset="fonts/montserrat_black.otf"/>
 
 
 </RelativeLayout>

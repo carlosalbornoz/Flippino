@@ -105,7 +105,7 @@
         android:layout_alignParentEnd="true"
         android:onClick="letterR"/>
 
-    <com.thesisit.flippino.MontserratTextView
+    <com.hanks.htextview.HTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ano mas magandang i-regalo: guava,\nrambutan o papaya?"
@@ -114,5 +114,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
-        android:textColor="#346868" />
+        android:textColor="#346868"
+        htext:animateType="typer"
+        htext:fontAsset="fonts/montserrat_black.otf" />
 </RelativeLayout>

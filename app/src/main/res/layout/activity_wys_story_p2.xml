@@ -127,14 +127,17 @@
         android:layout_above="@+id/global_leftarrow"
         android:layout_toEndOf="@+id/global_leftarrow" />
 
-    <com.thesisit.flippino.MontserratTextView
+    <com.hanks.htextview.HTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/K_WYS_p2"
         android:id="@+id/textView35"
-        android:textSize="50dp"
+        android:textSize="45dp"
+        android:textColor="#346868"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/global_leftarrow" />
+        android:layout_toEndOf="@+id/global_leftarrow"
+        htext:animateType="typer"
+        htext:fontAsset="fonts/montserrat_black.otf"/>
 
 
 </RelativeLayout>

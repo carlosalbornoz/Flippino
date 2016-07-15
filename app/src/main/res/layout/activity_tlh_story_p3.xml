@@ -115,7 +115,7 @@
         android:layout_above="@+id/global_rightarrow"
         android:layout_toEndOf="@+id/imageView69" />
 
-    <com.thesisit.flippino.MontserratTextView
+    <com.hanks.htextview.HTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ang mahiwagang kwintas na pagmamay-ari\nng Diyosa ng Hiyas."
@@ -124,6 +124,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        htext:animateType="typer"
+        htext:fontAsset="fonts/montserrat_black.otf"/>
 
 </RelativeLayout>

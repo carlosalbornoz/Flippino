@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/wyspfirstenvi">
+    android:background="#c3e5f5">
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -15,21 +15,17 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:id="@+id/relativeLayout9">
-
-
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/global_label"
-            android:src="@drawable/global_lessonlabel"/>
-
+            android:src="@drawable/global_label"/>
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
             android:id="@+id/global_exit"
             android:src="@drawable/global_exit" />
-
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -37,7 +33,6 @@
             android:id="@+id/global_stars"
             android:src="@drawable/global_stars"
             android:layout_toStartOf="@+id/global_sound" />
-
         <ImageButton
             android:layout_width="100dp"
             android:layout_height="wrap_content"
@@ -45,7 +40,6 @@
             android:id="@+id/global_sound"
             android:src="@drawable/global_sound"
             android:layout_toStartOf="@+id/global_help" />
-
         <ImageButton
             android:layout_width="80dp"
             android:layout_height="90dp"
@@ -53,7 +47,6 @@
             android:id="@+id/global_help"
             android:src="@drawable/global_help"
             android:layout_toStartOf="@+id/global_home" />
-
         <ImageButton
             android:layout_width="100dp"
             android:layout_height="wrap_content"
@@ -61,6 +54,7 @@
             android:id="@+id/global_home"
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
+
 
         <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
@@ -72,12 +66,7 @@
             android:layout_alignEnd="@+id/global_label"
             android:layout_marginEnd="93dp"
             android:textColor="#c9533d" />
-
-
-
     </RelativeLayout>
-
-
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -86,7 +75,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:src="@drawable/global_leftarrow" />
-
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -94,39 +82,58 @@
         android:id="@+id/global_rightarrow"
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:onClick="letterW"/>
+        android:layout_alignParentEnd="true" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView93"
-        android:src="@drawable/waldocharone"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/imageView55"
+        android:src="@drawable/notepadassessment"
+        android:layout_above="@+id/global_leftarrow"
         android:layout_centerHorizontal="true" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView95"
-        android:src="@drawable/cake"
-        android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/imageView93" />
+        android:id="@+id/imageView284"
+        android:src="@drawable/mesasticker"
+        android:layout_marginStart="367dp"
+        android:layout_alignTop="@+id/imageView55"
+        android:layout_toEndOf="@+id/global_leftarrow"
+        android:layout_marginTop="23dp" />
 
-    <com.hanks.htextview.HTextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/K_WYS_p1"
-        android:id="@+id/textView33"
-        android:textSize="45dp"
-        android:textColor="#346868"
-        android:layout_alignStart="@+id/imageView95"
-        android:layout_marginStart="107dp"
-        android:layout_alignBottom="@+id/global_rightarrow"
-        android:layout_alignEnd="@+id/imageView93"
-        htext:animateType="typer"
-        htext:fontAsset="fonts/montserrat_black.otf"/>
+        android:id="@+id/imageView285"
+        android:layout_below="@+id/imageView284"
+        android:layout_alignStart="@+id/imageView284"
+        android:src="@drawable/dahonsticker" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView286"
+        android:src="@drawable/siyamsticker"
+        android:layout_alignBottom="@+id/imageView285"
+        android:layout_toEndOf="@+id/imageView284"
+        android:layout_marginBottom="42dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView287"
+        android:src="@drawable/ngipinsticker"
+        android:layout_alignTop="@+id/imageView284"
+        android:layout_toStartOf="@+id/imageView288" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView288"
+        android:src="@drawable/bungosticker"
+        android:layout_alignBottom="@+id/imageView285"
+        android:layout_toStartOf="@+id/global_rightarrow" />
 
 
 </RelativeLayout>
-

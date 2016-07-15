@@ -112,7 +112,7 @@
         android:layout_alignParentEnd="true"
         android:onClick="letterL"/>
 
-    <com.thesisit.flippino.MontserratTextView
+    <com.hanks.htextview.HTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="May isang matapang na loro na nakatira\nsa Talon Hiyas"
@@ -121,6 +121,8 @@
         android:layout_centerHorizontal="true"
         android:textSize="45dp"
         android:textColor="#FFFFFF"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        htext:animateType="typer"
+        htext:fontAsset="fonts/montserrat_black.otf"/>
 
 </RelativeLayout>
