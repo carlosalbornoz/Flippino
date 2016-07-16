@@ -14,6 +14,7 @@ public class NewUser extends AppCompatActivity {
     }
 
     public void createUser(View view) {
+
         Intent intent = new Intent(this, FlippinoMainMenu.class);
         startActivity(intent);
     }

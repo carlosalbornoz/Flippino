@@ -24,7 +24,7 @@ public class FlippinoStart extends AppCompatActivity {
     }
 
     public void startMagpatuloy(View view) {
-        Intent intent = new Intent(this, PhonogramB.class);
+        Intent intent = new Intent(this, UserLogin.class);
         startActivity(intent);
     }
 }

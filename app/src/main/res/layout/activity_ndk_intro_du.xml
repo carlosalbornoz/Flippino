@@ -90,7 +90,7 @@
         android:id="@+id/imageView196"
         android:layout_alignTop="@+id/imageView195"
         android:layout_alignParentStart="true"
-        android:src="@drawable/tab" />
+        android:src="@drawable/tabselect" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -104,7 +104,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView199"
-        android:src="@drawable/tab"
+        android:src="@drawable/tabselect"
         android:layout_above="@+id/imageView200"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="8dp" />
@@ -113,7 +113,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView198"
-        android:src="@drawable/tab"
+        android:src="@drawable/tabselect"
         android:layout_above="@+id/imageView199"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="8dp" />
@@ -122,7 +122,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView197"
-        android:src="@drawable/tab"
+        android:src="@drawable/tabselect"
         android:layout_above="@+id/imageView198"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="8dp" />
@@ -152,7 +152,7 @@
         android:text="durian"
         android:textSize="150dp"
         android:textColor="#c9533d"
-        android:id="@+id/textView120"
+        android:id="@+id/durian"
         android:layout_above="@+id/textView119"
         android:layout_alignEnd="@+id/imageView195"
         android:visibility="visible" />
@@ -163,8 +163,8 @@
         android:text="domino"
         android:textSize="135dp"
         android:textColor="#c9533d"
-        android:id="@+id/textView121"
-        android:layout_alignTop="@+id/textView120"
+        android:id="@+id/domino"
+        android:layout_alignTop="@+id/durian"
         android:layout_alignEnd="@+id/imageView195"
         android:visibility="invisible" />
 
@@ -174,7 +174,7 @@
         android:text="dila"
         android:textSize="150dp"
         android:textColor="#c9533d"
-        android:id="@+id/textView122"
+        android:id="@+id/dila"
         android:layout_alignTop="@+id/imageView195"
         android:layout_alignEnd="@+id/imageView195"
         android:layout_marginEnd="78dp"
@@ -183,12 +183,12 @@
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="deboto"
+        android:text="dekor"
         android:textSize="135dp"
         android:textColor="#c9533d"
-        android:id="@+id/textView123"
-        android:layout_alignTop="@+id/textView120"
-        android:layout_alignStart="@+id/textView121"
+        android:id="@+id/dekor"
+        android:layout_alignTop="@+id/durian"
+        android:layout_alignStart="@+id/domino"
         android:visibility="invisible" />
 
     <com.thesisit.flippino.MontserratTextView
@@ -197,10 +197,10 @@
         android:text="dahon"
         android:textSize="150dp"
         android:textColor="#c9533d"
-        android:id="@+id/textView124"
-        android:layout_alignTop="@+id/textView120"
-        android:layout_alignStart="@+id/textView120"
-        android:visibility="invisible" />
+        android:id="@+id/dahon"
+        android:visibility="invisible"
+        android:layout_above="@+id/di_text"
+        android:layout_alignEnd="@+id/imageView195" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
@@ -208,7 +208,8 @@
         android:text="Da"
         android:textColor="#346868"
         android:textSize="60dp"
-        android:id="@+id/textView125"
+        android:id="@+id/da_text"
+        android:onClick="daClick"
         android:layout_alignBottom="@+id/imageView196"
         android:layout_toStartOf="@+id/imageView195"
         android:layout_marginBottom="20dp" />
@@ -216,29 +217,20 @@
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="De"
-        android:textColor="#346868"
-        android:textSize="60dp"
-        android:id="@+id/textView126"
-        android:layout_below="@+id/textView121"
-        android:layout_toStartOf="@+id/imageView195" />
-
-    <com.thesisit.flippino.MontserratTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="Di"
-        android:id="@+id/textView127"
+        android:id="@+id/di_text"
+        android:onClick="diClick"
         android:textColor="#346868"
         android:textSize="60dp"
-        android:layout_alignBottom="@+id/imageView198"
-        android:layout_toStartOf="@+id/imageView195"
-        android:layout_marginBottom="14dp" />
+        android:layout_alignTop="@+id/di_red"
+        android:layout_alignStart="@+id/di_red" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Do"
-        android:id="@+id/textView128"
+        android:id="@+id/do_text"
+        android:onClick="doClick"
         android:textColor="#346868"
         android:textSize="60dp"
         android:layout_alignBottom="@+id/imageView199"
@@ -251,9 +243,129 @@
         android:text="Du"
         android:textColor="#c9533d"
         android:textSize="60dp"
-        android:id="@+id/textView129"
-        android:layout_alignBottom="@+id/imageView200"
-        android:layout_toStartOf="@+id/imageView195"
-        android:layout_marginBottom="15dp" />
+        android:id="@+id/du_red"
+        android:onClick="duClick"
+        android:layout_alignTop="@+id/du_text"
+        android:layout_alignStart="@+id/du_text" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/durian_img"
+        android:src="@drawable/durianphonogram"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/domino"
+        android:layout_toEndOf="@+id/da_text" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/domino_img"
+        android:src="@drawable/domino"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/durian"
+        android:layout_alignStart="@+id/dekor_img" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dila_img"
+        android:src="@drawable/dila"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/durian"
+        android:layout_toStartOf="@+id/durian" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dekor_img"
+        android:src="@drawable/dekor"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/durian"
+        android:layout_alignStart="@+id/dahon_img" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dahon_img"
+        android:src="@drawable/dahon"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/durian"
+        android:layout_toStartOf="@+id/durian" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Da"
+        android:textSize="60dp"
+        android:onClick="daClick"
+        android:textColor="#c9533d"
+        android:visibility="invisible"
+        android:id="@+id/da_red"
+        android:layout_alignTop="@+id/da_text"
+        android:layout_alignStart="@+id/da_text" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Di"
+        android:textSize="60dp"
+        android:onClick="diClick"
+        android:textColor="#c9533d"
+        android:visibility="invisible"
+        android:id="@+id/di_red"
+        android:layout_alignTop="@+id/imageView198"
+        android:layout_alignStart="@+id/da_text"
+        android:layout_marginTop="16dp" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do"
+        android:textSize="60dp"
+        android:onClick="doClick"
+        android:textColor="#c9533d"
+        android:visibility="invisible"
+        android:id="@+id/do_red"
+        android:layout_alignTop="@+id/do_text"
+        android:layout_alignStart="@+id/du_red" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Du"
+        android:textSize="60dp"
+        android:onClick="duClick"
+        android:textColor="#346868"
+        android:visibility="invisible"
+        android:id="@+id/du_text"
+        android:layout_alignBottom="@+id/dila_img"
+        android:layout_alignEnd="@+id/do_text"
+        android:layout_marginBottom="8dp" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="De"
+        android:id="@+id/de_text"
+        android:textColor="#346868"
+        android:textIsSelectable="false"
+        android:textSize="60dp"
+        android:onClick="deClick"
+        android:layout_below="@+id/domino"
+        android:layout_alignStart="@+id/do_text" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="De"
+        android:id="@+id/de_red"
+        android:onClick="deClick"
+        android:textColor="#346868"
+        android:visibility="invisible"
+        android:textIsSelectable="false"
+        android:textSize="60dp"
+        android:layout_below="@+id/domino"
+        android:layout_alignStart="@+id/do_text" />
 
 </RelativeLayout>

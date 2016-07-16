@@ -12,7 +12,8 @@
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:id="@+id/relativeLayout17">
 
 
         <ImageView
@@ -60,7 +61,7 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
-        <TextView
+        <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Patinig"
@@ -68,7 +69,8 @@
             android:textSize="50dp"
             android:layout_below="@+id/global_help"
             android:layout_alignEnd="@+id/global_label"
-            android:layout_marginEnd="93dp" />
+            android:layout_marginEnd="93dp"
+            android:textColor="#c9533d" />
 
     </RelativeLayout>
 
@@ -94,25 +96,35 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView116"
-        android:layout_alignBottom="@+id/global_leftarrow"
-        android:layout_toEndOf="@+id/global_leftarrow"
-        android:src="@drawable/activityboxes" />
+        android:id="@+id/imageView113"
+        android:src="@drawable/uupractice"
+        android:layout_below="@+id/relativeLayout17"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView117"
-        android:layout_above="@+id/global_rightarrow"
-        android:layout_alignEnd="@+id/global_rightarrow"
-        android:src="@drawable/uupractice" />
+        android:id="@+id/imageView119"
+        android:src="@drawable/aone"
+        android:layout_below="@+id/imageView113"
+        android:layout_toStartOf="@+id/imageView211" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView195"
-        android:src="@drawable/uudotted"
-        android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@+id/imageView117" />
+        android:id="@+id/imageView211"
+        android:layout_below="@+id/imageView113"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/atwo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView212"
+        android:layout_below="@+id/imageView113"
+        android:layout_toEndOf="@+id/imageView211"
+        android:src="@drawable/athree" />
+
 
 </RelativeLayout>

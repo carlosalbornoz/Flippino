@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#c3e5f5">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout9">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/global_label"
+            android:src="@drawable/global_label"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_exit"
+            android:src="@drawable/global_exit" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_stars"
+            android:src="@drawable/global_stars"
+            android:layout_toStartOf="@+id/global_sound" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_sound"
+            android:src="@drawable/global_sound"
+            android:layout_toStartOf="@+id/global_help" />
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:background="@null"
+            android:id="@+id/global_help"
+            android:src="@drawable/global_help"
+            android:layout_toStartOf="@+id/global_home" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_home"
+            android:src="@drawable/global_home"
+            android:layout_alignParentEnd="true" />
+
+
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Katinig"
+            android:id="@+id/textView31"
+            android:textSize="50dp"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label"
+            android:layout_marginEnd="93dp"
+            android:textColor="#c9533d" />
+    </RelativeLayout>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/global_leftarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/global_leftarrow" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/global_rightarrow"
+        android:src="@drawable/global_rightarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView55"
+        android:src="@drawable/notepadassessment"
+        android:layout_above="@+id/global_leftarrow"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView274"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/eroplanosticker"
+        android:layout_alignTop="@+id/imageView55"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView275"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/waldosticker"
+        android:layout_below="@+id/imageView274"
+        android:layout_alignStart="@+id/imageView274" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView276"
+        android:src="@drawable/librosticker"
+        android:layout_alignBottom="@+id/imageView275"
+        android:layout_toEndOf="@+id/imageView275" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView277"
+        android:src="@drawable/multosticker"
+        android:layout_alignTop="@+id/imageView274"
+        android:layout_toEndOf="@+id/imageView275"
+        android:layout_marginStart="62dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView278"
+        android:src="@drawable/cokesticker"
+        android:layout_alignTop="@+id/imageView275"
+        android:layout_toEndOf="@+id/imageView277" />
+
+
+</RelativeLayout>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,14 +12,15 @@
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:id="@+id/relativeLayout17">
 
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/global_label"
-            android:src="@drawable/global_label" />
+            android:src="@drawable/global_label"/>
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -96,26 +96,35 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView115"
-        android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/global_leftarrow"
-        android:src="@drawable/activityboxes" />
+        android:id="@+id/imageView113"
+        android:src="@drawable/oopractice"
+        android:layout_below="@+id/relativeLayout17"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView121"
-        android:layout_above="@+id/global_rightarrow"
-        android:layout_alignEnd="@+id/global_rightarrow"
-        android:src="@drawable/ootracing" />
+        android:id="@+id/imageView119"
+        android:src="@drawable/aone"
+        android:layout_below="@+id/imageView113"
+        android:layout_toStartOf="@+id/imageView211" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView122"
-        android:src="@drawable/oodotted"
-        android:layout_alignTop="@+id/imageView121"
-        android:layout_alignEnd="@+id/imageView115" />
+        android:id="@+id/imageView211"
+        android:layout_below="@+id/imageView113"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/atwo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView212"
+        android:layout_below="@+id/imageView113"
+        android:layout_toEndOf="@+id/imageView211"
+        android:src="@drawable/athree" />
 
 
 </RelativeLayout>

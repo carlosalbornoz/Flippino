@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htext="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:background="#c3e5f5"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -27,7 +28,7 @@
         android:layout_below="@+id/relativeLayout2"
         android:layout_toEndOf="@+id/global_leftarrow" />
 
-            <com.thesisit.flippino.MontserratTextView
+            <com.hanks.htextview.HTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Ang loro na ito ang nag-aalaga sa\nnakatagong mahiwagang kwintas."
@@ -36,7 +37,9 @@
                 android:textColor="#FFFFFF"
                 android:textAlignment="center"
                 android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                htext:animateType="typer"
+                htext:fontAsset="fonts/montserrat_black.otf"/>
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"

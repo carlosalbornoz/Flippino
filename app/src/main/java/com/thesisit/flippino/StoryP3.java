@@ -5,13 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.hanks.htextview.HTextView;
-import com.hanks.htextview.HTextViewType;
-import com.hanks.htextview.util.FontManager;
-
 public class StoryP3 extends AppCompatActivity {
-
-    private HTextView hTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,10 +45,6 @@ public class StoryP3 extends AppCompatActivity {
                 setContentView(R.layout.activity_vzstoryp3);
                 break;
         }
-
-        hTextView = (HTextView) findViewById(R.id.textView2);
-        hTextView.setTypeface(FontManager.getInstance(getAssets()).getFont("fonts/montserrat_black.otf"));
-        hTextView.setAnimateType(HTextViewType.TYPER);
     }
 
 // PATINIG

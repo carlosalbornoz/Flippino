@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#c3e5f5"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/relativeLayout2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/global_label"
+            android:src="@drawable/global_label"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_exit"
+            android:src="@drawable/global_exit" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_stars"
+            android:src="@drawable/global_stars"
+            android:layout_toStartOf="@+id/global_sound" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_sound"
+            android:src="@drawable/global_sound"
+            android:layout_toStartOf="@+id/global_help" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:background="@null"
+            android:id="@+id/global_help"
+            android:src="@drawable/global_help"
+            android:layout_toStartOf="@+id/global_home" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/global_home"
+            android:src="@drawable/global_home"
+            android:layout_alignParentEnd="true" />
+
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hiram Na Letra"
+            android:id="@+id/textView26"
+            android:textSize="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#c9533d"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label" />
+
+    </RelativeLayout>
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/global_leftarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/global_leftarrow" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/global_rightarrow"
+        android:src="@drawable/global_rightarrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="demoEne"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView195"
+        android:src="@drawable/panel"
+        android:layout_above="@+id/global_rightarrow"
+        android:layout_toStartOf="@+id/global_rightarrow" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#209;"
+        android:textSize="290dp"
+        android:textColor="#737fdd"
+        android:layout_alignBottom="@+id/textView147"
+        android:layout_toStartOf="@+id/textView147"
+        android:id="@+id/view" />
+
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#241;"
+        android:id="@+id/textView147"
+        android:textSize="300dp"
+        android:textColor="#737fdd"
+        android:layout_marginBottom="25dp"
+        android:layout_alignBottom="@+id/imageView195"
+        android:layout_alignEnd="@+id/imageView195" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ni&#241;a"
+        android:id="@+id/textView148"
+        android:textSize="150dp"
+        android:textColor="#c9533d"
+        android:layout_above="@+id/textView147"
+        android:layout_alignStart="@+id/view" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView310"
+        android:src="@drawable/ninapolaroid"
+        android:layout_alignBottom="@+id/imageView195"
+        android:layout_alignStart="@+id/imageView195" />
+
+
+</RelativeLayout>
+

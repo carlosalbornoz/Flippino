@@ -44,77 +44,77 @@ public class TracingIntro extends AppCompatActivity {
 
             // NDK
             case 'N':
-                setContentView(R.layout.activity_ndk_intro_ni);
+                setContentView(R.layout.activity_ndk_tracingintro_n);
                 break;
             case 'D':
-                setContentView(R.layout.activity_ndk_intro_du);
+                setContentView(R.layout.activity_ndk_tracingintro_d);
                 break;
             case 'K':
-                setContentView(R.layout.activity_ndk_intro_ku);
+                setContentView(R.layout.activity_ndk_tracingintro_k);
                 break;
 
             // WYS
             case 'W':
-                setContentView(R.layout.activity_wys_intro_wa);
+                setContentView(R.layout.activity_wys_tracingintro_w);
                 break;
             case 'Y':
-                setContentView(R.layout.activity_wys_intro_yo);
+                setContentView(R.layout.activity_wys_tracingintro_y);
                 break;
             case 'S':
-                setContentView(R.layout.activity_wys_intro_si);
+                setContentView(R.layout.activity_wys_tracingintro_s);
                 break;
 
             // GPR
             case 'G':
-                setContentView(R.layout.activity_gpr_intro_gu);
+                setContentView(R.layout.activity_gpr_tracingintro_g);
                 break;
             case 'P':
-                setContentView(R.layout.activity_gpr_intro_pa);
+                setContentView(R.layout.activity_gpr_tracingintro_p);
                 break;
             case 'R':
-                setContentView(R.layout.activity_gpr_intro_ra);
+                setContentView(R.layout.activity_gpr_tracingintro_r);
                 break;
 
             // BMNg
             case 'B':
-                setContentView(R.layout.activity_bmng_intro_bu);
+                setContentView(R.layout.activity_bmng_tracingintro_b);
                 break;
             case 'M':
-                setContentView(R.layout.activity_bmng_intro_ma);
+                setContentView(R.layout.activity_bmng_tracingintro_m);
                 break;
             case ']':
-                setContentView(R.layout.activity_bmng_intro_nga);
+                setContentView(R.layout.activity_bmng_tracingintro_ng);
                 break;
 
             // HIRAM
             // NJCF
             case '[':
-                setContentView(R.layout.activity_njcf_intro_n);
+                setContentView(R.layout.activity_njcf_tracingintro_n);
                 break;
             case 'J':
-                setContentView(R.layout.activity_njcf_intro_jo);
+                setContentView(R.layout.activity_njcf_tracingintro_j);
                 break;
             case 'C':
-                setContentView(R.layout.activity_njcf_intro_ca);
+                setContentView(R.layout.activity_njcf_tracingintro_c);
                 break;
             case 'F':
-                setContentView(R.layout.activity_njcf_intro_fe);
+                setContentView(R.layout.activity_njcf_tracingintro_f);
                 break;
 
             // VZ
             case 'V':
-                setContentView(R.layout.activity_vz_intro_v);
+                setContentView(R.layout.activity_vz_tracingintro_v);
                 break;
             case 'Z':
-                setContentView(R.layout.activity_vz_intro_z);
+                setContentView(R.layout.activity_vz_tracingintro_z);
                 break;
 
             // XQu
             case 'X':
-                setContentView(R.layout.activity_xqu_intro_x);
+                setContentView(R.layout.activity_xqu_tracingintro_x);
                 break;
             case 'Q':
-                setContentView(R.layout.activity_xqu_intro_qu);
+                setContentView(R.layout.activity_xqu_tracingintro_qu);
                 break;
         }
     }

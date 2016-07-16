@@ -1,2 +1,1 @@
-include ':app', ':HTextView'
-project(':HTextView').projectDir = new File('libs/HTextView')
+include ':app'

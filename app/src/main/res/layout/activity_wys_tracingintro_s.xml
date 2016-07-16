@@ -62,6 +62,18 @@
             android:src="@drawable/global_home"
             android:layout_alignParentEnd="true" />
 
+        <com.thesisit.flippino.MontserratTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Katinig"
+            android:id="@+id/textView31"
+            android:textSize="50dp"
+            android:layout_below="@+id/global_help"
+            android:layout_alignEnd="@+id/global_label"
+            android:layout_marginEnd="93dp"
+            android:textColor="#c9533d" />
+
+
 
 
     </RelativeLayout>
@@ -86,15 +98,21 @@
         android:layout_alignParentEnd="true"
         android:onClick="tracingS"/>
 
-    <com.thesisit.flippino.MontserratTextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hiram Na Letra"
-        android:id="@+id/textView26"
-        android:textSize="40dp"
-        android:layout_marginRight="20dp"
-        android:textColor="#c9533d"
-        android:layout_below="@+id/global_help"
-        android:layout_alignEnd="@+id/global_label" />
+        android:id="@+id/imageView205"
+        android:src="@drawable/ss"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView206"
+        android:src="@drawable/tracingpencil"
+        android:layout_below="@+id/relativeLayout9"
+        android:layout_alignEnd="@+id/imageView205" />
+
 
 </RelativeLayout>

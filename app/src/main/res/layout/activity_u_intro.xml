@@ -121,10 +121,17 @@
         android:text="ulap"
         android:id="@+id/textView72"
         android:textColor="#c9533d"
-        android:textSize="100dp"
+        android:textSize="130dp"
+        android:layout_alignTop="@+id/imageView195"
         android:layout_above="@+id/textView67"
-        android:layout_alignEnd="@+id/textView67"
-        android:layout_marginEnd="113dp"
-        android:layout_alignTop="@+id/imageView195" />
+        android:layout_alignEnd="@+id/imageView195" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView312"
+        android:src="@drawable/ulappolaroid"
+        android:layout_above="@+id/global_leftarrow"
+        android:layout_alignStart="@+id/imageView195" />
 
 </RelativeLayout>

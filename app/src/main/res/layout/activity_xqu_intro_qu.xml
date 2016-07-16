@@ -86,14 +86,6 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView196"
-        android:src="@drawable/quezon"
-        android:layout_below="@+id/relativeLayout9"
-        android:layout_toEndOf="@+id/global_leftarrow" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/imageView195"
         android:src="@drawable/panel"
         android:layout_above="@+id/global_rightarrow"
@@ -103,33 +95,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Q"
-        android:textSize="320dp"
+        android:textSize="300dp"
         android:textColor="#7f7dbb"
         android:id="@+id/textView144"
-        android:layout_alignTop="@+id/textView145"
+        android:layout_alignBottom="@+id/imageView195"
         android:layout_toStartOf="@+id/textView145"
-        android:layout_alignBottom="@+id/textView145" />
+        android:layout_marginBottom="71dp" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="u"
         android:textColor="#7f7dbb"
-        android:textSize="320dp"
-        android:layout_above="@+id/global_rightarrow"
-        android:layout_alignEnd="@+id/imageView196"
-        android:layout_marginBottom="71dp"
-        android:id="@+id/textView145" />
+        android:textSize="290dp"
+        android:id="@+id/textView145"
+        android:layout_alignTop="@+id/textView144"
+        android:layout_toStartOf="@+id/global_rightarrow"
+        android:layout_alignBottom="@+id/textView144" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Quezon"
         android:textColor="#c9533d"
-        android:textSize="150dp"
+        android:textSize="110dp"
         android:id="@+id/textView146"
+        android:layout_above="@+id/textView144"
+        android:layout_toStartOf="@+id/global_rightarrow"
+        android:layout_alignTop="@+id/imageView195" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView316"
+        android:src="@drawable/quezonpolaroid"
         android:layout_alignTop="@+id/imageView195"
-        android:layout_alignEnd="@+id/imageView195" />
+        android:layout_alignStart="@+id/imageView195" />
 
 
 </RelativeLayout>

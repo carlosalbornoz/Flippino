@@ -97,24 +97,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView113"
-        android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/global_leftarrow"
-        android:src="@drawable/activityboxes" />
+        android:src="@drawable/eepractice"
+        android:layout_below="@+id/relativeLayout17"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView119"
-        android:layout_above="@+id/global_rightarrow"
-        android:layout_alignParentEnd="true"
-        android:src="@drawable/eetracing" />
+        android:src="@drawable/aone"
+        android:layout_below="@+id/imageView113"
+        android:layout_toStartOf="@+id/imageView211" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView124"
-        android:src="@drawable/eedotted"
-        android:layout_below="@+id/relativeLayout17"
-        android:layout_alignStart="@+id/imageView113" />
+        android:id="@+id/imageView211"
+        android:layout_below="@+id/imageView113"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/atwo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView212"
+        android:layout_below="@+id/imageView113"
+        android:layout_toEndOf="@+id/imageView211"
+        android:src="@drawable/athree" />
+
 
 </RelativeLayout>

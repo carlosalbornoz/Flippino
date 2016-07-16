@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htext="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -36,7 +37,7 @@
         android:layout_centerVertical="true"
         android:layout_alignParentEnd="true" />
 
-    <com.thesisit.flippino.MontserratTextView
+    <com.hanks.htextview.HTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ang usok at ulap ay matalik na magkaibigan."
@@ -45,7 +46,9 @@
         android:textAlignment="center"
         android:textSize="44dp"
         android:layout_alignTop="@+id/global_rightarrow"
-        android:layout_toStartOf="@+id/global_rightarrow" />
+        android:layout_toStartOf="@+id/global_rightarrow"
+        htext:animateType="typer"
+        htext:fontAsset="fonts/montserrat_black.otf"/>
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"

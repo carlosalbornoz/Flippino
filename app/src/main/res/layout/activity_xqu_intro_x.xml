@@ -111,4 +111,12 @@
         android:layout_toStartOf="@+id/global_rightarrow"
         android:textColor="#7f7dbb" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView315"
+        android:src="@drawable/xavierpolaroid"
+        android:layout_alignTop="@+id/imageView195"
+        android:layout_toStartOf="@+id/textView78" />
+
 </RelativeLayout>

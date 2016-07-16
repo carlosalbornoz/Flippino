@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htext="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -37,7 +38,7 @@
         android:layout_below="@+id/relativeLayout2"
         android:layout_toEndOf="@+id/imageView29" />
 
-    <com.thesisit.flippino.MontserratTextView
+    <com.hanks.htextview.HTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Binigyan ng ulap ng bituin ang usok."
@@ -46,7 +47,9 @@
         android:textColor="#346868"
         android:textSize="50dp"
         android:layout_alignTop="@+id/global_rightarrow"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        htext:animateType="typer"
+        htext:fontAsset="fonts/montserrat_black.otf"/>
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"

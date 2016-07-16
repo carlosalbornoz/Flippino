@@ -55,7 +55,7 @@ public class StoryTitle extends AppCompatActivity {
         // HIRAM
             // NJCF
             case 'J':
-                setContentView(R.layout.activity_njcf_title);
+                setContentView(R.layout.activity_njcf_story_title);
                 break;
             // VZ
             case 'V':

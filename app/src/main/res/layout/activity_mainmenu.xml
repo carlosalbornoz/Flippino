@@ -46,7 +46,8 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:id="@+id/global_exit"
-            android:src="@drawable/global_exit" />
+            android:src="@drawable/global_exit"
+            android:visibility="invisible"/>
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -78,7 +79,8 @@
             android:background="@null"
             android:id="@+id/global_home"
             android:src="@drawable/global_home"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+            android:visibility="invisible"/>
 
         <com.thesisit.flippino.MontserratTextView
             android:layout_width="wrap_content"

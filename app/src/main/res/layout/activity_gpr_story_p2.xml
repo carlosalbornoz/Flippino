@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htext="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:background="#c3e5f5"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -7,10 +8,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     >
-
-
-
-
 
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -104,7 +101,7 @@
         android:layout_alignParentEnd="true"
         android:onClick="letterP"/>
 
-    <com.thesisit.flippino.MontserratTextView
+    <com.hanks.htextview.HTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dadalaw ako sa kanya sa makalawa,"
@@ -113,5 +110,7 @@
         android:layout_alignTop="@+id/global_rightarrow"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
-        android:textColor="#346868" />
+        android:textColor="#346868"
+        htext:animateType="typer"
+        htext:fontAsset="fonts/montserrat_black.otf" />
 </RelativeLayout>

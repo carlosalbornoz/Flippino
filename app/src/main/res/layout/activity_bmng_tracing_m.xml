@@ -8,20 +8,19 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="#c3e5f5">
+
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/relativeLayout9">
+        android:id="@+id/relativeLayout17">
 
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/global_label"
-            android:src="@drawable/global_lessonlabel"/>
+            android:src="@drawable/global_label"/>
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -73,9 +72,7 @@
             android:layout_marginEnd="93dp"
             android:textColor="#c9533d" />
 
-
     </RelativeLayout>
-
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -94,30 +91,40 @@
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:onClick="p3BMNg"/>
+        android:onClick="doneA"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView146"
-        android:layout_alignBottom="@+id/global_leftarrow"
-        android:layout_toEndOf="@+id/global_leftarrow"
-        android:src="@drawable/activityboxes" />
+        android:id="@+id/imageView113"
+        android:src="@drawable/mmpractice"
+        android:layout_below="@+id/relativeLayout17"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView147"
-        android:src="@drawable/mmdotted"
-        android:layout_below="@+id/relativeLayout9"
-        android:layout_alignEnd="@+id/imageView146" />
+        android:id="@+id/imageView119"
+        android:src="@drawable/aone"
+        android:layout_below="@+id/imageView113"
+        android:layout_toStartOf="@+id/imageView211" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView203"
-        android:src="@drawable/mmtracing"
-        android:layout_above="@+id/global_rightarrow"
-        android:layout_alignParentEnd="true" />
+        android:id="@+id/imageView211"
+        android:layout_below="@+id/imageView113"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/atwo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView212"
+        android:layout_below="@+id/imageView113"
+        android:layout_toEndOf="@+id/imageView211"
+        android:src="@drawable/athree" />
+
 
 </RelativeLayout>

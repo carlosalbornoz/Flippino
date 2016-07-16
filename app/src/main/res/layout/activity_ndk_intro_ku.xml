@@ -90,7 +90,7 @@
         android:id="@+id/imageView196"
         android:layout_alignTop="@+id/imageView195"
         android:layout_alignParentStart="true"
-        android:src="@drawable/tab" />
+        android:src="@drawable/tabselect" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -104,7 +104,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView199"
-        android:src="@drawable/tab"
+        android:src="@drawable/tabselect"
         android:layout_above="@+id/imageView200"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="8dp" />
@@ -113,7 +113,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView198"
-        android:src="@drawable/tab"
+        android:src="@drawable/tabselect"
         android:layout_above="@+id/imageView199"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="8dp" />
@@ -122,7 +122,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView197"
-        android:src="@drawable/tab"
+        android:src="@drawable/tabselect"
         android:layout_above="@+id/imageView198"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="8dp" />
@@ -152,7 +152,7 @@
         android:text="kubo"
         android:textColor="#c9533d"
         android:textSize="150dp"
-        android:id="@+id/textView131"
+        android:id="@+id/kubo"
         android:layout_alignBottom="@+id/imageView197"
         android:layout_alignStart="@+id/textView130"
         android:visibility="visible" />
@@ -160,22 +160,22 @@
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="buko"
+        android:text="kotse"
         android:textColor="#c9533d"
         android:textSize="150dp"
-        android:id="@+id/textView132"
+        android:id="@+id/kotse"
         android:layout_above="@+id/textView130"
-        android:layout_alignStart="@+id/textView131"
+        android:layout_alignStart="@+id/kubo"
         android:visibility="invisible"/>
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="kintab"
-        android:id="@+id/textView133"
+        android:text="kidlat"
+        android:id="@+id/kidlat"
         android:textColor="#c9533d"
         android:textSize="145dp"
-        android:layout_alignTop="@+id/textView131"
+        android:layout_alignTop="@+id/kubo"
         android:layout_alignEnd="@+id/textView130"
         android:visibility="invisible" />
 
@@ -185,8 +185,8 @@
         android:text="kendi"
         android:textColor="#c9533d"
         android:textSize="150dp"
-        android:id="@+id/textView134"
-        android:layout_alignTop="@+id/textView131"
+        android:id="@+id/kendi"
+        android:layout_alignTop="@+id/kubo"
         android:layout_alignStart="@+id/textView130"
         android:visibility="invisible" />
 
@@ -196,8 +196,8 @@
         android:text="kama"
         android:textColor="#c9533d"
         android:textSize="150dp"
-        android:id="@+id/textView135"
-        android:layout_alignBottom="@+id/textView133"
+        android:id="@+id/kama"
+        android:layout_alignBottom="@+id/kidlat"
         android:layout_alignStart="@+id/textView130"
         android:visibility="invisible" />
 
@@ -207,9 +207,11 @@
         android:text="Ka"
         android:textColor="#346868"
         android:textSize="60dp"
-        android:id="@+id/textView136"
-        android:layout_alignTop="@+id/textView132"
-        android:layout_toStartOf="@+id/imageView195" />
+        android:id="@+id/ka_text"
+        android:onClick="kaClick"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/ka_red"
+        android:layout_alignStart="@+id/ku_red" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
@@ -217,9 +219,11 @@
         android:text="Ke"
         android:textColor="#346868"
         android:textSize="60dp"
-        android:id="@+id/textView137"
-        android:layout_alignBottom="@+id/textView133"
-        android:layout_toStartOf="@+id/imageView195" />
+        android:onClick="keClick"
+        android:id="@+id/ke_text"
+        android:visibility="visible"
+        android:layout_alignBottom="@+id/ke_red"
+        android:layout_alignStart="@+id/ka_text" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
@@ -227,10 +231,11 @@
         android:text="Ki"
         android:textColor="#346868"
         android:textSize="60dp"
-        android:id="@+id/textView138"
-        android:layout_alignBottom="@+id/imageView198"
-        android:layout_toStartOf="@+id/imageView195"
-        android:layout_marginBottom="18dp" />
+        android:onClick="kiClick"
+        android:id="@+id/ki_text"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/ki_red"
+        android:layout_alignStart="@+id/ki_red" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
@@ -238,20 +243,138 @@
         android:text="Ko"
         android:textColor="#346868"
         android:textSize="60dp"
-        android:id="@+id/textView139"
+        android:id="@+id/ko_text"
+        android:onClick="koClick"
         android:layout_alignBottom="@+id/imageView199"
         android:layout_toStartOf="@+id/imageView195"
-        android:layout_marginBottom="19dp" />
+        android:layout_marginBottom="19dp"
+        android:visibility="visible"/>
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ku"
         android:textColor="#c9533d"
+        android:onClick="kuClick"
         android:textSize="60dp"
-        android:id="@+id/textView140"
+        android:id="@+id/ku_red"
+        android:visibility="visible"
         android:layout_alignBaseline="@+id/textView130"
         android:layout_alignBottom="@+id/textView130"
-        android:layout_alignStart="@+id/textView137" />
+        android:layout_toStartOf="@+id/imageView195" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kubo_img"
+        android:src="@drawable/kubophonogram"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/ka_text"
+        android:layout_toEndOf="@+id/ke_text" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kotse_img"
+        android:src="@drawable/kotse"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/kotse"
+        android:layout_toEndOf="@+id/ka_text" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kidlat_img"
+        android:src="@drawable/kidlat"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/ka_text"
+        android:layout_toEndOf="@+id/ka_text" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kendi_img"
+        android:src="@drawable/kendi"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/kubo_img"
+        android:layout_toEndOf="@+id/ko_text" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kama_img"
+        android:src="@drawable/kama"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/kubo_img"
+        android:layout_toEndOf="@+id/ku_red" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ka"
+        android:id="@+id/ka_red"
+        android:textSize="60dp"
+        android:onClick="kaClick"
+        android:textColor="#c9533d"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/kotse"
+        android:layout_toStartOf="@+id/kubo_img" />
+
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ke"
+        android:id="@+id/ke_red"
+        android:textSize="60dp"
+        android:onClick="keClick"
+        android:textColor="#c9533d"
+        android:visibility="invisible"
+        android:layout_alignBottom="@+id/kama"
+        android:layout_toStartOf="@+id/ka_red"
+        android:layout_marginBottom="10dp"
+        android:layout_alignEnd="@+id/ka_text" />
+
+
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ki"
+        android:id="@+id/ki_red"
+        android:textSize="60dp"
+        android:textColor="#c9533d"
+        android:onClick="kiClick"
+        android:visibility="invisible"
+        android:layout_below="@+id/imageView197"
+        android:layout_alignStart="@+id/ko_red"
+        android:layout_marginTop="16dp" />
+
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ko"
+        android:id="@+id/ko_red"
+        android:textSize="60dp"
+        android:textColor="#c9533d"
+        android:onClick="koClick"
+        android:visibility="invisible"
+        android:layout_alignBaseline="@+id/ko_text"
+        android:layout_alignBottom="@+id/ko_text"
+        android:layout_alignStart="@+id/ko_text" />
+
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ku"
+        android:id="@+id/ku_text"
+        android:textSize="60dp"
+        android:textColor="#346868"
+        android:visibility="invisible"
+        android:onClick="kuClick"
+        android:layout_above="@+id/imageView198"
+        android:layout_alignStart="@+id/ki_text"
+        android:layout_marginStart="17dp" />
 </RelativeLayout>

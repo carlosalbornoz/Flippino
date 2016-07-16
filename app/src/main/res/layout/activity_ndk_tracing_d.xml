@@ -8,24 +8,27 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="#c3e5f5">
+
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/relativeLayout9">
+        android:id="@+id/relativeLayout17">
+
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/global_label"
             android:src="@drawable/global_label"/>
+
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
             android:id="@+id/global_exit"
             android:src="@drawable/global_exit" />
+
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -33,6 +36,7 @@
             android:id="@+id/global_stars"
             android:src="@drawable/global_stars"
             android:layout_toStartOf="@+id/global_sound" />
+
         <ImageButton
             android:layout_width="100dp"
             android:layout_height="wrap_content"
@@ -40,6 +44,7 @@
             android:id="@+id/global_sound"
             android:src="@drawable/global_sound"
             android:layout_toStartOf="@+id/global_help" />
+
         <ImageButton
             android:layout_width="80dp"
             android:layout_height="90dp"
@@ -47,6 +52,7 @@
             android:id="@+id/global_help"
             android:src="@drawable/global_help"
             android:layout_toStartOf="@+id/global_home" />
+
         <ImageButton
             android:layout_width="100dp"
             android:layout_height="wrap_content"
@@ -66,9 +72,8 @@
             android:layout_marginEnd="93dp"
             android:textColor="#c9533d" />
 
-
-
     </RelativeLayout>
+
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -77,6 +82,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:src="@drawable/global_leftarrow" />
+
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -90,25 +96,35 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView147"
-        android:layout_alignBottom="@+id/global_leftarrow"
-        android:layout_toEndOf="@+id/global_leftarrow"
-        android:src="@drawable/activityboxes" />
+        android:id="@+id/imageView113"
+        android:src="@drawable/ddpractice"
+        android:layout_below="@+id/relativeLayout17"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView148"
-        android:layout_above="@+id/global_rightarrow"
-        android:layout_alignParentEnd="true"
-        android:src="@drawable/ddtracing" />
+        android:id="@+id/imageView119"
+        android:src="@drawable/aone"
+        android:layout_below="@+id/imageView113"
+        android:layout_toStartOf="@+id/imageView211" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView149"
-        android:src="@drawable/dddotted"
-        android:layout_alignTop="@+id/imageView148"
-        android:layout_toStartOf="@+id/imageView148" />
+        android:id="@+id/imageView211"
+        android:layout_below="@+id/imageView113"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/atwo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView212"
+        android:layout_below="@+id/imageView113"
+        android:layout_toEndOf="@+id/imageView211"
+        android:src="@drawable/athree" />
+
 
 </RelativeLayout>

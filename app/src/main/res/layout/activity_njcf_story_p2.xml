@@ -1,34 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htext="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="#c3e5f5"
+    android:background="@drawable/njcfenvititle"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     >
 
+
+
+
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:id="@+id/relativeLayout2">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView200"
-            android:src="@drawable/njcf_clouds"
-            android:layout_below="@+id/global_sound"
-            android:layout_alignParentEnd="true" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView26"
-            android:src="@drawable/njcf_story_environment"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -86,17 +74,6 @@
             android:layout_below="@+id/global_help"
             android:layout_alignEnd="@+id/global_label" />
 
-        <com.thesisit.flippino.MontserratTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Si Nina at Jose ang magkapatid na nakatira dito."
-            android:id="@+id/textView19"
-            android:textSize="42dp"
-            android:textColor="#346868"
-            android:textAlignment="center"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true" />
-
     </RelativeLayout>
 
     <ImageButton
@@ -116,23 +93,59 @@
         android:src="@drawable/global_rightarrow"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:onClick="letterN" />
+        android:onClick="startNJCF" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView28"
-        android:src="@drawable/njcf_title_nina"
-        android:layout_above="@+id/global_rightarrow"
-        android:layout_toEndOf="@+id/imageView27" />
+        android:id="@+id/imageView32"
+        android:src="@drawable/njcfcasatitle"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/global_leftarrow"
+        android:layout_marginStart="869dp" />
 
     <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView27"
-                android:src="@drawable/njcf_title_jose"
-                android:layout_alignBottom="@+id/imageView28"
-                android:layout_centerHorizontal="true" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView36"
+        android:layout_above="@+id/global_rightarrow"
+        android:layout_toStartOf="@+id/global_rightarrow"
+        android:layout_marginEnd="287dp"
+        android:src="@drawable/njcffelipetitle" />
+
+    <com.hanks.htextview.HTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Napalilibutan ito ng mga magagandang bulaklak."
+        android:id="@+id/textView12"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="#346868"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/global_rightarrow"
+        android:layout_below="@+id/imageView48"
+        htext:animateType="typer"
+        htext:fontAsset="fonts/montserrat_black.otf"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView48"
+        android:src="@drawable/njcfjosetitle"
+        android:layout_marginEnd="105dp"
+        android:layout_alignBottom="@+id/imageView36"
+        android:layout_alignEnd="@+id/imageView36"
+        android:layout_marginBottom="71dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView49"
+        android:src="@drawable/njcfninatitle"
+        android:layout_alignBottom="@+id/imageView36"
+        android:layout_toStartOf="@+id/imageView48" />
+
 
 </RelativeLayout>
 

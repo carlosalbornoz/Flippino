@@ -97,22 +97,22 @@
         android:id="@+id/imageView196"
         android:layout_alignTop="@+id/imageView195"
         android:layout_alignParentStart="true"
-        android:src="@drawable/tab" />
+        android:src="@drawable/tabselect" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView200"
-        android:src="@drawable/tab"
+        android:src="@drawable/tabselect"
         android:layout_above="@+id/global_leftarrow"
         android:layout_alignParentStart="true"
-        android:visibility="invisible" />
+        android:visibility="visible" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView199"
-        android:src="@drawable/tab"
+        android:src="@drawable/tabselect"
         android:layout_above="@+id/imageView200"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="8dp" />
@@ -121,7 +121,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView198"
-        android:src="@drawable/tab"
+        android:src="@drawable/tabselect"
         android:layout_above="@+id/imageView199"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="8dp" />
@@ -158,7 +158,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="hukay"
-        android:id="@+id/textView79"
+        android:id="@+id/hukay"
         android:layout_alignStart="@+id/textView78"
         android:textSize="150dp"
         android:textColor="#c9533d"
@@ -170,30 +170,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="holen"
-        android:id="@+id/textView80"
-        android:layout_alignTop="@+id/imageView195"
-        android:layout_alignStart="@+id/textView79"
+        android:id="@+id/holen"
         android:visibility="invisible"
         android:textColor="#c9533d"
-        android:textSize="160dp" />
+        android:textSize="160dp"
+        android:layout_alignTop="@+id/hamon"
+        android:layout_toEndOf="@+id/hukay_img" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="hiyas"
-        android:id="@+id/textView81"
+        android:text="hipon"
+        android:id="@+id/hipon"
         android:layout_alignTop="@+id/imageView195"
-        android:layout_alignStart="@+id/textView79"
+        android:layout_alignStart="@+id/holen"
         android:textSize="150dp"
         android:textColor="#c9533d"
-        android:layout_alignBottom="@+id/textView79"
+        android:layout_alignBottom="@+id/holen"
         android:visibility="visible" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="hamon"
-        android:id="@+id/textView82"
+        android:id="@+id/hamon"
         android:textSize="140dp"
         android:textColor="#c9533d"
         android:layout_above="@+id/textView78"
@@ -204,32 +204,38 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ha"
-        android:id="@+id/textView84"
+        android:id="@+id/ha_text"
         android:textSize="60dp"
         android:textColor="#346868"
-        android:layout_alignTop="@+id/textView82"
+        android:onClick="haClick"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/ha_red"
         android:layout_toStartOf="@+id/imageView195" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hi"
-        android:id="@+id/textView85"
+        android:id="@+id/hi_red"
         android:textSize="60dp"
+        android:onClick="hiClick"
         android:textColor="#c9533d"
-        android:layout_alignBottom="@+id/imageView197"
-        android:layout_toStartOf="@+id/imageView195" />
+        android:visibility="visible"
+        android:layout_alignBottom="@+id/imageView198"
+        android:layout_alignStart="@+id/he_text"
+        android:layout_marginBottom="16dp" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ho"
-        android:id="@+id/textView86"
+        android:id="@+id/ho_text"
         android:textColor="#346868"
         android:textSize="60dp"
-        android:layout_alignBottom="@+id/imageView198"
-        android:layout_alignStart="@+id/textView84"
-        android:layout_marginBottom="16dp" />
+        android:onClick="hoClick"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/ho_red"
+        android:layout_alignStart="@+id/hi_red" />
 
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
@@ -237,8 +243,142 @@
         android:text="Hu"
         android:textSize="60dp"
         android:textColor="#346868"
-        android:id="@+id/textView87"
+        android:onClick="huClick"
+        android:id="@+id/hu_text"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/hu_red"
+        android:layout_alignStart="@+id/hu_red" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="He"
+        android:id="@+id/he_text"
+        android:onClick="heClick"
+        android:textColor="#346868"
+        android:textSize="60dp"
+        android:visibility="visible"
+        android:layout_alignBaseline="@+id/he_red"
+        android:layout_alignBottom="@+id/he_red"
+        android:layout_alignStart="@+id/ha_text" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hepe"
+        android:id="@+id/hepe"
+        android:textSize="140dp"
+        android:textColor="#c9533d"
+        android:layout_alignStart="@+id/holen"
+        android:layout_above="@+id/imageView198"
+        android:layout_alignTop="@+id/hamon"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hukay_img"
+        android:src="@drawable/hukay"
+        android:layout_above="@+id/global_leftarrow"
+        android:layout_toStartOf="@+id/hamon"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/holen_img"
+        android:src="@drawable/holen"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/imageView196"
+        android:layout_alignStart="@+id/hukay_img" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hipon_img"
+        android:src="@drawable/hipon"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/imageView196"
+        android:layout_alignStart="@+id/hukay_img" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hepe_img"
+        android:src="@drawable/hepe"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/imageView196"
+        android:layout_alignStart="@+id/hukay_img" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hamon_img"
+        android:src="@drawable/hamon"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/imageView196"
+        android:layout_alignStart="@+id/hukay_img" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ha"
+        android:textSize="60dp"
+        android:textColor="#c9533d"
+        android:id="@+id/ha_red"
+        android:onClick="haClick"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/holen_img"
+        android:layout_toStartOf="@+id/imageView195" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="He"
+        android:textSize="60dp"
+        android:textColor="#c9533d"
+        android:id="@+id/he_red"
+        android:onClick="heClick"
+        android:visibility="invisible"
+        android:layout_alignBaseline="@+id/holen"
+        android:layout_alignBottom="@+id/holen"
+        android:layout_alignStart="@+id/ha_text" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi"
+        android:textSize="60dp"
+        android:textColor="#346868"
+        android:id="@+id/hi_text"
+        android:onClick="hiClick"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/hi_red"
+        android:layout_alignStart="@+id/hi_red" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ho"
+        android:textSize="60dp"
+        android:textColor="#c9533d"
+        android:id="@+id/ho_red"
+        android:onClick="hoClick"
+        android:visibility="invisible"
         android:layout_alignBottom="@+id/imageView199"
+        android:layout_toStartOf="@+id/imageView195"
+        android:layout_marginBottom="9dp" />
+
+    <com.thesisit.flippino.MontserratTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hu"
+        android:textSize="60dp"
+        android:textColor="#c9533d"
+        android:id="@+id/hu_red"
+        android:onClick="huClick"
+        android:visibility="invisible"
+        android:layout_above="@+id/global_leftarrow"
         android:layout_toStartOf="@+id/imageView195"
         android:layout_marginBottom="15dp" />
 

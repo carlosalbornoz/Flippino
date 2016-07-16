@@ -117,13 +117,21 @@
     <com.thesisit.flippino.MontserratTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ana"
+        android:text="Ana"
         android:id="@+id/textView72"
         android:textColor="#c9533d"
-        android:textSize="100dp"
+        android:textSize="150dp"
         android:layout_above="@+id/textView67"
         android:layout_alignEnd="@+id/textView67"
         android:layout_marginEnd="113dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView305"
+        android:src="@drawable/anapolaroid"
+        android:layout_alignBottom="@+id/imageView195"
+        android:layout_toStartOf="@+id/textView67" />
 
 
 </RelativeLayout>

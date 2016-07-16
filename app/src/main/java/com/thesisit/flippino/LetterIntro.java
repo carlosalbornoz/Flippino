@@ -89,16 +89,16 @@ public class LetterIntro extends AppCompatActivity {
             // HIRAM
             // NJCF
             case '[':
-                setContentView(R.layout.activity_njcf_intro_n);
+                setContentView(R.layout.activity_njcf_intro_enye);
                 break;
             case 'J':
-                setContentView(R.layout.activity_njcf_intro_jo);
+                setContentView(R.layout.activity_njcf_intro_j);
                 break;
             case 'C':
-                setContentView(R.layout.activity_njcf_intro_ca);
+                setContentView(R.layout.activity_njcf_intro_c);
                 break;
             case 'F':
-                setContentView(R.layout.activity_njcf_intro_fe);
+                setContentView(R.layout.activity_njcf_intro_f);
                 break;
 
             // VZ

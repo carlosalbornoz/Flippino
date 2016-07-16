@@ -127,4 +127,12 @@
         android:layout_toStartOf="@+id/global_rightarrow"
         android:layout_alignTop="@+id/imageView195" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView313"
+        android:src="@drawable/zamboangapolaroid"
+        android:layout_alignTop="@+id/imageView195"
+        android:layout_alignStart="@+id/imageView195" />
+
 </RelativeLayout>

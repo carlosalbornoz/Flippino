@@ -83,59 +83,59 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
 
-    <ImageButton
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView132"
-        android:src="@drawable/a_as_ball"
-        android:background="@null"
-        android:layout_below="@+id/imageButton2"
-        android:layout_alignEnd="@+id/imageView140" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView133"
-        android:src="@drawable/a_as_ana"
-        android:background="@null"
+        android:id="@+id/imageView55"
+        android:src="@drawable/notepadassessment"
         android:layout_above="@+id/global_leftarrow"
-        android:layout_alignParentStart="true" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView140"
-        android:background="@null"
-        android:src="@drawable/a_as_bench"
-        android:layout_above="@+id/imageView141"
-        android:layout_alignEnd="@+id/relativeLayout9" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView141"
-        android:src="@drawable/a_as_dog"
-        android:background="@null"
-        android:layout_alignTop="@+id/imageButton3"
-        android:layout_toEndOf="@+id/imageButton3"
-        android:layout_marginStart="50dp" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton2"
-        android:src="@drawable/a_as_tree"
-        android:background="@null"
-        android:layout_alignTop="@+id/imageView140"
         android:layout_centerHorizontal="true" />
 
-    <ImageButton
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton3"
-        android:background="@null"
-        android:src="@drawable/a_as_kite"
-        android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/imageView133" />
+        android:id="@+id/imageView85"
+        android:src="@drawable/asoassessment"
+        android:layout_marginStart="390dp"
+        android:layout_alignTop="@+id/imageView55"
+        android:layout_toEndOf="@+id/global_leftarrow"
+        android:layout_marginTop="35dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView98"
+        android:src="@drawable/punoassessment"
+        android:layout_alignBottom="@+id/imageView55"
+        android:layout_toEndOf="@+id/imageView85"
+        android:layout_marginBottom="26dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView99"
+        android:layout_marginStart="58dp"
+        android:src="@drawable/ballassessment"
+        android:layout_alignBottom="@+id/imageView98"
+        android:layout_toEndOf="@+id/imageView98" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView100"
+        android:src="@drawable/anaassessment"
+        android:layout_alignBottom="@+id/imageView85"
+        android:layout_toStartOf="@+id/global_rightarrow" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView112"
+        android:src="@drawable/kiteassessment"
+        android:layout_alignTop="@+id/imageView85"
+        android:layout_toEndOf="@+id/imageView85"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="72dp" />
+
 
 </RelativeLayout>

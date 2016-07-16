@@ -121,9 +121,17 @@
         android:text="oso"
         android:id="@+id/textView72"
         android:textColor="#c9533d"
-        android:textSize="100dp"
+        android:textSize="150dp"
         android:layout_above="@+id/textView67"
         android:layout_alignEnd="@+id/textView67"
         android:layout_marginEnd="113dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView311"
+        android:src="@drawable/osopolaroid"
+        android:layout_alignTop="@+id/imageView195"
+        android:layout_alignStart="@+id/imageView195" />
 
 </RelativeLayout>
